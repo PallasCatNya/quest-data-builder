@@ -1113,4 +1113,4 @@ python -m unittest discover -s tests
 - Сформирован полный план разработки после завершения этапа build_index.
 - Зафиксирована архитектура: quest-ready indexes → task objects → CSV.
 - Зафиксирован будущий пользовательский workflow.
-- Определен следующий этап: `parse_stage3`.
+- Определен следующий этап: `parse_stage3`.    сыапу

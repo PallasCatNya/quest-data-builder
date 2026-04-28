@@ -50,6 +50,7 @@ def sample_filled_tasks() -> dict[str, object]:
                         "task_template_name": "Диалог",
                         "task_type": "action dialog",
                         "selected_candidate_id": None,
+                        "dialogue_replica": "Нужно проверить, всё ли готово к запуску квеста.",
                         "task_object": {
                             "type": "action",
                             "icon": "Event_2026_Character_1",
@@ -92,6 +93,8 @@ class ExportCsvTests(unittest.TestCase):
             self.assertEqual(rows[8][1], "/quest/generated/Event_2026/story_2/Event_2026_Story_2.proto.js")
             self.assertEqual(rows[8][3], "type")
             self.assertEqual(rows[8][4], "garbage")
+            dialog_header = next(row for row in rows if row[1] == "Таск 2" and row[2] == "Диалог")
+            self.assertEqual(dialog_header[5], "РЕПЛИКА ДИАЛОГА: Нужно проверить, всё ли готово к запуску квеста.")
             self.assertTrue(any(row[3] == "identifier" for row in rows))
             self.assertTrue(any(row[3] == "go_to_location" and "Event_2026_Character_1" in row[4] for row in rows))
 

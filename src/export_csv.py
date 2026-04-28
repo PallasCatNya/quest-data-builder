@@ -13,6 +13,9 @@ DEFAULT_VALIDATION_PATH = PROJECT_ROOT / "output" / "filled_tasks.validation.jso
 DEFAULT_OUTPUT_CSV_PATH = PROJECT_ROOT / "output" / "generated_quests.csv"
 
 CSV_WIDTH = 28
+DIALOGUE_TEMPLATE_IDS = {"TT-001"}
+DIALOGUE_REPLICA_KEYS = ("dialogue_replica", "dialogue", "replica", "dialogue_text")
+DIALOGUE_HEADER_PREFIX = "РЕПЛИКА ДИАЛОГА: "
 
 
 def read_json(path: Path) -> Any:
@@ -37,6 +40,8 @@ def csv_value(value: Any) -> Any:
 def flatten_task(task_object: dict[str, Any]) -> list[tuple[str, Any]]:
     rows: list[tuple[str, Any]] = []
     for key, value in task_object.items():
+        if key in DIALOGUE_REPLICA_KEYS:
+            continue
         rows.append((key, csv_value(value)))
     if "identifier" not in task_object:
         rows.append(("identifier", ""))
@@ -221,6 +226,47 @@ def task_label(task_entry: dict[str, Any], local_index: int) -> str:
     return f"Таск {local_index + 1}"
 
 
+def is_dialogue_task(task_entry: dict[str, Any], task_object: dict[str, Any]) -> bool:
+    template_id = str(task_entry.get("task_template_id") or "")
+    template_name = str(task_entry.get("task_template_name") or "").lower()
+    task_type = str(task_entry.get("task_type") or "").lower()
+    action = str(task_object.get("action") or "").lower()
+    return (
+        template_id in DIALOGUE_TEMPLATE_IDS
+        or template_name == "диалог"
+        or "dialog" in task_type
+        or "_dialog_" in action
+    )
+
+
+def dialogue_replica(task_entry: dict[str, Any], task_object: dict[str, Any]) -> str:
+    for source in (task_entry, task_object):
+        for key in DIALOGUE_REPLICA_KEYS:
+            value = source.get(key)
+            if value not in (None, ""):
+                return str(value).strip()
+    return ""
+
+
+def dialogue_header_value(task_entry: dict[str, Any], task_object: dict[str, Any]) -> str:
+    if not is_dialogue_task(task_entry, task_object):
+        return ""
+    replica = dialogue_replica(task_entry, task_object)
+    if not replica:
+        return ""
+    if replica.startswith(DIALOGUE_HEADER_PREFIX.strip()):
+        return replica
+    return DIALOGUE_HEADER_PREFIX + replica
+
+
+def task_header_row(task_entry: dict[str, Any], task_object: dict[str, Any], local_index: int) -> list[Any]:
+    row = ["", task_label(task_entry, local_index), task_header_title(task_entry, task_object, local_index)]
+    replica = dialogue_header_value(task_entry, task_object)
+    if replica:
+        row.extend(["", "", replica])
+    return row
+
+
 def iter_csv_rows(quests: list[dict[str, Any]]) -> list[list[Any]]:
     rows: list[list[Any]] = []
     for quest_index, quest in enumerate(quests):
@@ -228,8 +274,7 @@ def iter_csv_rows(quests: list[dict[str, Any]]) -> list[list[Any]]:
         append_quest_block(rows, quest, quest_index, proto_path)
         for local_index, task_entry in enumerate(quest.get("tasks", [])):
             task_object = task_object_from_entry(task_entry)
-            title = task_header_title(task_entry, task_object, local_index)
-            rows.append(pad_row(["", task_label(task_entry, local_index), title]))
+            rows.append(pad_row(task_header_row(task_entry, task_object, local_index)))
             rows.append(pad_row(["ml", "string", "string", "object"]))
             rows.append(pad_row(["", "input", "output", f"tasks.{local_index}"]))
 

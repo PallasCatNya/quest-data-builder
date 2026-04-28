@@ -1,0 +1,22 @@
+{
+"class" : "AssetPrototype",
+"classname" : "MagicFlowerHortense",
+"title" : "Гортензия",
+"description" : "Гортензия созревает за 50 минут.\nДает: 250 опыта, 200 грошиков, шанс получить 1 червончик.\nВянет за 6 часов.",
+"tags" : ["seed_magic","seed_simple","category_8","category_money"],
+"group" : "seeds",
+"subgroup" : "magic",
+"price" : 1,
+"currency" : "money",
+"sell_price" : 3,
+"meta_info" : "life=3000;states=3;spoil_period=21600",
+"energy_cost" : "energy=1",
+"accelerate_cost" : "asset=AccelerationPlantBooster:1",
+"recover_cost" : "asset=RecoverPlantBooster:1",
+"register_event_counter_on_buy" : 1,
+"rand_reward" : {"xp":250, "money_alt":200, "all":[{"p":20, "money":1}]},
+"rand_reward_in_guest" : {"reputation_progress":1,
+                          "xp":13,
+                          "money_alt":10},
+"id" : 4870
+}

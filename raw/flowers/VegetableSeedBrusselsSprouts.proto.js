@@ -1,0 +1,20 @@
+{
+"class" : "AssetPrototype",
+"classname" : "VegetableSeedBrusselsSprouts",
+"title" : "Семена брюссельской капусты",
+"description" : "Брюссельская капуста",
+"tags" : ["seed_vegetable","seed_simple","category_2","unavailable_for_daily_tasks"],
+"group" : "seeds",
+"subgroup" : "vegetables",
+"price" : 1,
+"currency" : "money",
+"sell_price" : 3,
+"meta_info" : "life=259200;states=3;icon_view_seed=1;spoil_period=259200;help_view=VegetableSeedBrusselsSproutsHelpIcon;location_board_view=VegetableSeedBrusselsSprouts;pack_asset=VegetableSeedBrusselsSprouts_Package",
+"rand_reward" : {"asset":"VegetableBrusselsSprouts", "xp":60},
+"rand_reward_in_guest" : {"reputation_progress":1, "xp":30},
+"energy_cost" : "dexterity=1",
+"accelerate_cost" : "asset=AccelerationPlantBooster:1",
+"recover_cost" : "asset=RecoverPlantBooster:1",
+"shop_conditions" : "done_quest=FarmSportzalQuest_6_Pack2",
+"id" : 55142
+}

@@ -1,0 +1,40 @@
+{
+"class" : "AssetPrototype",
+"classname" : "WebBarrelForPickles",
+"title" : "Паутина на бочке для солений",
+"group" : "garbage",
+"subgroup" : "on_asset",
+"tags":["exclude_for_generation"],
+"id" : "249288903",
+"rand_reward" : {"all":
+		[{"p":75,
+			"one_of":
+		[{"asset":"HuddledUpMushroomCollection1",
+					"p":100},
+				{"asset":"HuddledUpMushroomCollection2",
+					"p":100},
+				{"asset":"HuddledUpMushroomCollection3",
+					"p":100},
+				{"asset":"HuddledUpMushroomCollection4",
+					"p":100},
+				{"asset":"HuddledUpMushroomCollection5",
+					"p":100}]}],
+	"money_alt":2,
+	"xp":1},
+"rand_reward_in_guest" : {"all":
+		[{"p":75,
+			"one_of":
+		[{"asset":"HuddledUpMushroomCollection1",
+					"p":100},
+				{"asset":"HuddledUpMushroomCollection2",
+					"p":100},
+				{"asset":"HuddledUpMushroomCollection3",
+					"p":100},
+				{"asset":"HuddledUpMushroomCollection4",
+					"p":100},
+				{"asset":"HuddledUpMushroomCollection5",
+					"p":100}]}],
+	"money_alt":2,
+	"reputation_progress":1,
+	"xp":1}
+}

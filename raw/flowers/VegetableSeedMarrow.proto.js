@@ -1,0 +1,20 @@
+{
+"class" : "AssetPrototype",
+"classname" : "VegetableSeedMarrow",
+"title" : "Семена кабачка",
+"description" : "Кабачок",
+"tags" : ["seed_vegetable","seed_simple","category_2","unavailable_for_daily_tasks"],
+"group" : "seeds",
+"subgroup" : "vegetables",
+"price" : 1,
+"currency" : "money",
+"sell_price" : 3,
+"meta_info" : "life=86400;states=3;icon_view_seed=1;spoil_period=86400;help_view=VegetableSeedMarrowHelpIcon;location_board_view=VegetableSeedMarrow;pack_asset=VegetableSeedMarrow_Package",
+"rand_reward" : {"asset":"VegetableMarrow", "xp":40},
+"rand_reward_in_guest" : {"reputation_progress":1, "xp":20},
+"energy_cost" : "dexterity=1",
+"accelerate_cost" : "asset=AccelerationPlantBooster:1",
+"recover_cost" : "asset=RecoverPlantBooster:1",
+"shop_conditions" : "done_quest=FarmSportzalQuest_2_Pack2",
+"id" : 55141
+}

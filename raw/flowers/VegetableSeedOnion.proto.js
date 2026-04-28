@@ -1,0 +1,20 @@
+{
+"class" : "AssetPrototype",
+"classname" : "VegetableSeedOnion",
+"title" : "Семена лука",
+"description" : "Лук",
+"tags" : ["seed_vegetable","seed_simple","category_4"],
+"group" : "seeds",
+"subgroup" : "vegetables",
+"price" : 1,
+"currency" : "money",
+"sell_price" : 3,
+"meta_info" : "life=43200;states=3;icon_view_seed=1;help_view=VegetableSeedOnionHelpIcon;location_board_view=VegetableOnion;pack_asset=VegetableSeedOnion_Package",
+"rand_reward" : {"asset":"VegetableOnion", "xp":28},
+"rand_reward_in_guest" : {"reputation_progress":1, "xp":6},
+"energy_cost" : "dexterity=1",
+"accelerate_cost" : "asset=AccelerationPlantBooster:1",
+"recover_cost" : "asset=RecoverPlantBooster:1",
+"shop_conditions" : "done_quest=FarmRestlessGuests12",
+"id" : 7782
+}

@@ -1,0 +1,20 @@
+{
+"class" : "AssetPrototype",
+"classname" : "VegetableSeedBeet",
+"title" : "Семена свеклы",
+"description" : "Свекла",
+"tags" : ["seed_vegetable","seed_simple","category_1"],
+"group" : "seeds",
+"subgroup" : "vegetables",
+"price" : 1,
+"currency" : "money",
+"sell_price" : 3,
+"meta_info" : "life=2700;states=3;icon_view_seed=1;spoil_period=7200;help_view=VegetableSeedBeetHelpIcon;location_board_view=VegetableBeet;pack_asset=VegetableSeedBeet_Package",
+"rand_reward" : {"asset":"VegetableBeet", "xp":50},
+"rand_reward_in_guest" : {"reputation_progress":1, "xp":20, "vegetable":1},
+"energy_cost" : "dexterity=1",
+"accelerate_cost" : "asset=AccelerationPlantBooster:1",
+"recover_cost" : "asset=RecoverPlantBooster:1",
+"shop_conditions" : "quest=FarmNew18_Pack2_Pool8",
+"id" : 39435
+}

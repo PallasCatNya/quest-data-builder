@@ -1,0 +1,40 @@
+{
+"class" : "AssetPrototype",
+"classname" : "WebStove",
+"title" : "Паутина на печи",
+"group" : "garbage",
+"subgroup" : "on_asset",
+"tags":["exclude_for_generation"],
+"id" : "118571050",
+"rand_reward" : {"all":
+		[{"p":75,
+			"one_of":
+		[{"asset":"FadedBouquetCollection1",
+					"p":100},
+				{"asset":"FadedBouquetCollection2",
+					"p":100},
+				{"asset":"FadedBouquetCollection3",
+					"p":100},
+				{"asset":"FadedBouquetCollection4",
+					"p":100},
+				{"asset":"FadedBouquetCollection5",
+					"p":100}]}],
+	"money_alt":2,
+	"xp":1},
+"rand_reward_in_guest" : {"all":
+		[{"p":75,
+			"one_of":
+		[{"asset":"FadedBouquetCollection1",
+					"p":100},
+				{"asset":"FadedBouquetCollection2",
+					"p":100},
+				{"asset":"FadedBouquetCollection3",
+					"p":100},
+				{"asset":"FadedBouquetCollection4",
+					"p":100},
+				{"asset":"FadedBouquetCollection5",
+					"p":100}]}],
+	"money_alt":2,
+	"reputation_progress":1,
+	"xp":1}
+}

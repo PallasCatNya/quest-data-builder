@@ -1,0 +1,40 @@
+{
+"class" : "AssetPrototype",
+"classname" : "FeatherRaffles",
+"title" : "Гусиное перо",
+"group" : "garbage",
+"subgroup" : "on_the_floor",
+"g_pest_probability_percent" : 6,
+"id" : "124359125",
+"rand_reward" : {"all":
+		[{"p":75,
+			"one_of":
+		[{"asset":"PensCollection1",
+					"p":100},
+				{"asset":"PensCollection2",
+					"p":100},
+				{"asset":"PensCollection3",
+					"p":100},
+				{"asset":"PensCollection4",
+					"p":100},
+				{"asset":"PensCollection5",
+					"p":100}]}],
+	"money_alt":2,
+	"xp":3},
+"rand_reward_in_guest" : {"all":
+		[{"p":40,
+			"one_of":
+		[{"asset":"PensCollection1",
+					"p":100},
+				{"asset":"PensCollection2",
+					"p":100},
+				{"asset":"PensCollection3",
+					"p":100},
+				{"asset":"PensCollection4",
+					"p":100},
+				{"asset":"PensCollection5",
+					"p":100}]}],
+	"money_alt":2,
+	"reputation_progress":1,
+	"xp":3}
+}

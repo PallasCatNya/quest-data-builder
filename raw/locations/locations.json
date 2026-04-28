@@ -1,0 +1,3459 @@
+[
+  {
+      "code": "1",
+      "title": "Горница",
+      "tags": [
+          "home",
+          "closet",
+          "old_home",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "rnd_old_home",
+          "lostgeneral_green",
+          "slow",
+          "build_old_home"
+      ],
+      "garbage_assets": [
+          
+          
+          
+          
+          "FadedBouquet",
+          "NibbledCutlet",
+          "DirtyPan",
+          "DirtyTowel",
+          "BrokenPlate",
+          "BittingPie",
+          "SaltShakerWithSpilledSalt"
+      ]
+  },
+  {
+      "code": "10",
+      "title": "Погребок",
+      "tags": [
+          "home",
+          "cellar",
+          "old_home",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "rnd_old_home",
+          "lostgeneral_white",
+          "slow",
+          "build_old_home"
+      ],
+      "garbage_assets": [
+          
+          
+          
+          
+          "CircassianWalnutShell",
+          "NibbledDoughnut",
+          "DirtyTowel",
+          "SmashedEarthenwarePot",
+          "HuddledUpMushroom",
+          "Frog",
+          "SaltShakerWithSpilledSalt",
+          "BrokenBank"
+      ]
+  },
+  {
+      "code": "12",
+      "title": "Лавка",
+      "tags": [
+          "home",
+          "old_home",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "slow",
+          "build_old_home"
+      ],
+      "garbage_assets": [
+          
+          
+          
+          
+          "CandyWrapper",
+          "ClockRaffles",
+          "DollRaffles",
+          "EmptyMoneyBag",
+          "FeatherRaffles",
+          "HandsetRaffles",
+          "MoneyRaffles",
+          "RustyLock"
+      ]
+  },
+  {
+      "code": 120,
+      "title": "Лапландия",
+      "tags": [
+          "lapland",
+          "ny14_adventure"
+      ],
+      "garbage_assets": [
+          "NY14_Lapland_ChristmasTreeBall",
+          "NY14_Lapland_PieceOfGarland",
+          "NY14_Lapland_ChristmasSock"
+      ]
+  },
+  {
+      "code": 121,
+      "title": "Таити",
+      "tags": [
+          "tahiti",
+          "ny14_adventure"
+      ],
+      "garbage_assets": [
+          "NY14_Tahiti_RapanaSink",
+          "NY14_Tahiti_Slippers",
+          "NY14_Tahiti_Seafoam"
+      ]
+  },
+  {
+      "code": 122,
+      "title": "Хата",
+      "tags": [
+          "сhristmas14"
+      ],
+      "garbage_assets": [
+          
+          
+          "MushroomCommon"
+      ]
+  },
+  {
+      "code": 123,
+      "title": "Зазеркалье",
+      "tags": [
+          "wonderland",
+          "world"
+      ],
+      "garbage_assets": [
+          "Amanita",
+          "NibbledGingerbread",
+          "GrayMouse",
+          "PaintedRose",
+          "PestWeed"
+      ]
+  },
+  {
+      "code": 124,
+      "title": "Трюм корабля",
+      "tags": null,
+      "garbage_assets": null
+  },
+  {
+      "code": "126",
+      "title": "Село",
+      "tags": [
+          "village"
+      ],
+      "garbage_assets": null
+  },
+  {
+      "code": "13",
+      "title": "Остров Чинга",
+      "tags": [
+          "build_old_home"
+      ],
+      "garbage_assets": null
+  },
+  {
+      "code": 133,
+      "title": "Сокровищница",
+      "tags": [
+          "seacrh_farm"
+      ],
+      "garbage_assets": null
+  },
+  {
+      "code": "134",
+      "title": "Серверная комната",
+      "tags": [
+          "home",
+          "big_home",
+          "server_room",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "rnd_big_home",
+          "fast",
+          "build_big_home"
+      ],
+      "garbage_assets": [
+          "BigHome_Garbage_Server_BrokenBobine",
+          "BigHome_Garbage_Server_BrokenCable",
+          "BigHome_Garbage_Server_TornPunchCard",
+          "Garbage_ArrowClockTower",
+          "CaveBug",
+          
+          "Pill",
+          
+          "Greens"
+      ]
+  },
+  {
+      "code": 14,
+      "title": "Хижина Чинга",
+      "tags": [
+          "ching",
+          "world",
+          "daily_world",
+          "daily_all",
+          "rnd_world",
+          "build_old_home"
+      ],
+      "garbage_assets": [
+          "DeadFlower",
+          "BrokenJug",
+          "Drumstick",
+          "TassleYarmolke",
+          "BrokenMask"
+      ]
+  },
+  {
+      "code": 140,
+      "title": "Купальская полянка",
+      "tags": [
+          "ivan_kupala15"
+      ],
+      "garbage_assets": [
+          "IvanKupala15_Garbage_1",
+          "IvanKupala15_Garbage_2",
+          "IvanKupala15_Garbage_3",
+          "IvanKupala15_Garbage_4",
+          "IvanKupala15_Garbage_5"
+      ]
+  },
+  {
+      "code": 145,
+      "title": "Дремучий лес",
+      "tags": [
+          "bd15",
+          "bd15_forest",
+          "bd15_garbage"
+      ],
+      "garbage_assets": [
+          "BD15_Garbage_Forest_1",
+          "BD15_Garbage_Forest_2",
+          "BD15_Garbage_Forest_3"
+      ]
+  },
+  {
+      "code": 146,
+      "title": "Дворец Царя Гороха",
+      "tags": [
+          "bd15",
+          "bd15_palace",
+          "bd15_garbage"
+      ],
+      "garbage_assets": [
+          "BD15_Garbage_Palace_1",
+          "BD15_Garbage_Palace_2",
+          "BD15_Garbage_Palace_3"
+      ]
+  },
+  {
+      "code": 147,
+      "title": "Кукольный театр",
+      "tags": [
+          "bd15",
+          "bd15_puppet",
+          "bd15_garbage"
+      ],
+      "garbage_assets": [
+          "BD15_Garbage_Puppet_1",
+          "BD15_Garbage_Puppet_2",
+          "BD15_Garbage_Puppet_3"
+      ]
+  },
+  {
+      "code": "149",
+      "title": "Новогодняя почта",
+      "tags": [
+          "ny16",
+          "ny16_1",
+          "ny16_garbage"
+      ],
+      "garbage_assets": [
+          "NY16_Garbage_Mail_1",
+          "NY16_Garbage_Mail_2",
+          "NY16_Garbage_Mail_3"
+      ]
+  },
+  {
+      "code": "15",
+      "title": "Двор Чинга",
+      "tags": [
+          "ching",
+          "ching_yard",
+          "world",
+          "daily_world",
+          "daily_all",
+          "rnd_world",
+          "build_old_home"
+      ],
+      "garbage_assets": [
+          "ApricotStone",
+          "LeafPineapple",
+          "OrangeSkin",
+          "CocoShell",
+          "Prickle"
+      ]
+  },
+  {
+      "code": "150",
+      "title": "Мастерская подарков",
+      "tags": [
+          "ny16",
+          "ny16_2",
+          "ny16_garbage"
+      ],
+      "garbage_assets": [
+          "NY16_Garbage_Gift_1",
+          "NY16_Garbage_Gift_2",
+          "NY16_Garbage_Gift_3"
+      ]
+  },
+  {
+      "code": "151",
+      "title": "Срочная доставка",
+      "tags": [
+          "ny16",
+          "ny16_3",
+          "ny16_garbage"
+      ],
+      "garbage_assets": [
+          "NY16_Garbage_Delivery_1",
+          "NY16_Garbage_Delivery_2",
+          "NY16_Garbage_Delivery_3"
+      ]
+  },
+  {
+      "code": 152,
+      "title": "Избушка Лешего",
+      "tags": [
+          "christmas16",
+          "fast_regenerate"
+      ],
+      "garbage_assets": [
+          "Christmas16_Garbage_1",
+          "Christmas16_Garbage_2",
+          "Christmas16_Garbage_3",
+          "Christmas16_Garbage_4",
+          "Christmas16_Garbage_5"
+      ]
+  },
+  {
+      "code": 155,
+      "title": "Зимняя берложка",
+      "tags": [
+          "AprilFunny16",
+          "fast_regenerate"
+      ],
+      "garbage_assets": [
+          "AprilFunny16_Garbage_1",
+          "AprilFunny16_Garbage_2",
+          "AprilFunny16_Garbage_3",
+          "AprilFunny16_Garbage_4",
+          "AprilFunny16_Garbage_5"
+      ]
+  },
+  {
+      "code": 159,
+      "title": "Песочница",
+      "tags": [
+          "ussr16",
+          "fast_regenerate",
+          "ussr16_garbage"
+      ],
+      "garbage_assets": [
+          "Ussr16_Garbage_Sandbox_1",
+          "Ussr16_Garbage_Sandbox_2",
+          "Ussr16_Garbage_Sandbox_3"
+      ]
+  },
+  {
+      "code": "16",
+      "title": "Саванна Чинга",
+      "tags": [
+          "ching",
+          "savanna",
+          "world",
+          "daily_world",
+          "daily_all",
+          "rnd_world",
+          "build_old_home"
+      ],
+      "garbage_assets": [
+          "Tush",
+          "Bone",
+          "PalmBranch",
+          "Pinions",
+          "SkinBanana"
+      ]
+  },
+  {
+      "code": 160,
+      "title": "Продовольственный магазин",
+      "tags": [
+          "ussr16",
+          "fast_regenerate",
+          "ussr16_garbage"
+      ],
+      "garbage_assets": [
+          "Ussr16_Garbage_Shop_1",
+          "Ussr16_Garbage_Shop_2",
+          "Ussr16_Garbage_Shop_3"
+      ]
+  },
+  {
+      "code": 161,
+      "title": "Парк",
+      "tags": [
+          "ussr16",
+          "fast_regenerate",
+          "ussr16_garbage"
+      ],
+      "garbage_assets": [
+          "Ussr16_Garbage_Park_1",
+          "Ussr16_Garbage_Park_2",
+          "Ussr16_Garbage_Park_3"
+      ]
+  },
+  {
+      "code": "164",
+      "title": "Дон Кихот",
+      "tags": [
+          "KnowledgeDay16",
+          "KnowledgeDay16_1",
+          "KnowledgeDay16_garbage",
+          "fast_regenerate"
+      ],
+      "garbage_assets": [
+          "KnowledgeDay16_Garbage_Loc1_1",
+          "KnowledgeDay16_Garbage_Loc1_2",
+          "KnowledgeDay16_Garbage_Loc1_3"
+      ]
+  },
+  {
+      "code": "165",
+      "title": "Легенды Греции",
+      "tags": [
+          "KnowledgeDay16",
+          "KnowledgeDay16_2",
+          "KnowledgeDay16_garbage",
+          "fast_regenerate"
+      ],
+      "garbage_assets": [
+          "KnowledgeDay16_Garbage_Loc2_1",
+          "KnowledgeDay16_Garbage_Loc2_2",
+          "KnowledgeDay16_Garbage_Loc2_3"
+      ]
+  },
+  {
+      "code": "166",
+      "title": "Робин Гуд",
+      "tags": [
+          "KnowledgeDay16",
+          "KnowledgeDay16_3",
+          "KnowledgeDay16_garbage",
+          "fast_regenerate"
+      ],
+      "garbage_assets": [
+          "KnowledgeDay16_Garbage_Loc3_1",
+          "KnowledgeDay16_Garbage_Loc3_2",
+          "KnowledgeDay16_Garbage_Loc3_3"
+      ]
+  },
+  {
+      "code": 169,
+      "title": "Сумеречная чаща",
+      "tags": [
+          "bd16",
+          "bd16_palace",
+          "fast_regenerate",
+          "bd16_garbage"
+      ],
+      "garbage_assets": [
+          "BD16_Garbage_TwilightThicket_ConeWithSequins",
+          "BD16_Garbage_TwilightThicket_MoonPool",
+          "BD16_Garbage_TwilightThicket_YellowMushroom"
+      ]
+  },
+  {
+      "code": "17",
+      "title": "Лукоморье",
+      "tags": [
+          "build_old_home"
+      ],
+      "garbage_assets": null
+  },
+  {
+      "code": 170,
+      "title": "Деревенский огород",
+      "tags": [
+          "bd16",
+          "bd16_palace",
+          "fast_regenerate",
+          "bd16_garbage"
+      ],
+      "garbage_assets": [
+          "BD16_Garbage_CountryGarden_OnionPeel",
+          "BD16_Garbage_CountryGarden_PinwheelBySnakes",
+          "BD16_Garbage_CountryGarden_Wattle"
+      ]
+  },
+  {
+      "code": 171,
+      "title": "Чародейное предгорье",
+      "tags": [
+          "bd16",
+          "bd16_palace",
+          "fast_regenerate",
+          "bd16_garbage"
+      ],
+      "garbage_assets": [
+          "BD16_Garbage_SorceressFoothills_CloverLeaf",
+          "BD16_Garbage_SorceressFoothills_Heather",
+          "BD16_Garbage_SorceressFoothills_FairySlipper"
+      ]
+  },
+  {
+      "code": 174,
+      "title": "Гора Йоулупукки",
+      "tags": [
+          "NY21",
+          "NY21_place",
+          "fast_regenerate",
+          "NY21_garbage"
+      ],
+      "garbage_assets": [
+          "NY21_Garbage_Loc1_1",
+          "NY21_Garbage_Loc1_2",
+          "NY21_Garbage_Loc1_3"
+      ]
+  },
+  {
+      "code": 175,
+      "title": "Беловежская Пуща",
+      "tags": [
+          "NY21",
+          "NY21_place",
+          "fast_regenerate",
+          "NY21_garbage"
+      ],
+      "garbage_assets": [
+          "NY21_Garbage_Loc2_1",
+          "NY21_Garbage_Loc2_2",
+          "NY21_Garbage_Loc2_3"
+      ]
+  },
+  {
+      "code": 176,
+      "title": "Великий Устюг",
+      "tags": [
+          "NY21",
+          "NY21_place",
+          "fast_regenerate",
+          "NY21_garbage"
+      ],
+      "garbage_assets": [
+          "NY21_Garbage_Loc3_1",
+          "NY21_Garbage_Loc3_2",
+          "NY21_Garbage_Loc3_3"
+      ]
+  },
+  {
+      "code": 179,
+      "title": "Серебряная гора",
+      "tags": [
+          "march8_2017",
+          "march8_2017_palace",
+          "fast_regenerate",
+          "march8_2017_garbage"
+      ],
+      "garbage_assets": [
+          "March8_2017_Garbage_Loc1_1",
+          "March8_2017_Garbage_Loc1_2",
+          "March8_2017_Garbage_Loc1_3"
+      ]
+  },
+  {
+      "code": "18",
+      "title": "Лукоморье",
+      "tags": [
+          "lukomorye",
+          "world",
+          "rnd_world"
+      ],
+      "garbage_assets": [
+          "LukomorieSole",
+          "LukomorieArrow",
+          "LukomorieScepter",
+          "LukomorieNugget",
+          "LukomorieSedge",
+          "LukomorieFern",
+          "LukomorieLiana"
+      ]
+  },
+  {
+      "code": 180,
+      "title": "Чудо-юдо Рыба-кит",
+      "tags": [
+          "march8_2017",
+          "march8_2017_palace",
+          "fast_regenerate",
+          "march8_2017_garbage"
+      ],
+      "garbage_assets": [
+          "March8_2017_Garbage_Loc2_1",
+          "March8_2017_Garbage_Loc2_2",
+          "March8_2017_Garbage_Loc2_3"
+      ]
+  },
+  {
+      "code": 181,
+      "title": "Небесный терем",
+      "tags": [
+          "march8_2017",
+          "march8_2017_palace",
+          "fast_regenerate",
+          "march8_2017_garbage"
+      ],
+      "garbage_assets": [
+          "March8_2017_Garbage_Loc3_1",
+          "March8_2017_Garbage_Loc3_2",
+          "March8_2017_Garbage_Loc3_3"
+      ]
+  },
+  {
+      "code": "182",
+      "title": "Забавы",
+      "tags": [
+          "team",
+          "team_play_puzzle"
+      ],
+      "garbage_assets": null
+  },
+  {
+      "code": "184",
+      "title": "Обзорная",
+      "tags": [
+          "home",
+          "big_home",
+          "overview",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "rnd_big_home",
+          "fast",
+          "build_big_home"
+      ],
+      "garbage_assets": [
+          "BigHome_Garbage_Overview_Ammonit",
+          "BigHome_Garbage_Overview_LizardTooth",
+          "BigHome_Garbage_Overview_Silver",
+          "BottleWithNote",
+          
+          "FloralWreath",
+          "BoxOfBiscuits",
+          "Garbage_Spot",
+          "MushroomCommon"
+      ]
+  },
+  {
+      "code": "185",
+      "title": "Бинокль",
+      "tags": null,
+      "garbage_assets": null
+  },
+  {
+      "code": 188,
+      "title": "Посад",
+      "tags": [
+          "finist17",
+          "finist17_place",
+          "fast_regenerate",
+          "finist17_garbage"
+      ],
+      "garbage_assets": [
+          "Finist17_Garbage_Loc1_1",
+          "Finist17_Garbage_Loc1_2",
+          "Finist17_Garbage_Loc1_3"
+      ]
+  },
+  {
+      "code": 189,
+      "title": "Пещера Картауса",
+      "tags": [
+          "finist17",
+          "finist17_place",
+          "fast_regenerate",
+          "finist17_garbage"
+      ],
+      "garbage_assets": [
+          "Finist17_Garbage_Loc2_1",
+          "Finist17_Garbage_Loc2_2",
+          "Finist17_Garbage_Loc2_3"
+      ]
+  },
+  {
+      "code": "19",
+      "title": "Замок Кощея",
+      "tags": [
+          "build_new_home"
+      ],
+      "garbage_assets": null
+  },
+  {
+      "code": 190,
+      "title": "Лихие угодья",
+      "tags": [
+          "finist17",
+          "finist17_place",
+          "fast_regenerate",
+          "finist17_garbage"
+      ],
+      "garbage_assets": [
+          "Finist17_Garbage_Loc3_1",
+          "Finist17_Garbage_Loc3_2",
+          "Finist17_Garbage_Loc3_3"
+      ]
+  },
+  {
+      "code": 193,
+      "title": "Плоская Земля",
+      "tags": [
+          "KnowledgeDay17",
+          "KnowledgeDay17_place",
+          "fast_regenerate",
+          "KnowledgeDay17_garbage"
+      ],
+      "garbage_assets": [
+          "KnowledgeDay17_Garbage_Loc1_1",
+          "KnowledgeDay17_Garbage_Loc1_2",
+          "KnowledgeDay17_Garbage_Loc1_3"
+      ]
+  },
+  {
+      "code": 194,
+      "title": "Древний спортзал",
+      "tags": [
+          "KnowledgeDay17",
+          "KnowledgeDay17_place",
+          "fast_regenerate",
+          "KnowledgeDay17_garbage"
+      ],
+      "garbage_assets": [
+          "KnowledgeDay17_Garbage_Loc2_1",
+          "KnowledgeDay17_Garbage_Loc2_2",
+          "KnowledgeDay17_Garbage_Loc2_3"
+      ]
+  },
+  {
+      "code": 195,
+      "title": "Лаборатория Лео",
+      "tags": [
+          "KnowledgeDay17",
+          "KnowledgeDay17_place",
+          "fast_regenerate",
+          "KnowledgeDay17_garbage"
+      ],
+      "garbage_assets": [
+          "KnowledgeDay17_Garbage_Loc3_1",
+          "KnowledgeDay17_Garbage_Loc3_2",
+          "KnowledgeDay17_Garbage_Loc3_3"
+      ]
+  },
+  {
+      "code": "196",
+      "title": "Бассейн",
+      "tags": [
+          "farm",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "pool",
+          "fast",
+          "build_big_farm"
+      ],
+      "garbage_assets": [
+          "Mold",
+          "BrokenBrush",
+          "DoubleFins",
+          "Melting",
+          "ChunkHill",
+          "Kolobashka"
+      ]
+  },
+  {
+      "code": 197,
+      "title": "Небесный остров",
+      "tags": [
+          "home",
+          "heavenly_archipelago",
+          "heavenly_island",
+          "rnd_big_home",
+          "build_big_home"
+      ],
+      "garbage_assets": [
+          "HeavenlyIsland_Garbage_1",
+          "HeavenlyIsland_Garbage_2",
+          "HeavenlyIsland_Garbage_3",
+          "HeavenlyIsland_Garbage_4",
+          "HeavenlyIsland_Garbage_5"
+      ]
+  },
+  {
+      "code": "2",
+      "title": "Чердачок",
+      "tags": [
+          "home",
+          "old_home",
+          "daily_photo",
+          "build_old_home"
+      ],
+      "garbage_assets": null
+  },
+  {
+      "code": "20",
+      "title": "Тронный зал",
+      "tags": [
+          "immortal",
+          "world",
+          "daily_world",
+          "daily_all",
+          "rnd_world",
+          "immortal_loc_2"
+      ],
+      "garbage_assets": [
+          "EggShell",
+          "FragmentaryCard",
+          "Pawn",
+          "WoodenCrest"
+      ]
+  },
+  {
+      "code": 200,
+      "title": "Царство Салтана",
+      "tags": [
+          "bd17",
+          "bd17_place",
+          "fast_regenerate",
+          "bd17_garbage"
+      ],
+      "garbage_assets": [
+          "BD17_Garbage_Loc1_1",
+          "BD17_Garbage_Loc1_2",
+          "BD17_Garbage_Loc1_3"
+      ]
+  },
+  {
+      "code": 201,
+      "title": "Ратное поле",
+      "tags": [
+          "bd17",
+          "bd17_place",
+          "fast_regenerate",
+          "bd17_garbage"
+      ],
+      "garbage_assets": [
+          "BD17_Garbage_Loc2_1",
+          "BD17_Garbage_Loc2_2",
+          "BD17_Garbage_Loc2_3"
+      ]
+  },
+  {
+      "code": 202,
+      "title": "Обитель Чародея",
+      "tags": [
+          "bd17",
+          "bd17_place",
+          "fast_regenerate",
+          "bd17_garbage"
+      ],
+      "garbage_assets": [
+          "BD17_Garbage_Loc3_1",
+          "BD17_Garbage_Loc3_2",
+          "BD17_Garbage_Loc3_3"
+      ]
+  },
+  {
+      "code": 203,
+      "title": "Дно морское",
+      "tags": [
+          "bd17",
+          "bd17_place"
+      ],
+      "garbage_assets": []
+  },
+  {
+      "code": 204,
+      "title": "Новогодняя площадь",
+      "tags": null,
+      "garbage_assets": null
+  },
+  {
+      "code": 206,
+      "title": "Лапландия",
+      "tags": [
+          "ny18",
+          "ny18_place",
+          "fast_regenerate",
+          "ny18_garbage"
+      ],
+      "garbage_assets": [
+          "NY18_Garbage_Loc1_1",
+          "NY18_Garbage_Loc1_2",
+          "NY18_Garbage_Loc1_3"
+      ]
+  },
+  {
+      "code": 207,
+      "title": "Снежный шар",
+      "tags": [
+          "ny18",
+          "ny18_place",
+          "fast_regenerate",
+          "ny18_garbage"
+      ],
+      "garbage_assets": [
+          "NY18_Garbage_Loc2_1",
+          "NY18_Garbage_Loc2_2",
+          "NY18_Garbage_Loc2_3"
+      ]
+  },
+  {
+      "code": 208,
+      "title": "Устюг",
+      "tags": [
+          "ny18",
+          "ny18_place",
+          "fast_regenerate",
+          "ny18_garbage"
+      ],
+      "garbage_assets": [
+          "NY18_Garbage_Loc3_1",
+          "NY18_Garbage_Loc3_2",
+          "NY18_Garbage_Loc3_3"
+      ]
+  },
+  {
+      "code": 209,
+      "title": "Зимняя полянка",
+      "tags": [
+          "ny18",
+          "ny18_place",
+          "fast_regenerate"
+      ],
+      "garbage_assets": []
+  },
+  {
+      "code": "21",
+      "title": "Озеро девичьих слез",
+      "tags": [
+          "immortal",
+          "immortal_lake",
+          "world",
+          "rnd_world",
+          "build_old_home",
+          "immortal_loc_3"
+      ],
+      "garbage_assets": [
+          "Cockleshell",
+          "PieceOfChain",
+          "CaveBug",
+          "Tush",
+          "ArmorOfSnail"
+      ]
+  },
+  {
+      "code": 210,
+      "title": "Волчий бор",
+      "tags": [
+          "ny18",
+          "ny18_place",
+          "fast_regenerate"
+      ],
+      "garbage_assets": []
+  },
+  {
+      "code": 211,
+      "title": "Ледяной каток",
+      "tags": [
+          "ny18",
+          "ny18_place",
+          "fast_regenerate"
+      ],
+      "garbage_assets": []
+  },
+  {
+      "code": 212,
+      "title": "Серебряная опушка",
+      "tags": [
+          "ny18",
+          "ny18_place",
+          "fast_regenerate"
+      ],
+      "garbage_assets": []
+  },
+  {
+      "code": 213,
+      "title": "Рождественский экспресс",
+      "tags": [
+          "seacrh_home"
+      ],
+      "garbage_assets": null
+  },
+  {
+      "code": 214,
+      "title": "Рождественский экспресс",
+      "tags": [
+          "seacrh_home"
+      ],
+      "garbage_assets": null
+  },
+  {
+      "code": 215,
+      "title": "Небесный архипелаг",
+      "tags": null,
+      "garbage_assets": null
+  },
+  {
+      "code": 216,
+      "title": "Облачный цветник",
+      "tags": [
+          "home",
+          "heavenly_archipelago",
+          "heavenly_flower",
+          "rnd_big_home",
+          "build_big_home"
+      ],
+      "garbage_assets": []
+  },
+  {
+      "code": 219,
+      "title": "Деревенька",
+      "tags": [
+          "March8_22",
+          "March8_22_place",
+          "fast_regenerate",
+          "March8_22_garbage"
+      ],
+      "garbage_assets": [
+          "March8_22_Garbage_Loc1_1",
+          "March8_22_Garbage_Loc1_2",
+          "March8_22_Garbage_Loc1_3"
+      ]
+  },
+  {
+      "code": "22",
+      "title": "Сокровищница",
+      "tags": [
+          "immortal",
+          "world",
+          "rnd_world",
+          "immortal_loc_1"
+      ],
+      "garbage_assets": [
+          "PreciousStone",
+          "CaveBug",
+          "WoodenCrest",
+          "Megaphone",
+          "Pick"
+      ]
+  },
+  {
+      "code": 220,
+      "title": "Деревня Канагава",
+      "tags": [
+          "March8_22",
+          "March8_22_place",
+          "fast_regenerate",
+          "March8_22_garbage"
+      ],
+      "garbage_assets": [
+          "March8_22_Garbage_Loc2_1",
+          "March8_22_Garbage_Loc2_2",
+          "March8_22_Garbage_Loc2_3"
+      ]
+  },
+  {
+      "code": 221,
+      "title": "Гавана",
+      "tags": [
+          "March8_22",
+          "March8_22_place",
+          "fast_regenerate",
+          "March8_22_garbage"
+      ],
+      "garbage_assets": [
+          "March8_22_Garbage_Loc3_1",
+          "March8_22_Garbage_Loc3_2",
+          "March8_22_Garbage_Loc3_3"
+      ]
+  },
+  {
+      "code": "222",
+      "title": "Детская",
+      "tags": [
+          "home",
+          "big_home",
+          "nursery",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "rnd_big_home",
+          "fast",
+          "build_big_home"
+      ],
+      "garbage_assets": [
+          "BigHome_Garbage_Nursery_MugNotShedding",
+          "BigHome_Garbage_Nursery_MatildasCage",
+          "BigHome_Garbage_Nursery_MomsPortrait",
+          "IcyHeart",
+          "SoapBubble",
+          "SilverClutch",
+          "Garbage_Spot",
+          
+          "CocoonCommon"
+      ]
+  },
+  {
+      "code": 223,
+      "title": "Форт из одеял",
+      "tags": [
+          "home",
+          "big_home",
+          "blanket_fort",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "rnd_big_home",
+          "fast",
+          "build_big_home"
+      ],
+      "garbage_assets": [
+          "BigHome_Garbage_Nursery_MummyShadow",
+          "BigHome_Garbage_Nursery_Flags",
+          "BigHome_Garbage_Nursery_Sleeping"
+      ]
+  },
+  {
+      "code": 225,
+      "title": "Небесный вегетарий",
+      "tags": [
+          "home",
+          "heavenly_archipelago",
+          "heavenly_vegetable",
+          "rnd_big_home",
+          "build_big_home"
+      ],
+      "garbage_assets": []
+  },
+  {
+      "code": "23",
+      "title": "Лаборатория",
+      "tags": [
+          "immortal",
+          "world",
+          "rnd_world",
+          "build_old_home",
+          "immortal_loc_4"
+      ],
+      "garbage_assets": [
+          "ClockRaffles",
+          "PreciousStone",
+          "Pawn",
+          "EggShell",
+          "FragmentaryCard",
+          "Megaphone"
+      ]
+  },
+  {
+      "code": 238,
+      "title": "Царский остров",
+      "tags": [
+          "home",
+          "heavenly_archipelago",
+          "heavenly_king_island",
+          "rnd_big_home",
+          "build_big_home",
+          "fast_regenerate"
+      ],
+      "garbage_assets": [
+          "HeavenlyKingIsland_Garbage_1",
+          "HeavenlyKingIsland_Garbage_2",
+          "HeavenlyKingIsland_Garbage_3"
+      ]
+  },
+  {
+      "code": 24,
+      "title": "Село",
+      "tags": [
+          "build_old_home"
+      ],
+      "garbage_assets": null
+  },
+  {
+      "code": 242,
+      "title": "Планета Нефтяника",
+      "tags": [
+          "BD18",
+          "BD18_place",
+          "fast_regenerate",
+          "BD18_garbage",
+          "BD18_puzzle"
+      ],
+      "garbage_assets": [
+          "BD18_Garbage_Loc1_1",
+          "BD18_Garbage_Loc1_2",
+          "BD18_Garbage_Loc1_3"
+      ]
+  },
+  {
+      "code": 243,
+      "title": "Планета Президента",
+      "tags": [
+          "BD18",
+          "BD18_place",
+          "BD18_puzzle"
+      ],
+      "garbage_assets": []
+  },
+  {
+      "code": 244,
+      "title": "Планета Игромана",
+      "tags": [
+          "BD18",
+          "BD18_place",
+          "fast_regenerate",
+          "BD18_garbage",
+          "BD18_puzzle"
+      ],
+      "garbage_assets": [
+          "BD18_Garbage_Loc3_1",
+          "BD18_Garbage_Loc3_2",
+          "BD18_Garbage_Loc3_3"
+      ]
+  },
+  {
+      "code": 245,
+      "title": "Планета Честолюбца",
+      "tags": [
+          "BD18",
+          "BD18_place",
+          "BD18_puzzle"
+      ],
+      "garbage_assets": []
+  },
+  {
+      "code": 246,
+      "title": "Планета Фонарщика",
+      "tags": [
+          "BD18",
+          "BD18_place",
+          "fast_regenerate",
+          "BD18_garbage",
+          "BD18_puzzle"
+      ],
+      "garbage_assets": [
+          "BD18_Garbage_Loc5_1",
+          "BD18_Garbage_Loc5_2",
+          "BD18_Garbage_Loc5_3"
+      ]
+  },
+  {
+      "code": 247,
+      "title": "Планета Маленького принца",
+      "tags": [
+          "BD18",
+          "BD18_place",
+          "BD18_puzzle"
+      ],
+      "garbage_assets": []
+  },
+  {
+      "code": "25",
+      "title": "Село",
+      "tags": [
+          "village",
+          "world",
+          "daily_world",
+          "daily_all",
+          "rnd_world",
+          "build_old_home"
+      ],
+      "garbage_assets": [
+          "WagonWheel",
+          "LeakyBedonchik",
+          "Washboard",
+          "Skalka",
+          "BrokenPlow"
+      ]
+  },
+  {
+      "code": 250,
+      "title": "Дупло белок",
+      "tags": [
+          "NY19",
+          "NY19_place",
+          "fast_regenerate",
+          "NY19_garbage"
+      ],
+      "garbage_assets": [
+          "NY19_Garbage_Loc1_1",
+          "NY19_Garbage_Loc1_2",
+          "NY19_Garbage_Loc1_3"
+      ]
+  },
+  {
+      "code": 251,
+      "title": "Школа бегемулей",
+      "tags": [
+          "NY19",
+          "NY19_place",
+          "fast_regenerate",
+          "NY19_garbage"
+      ],
+      "garbage_assets": [
+          "NY19_Garbage_Loc2_1",
+          "NY19_Garbage_Loc2_2",
+          "NY19_Garbage_Loc2_3"
+      ]
+  },
+  {
+      "code": 252,
+      "title": "Домик мисс Бьорк",
+      "tags": [
+          "NY19",
+          "NY19_place",
+          "fast_regenerate",
+          "NY19_garbage"
+      ],
+      "garbage_assets": [
+          "NY19_Garbage_Loc3_1",
+          "NY19_Garbage_Loc3_2",
+          "NY19_Garbage_Loc3_3"
+      ]
+  },
+  {
+      "code": 253,
+      "title": "Волшебный остров",
+      "tags": [
+          "home",
+          "heavenly_archipelago",
+          "heavenly_magic",
+          "rnd_big_home",
+          "build_big_home"
+      ],
+      "garbage_assets": []
+  },
+  {
+      "code": 256,
+      "title": "Государство иноземское",
+      "tags": [
+          "March8_19",
+          "March8_19_place",
+          "fast_regenerate",
+          "March8_19_garbage"
+      ],
+      "garbage_assets": [
+          "March8_19_Garbage_Loc1_1",
+          "March8_19_Garbage_Loc1_2",
+          "March8_19_Garbage_Loc1_3"
+      ]
+  },
+  {
+      "code": 257,
+      "title": "Княжество заморское",
+      "tags": [
+          "March8_19",
+          "March8_19_place",
+          "fast_regenerate",
+          "March8_19_garbage"
+      ],
+      "garbage_assets": [
+          "March8_19_Garbage_Loc2_1",
+          "March8_19_Garbage_Loc2_2",
+          "March8_19_Garbage_Loc2_3"
+      ]
+  },
+  {
+      "code": 258,
+      "title": "Родная сторонушка",
+      "tags": [
+          "March8_19",
+          "March8_19_place",
+          "fast_regenerate",
+          "March8_19_garbage"
+      ],
+      "garbage_assets": [
+          "March8_19_Garbage_Loc3_1",
+          "March8_19_Garbage_Loc3_2",
+          "March8_19_Garbage_Loc3_3"
+      ]
+  },
+  {
+      "code": 259,
+      "title": "Иконрный склад",
+      "tags": [
+          "March8_19",
+          "March8_19_place"
+      ],
+      "garbage_assets": []
+  },
+  {
+      "code": "26",
+      "title": "Владения Лешего",
+      "tags": [
+          "build_new_home"
+      ],
+      "garbage_assets": null
+  },
+  {
+      "code": 260,
+      "title": "Остров старьёвщика",
+      "tags": [
+          "home",
+          "heavenly_archipelago",
+          "heavenly_junkman_island",
+          "rnd_big_home",
+          "build_big_home",
+          "fast_regenerate"
+      ],
+      "garbage_assets": []
+  },
+  {
+      "code": 261,
+      "title": "Кладовка",
+      "tags": [
+          "seacrh_home"
+      ],
+      "garbage_assets": null
+  },
+  {
+      "code": 265,
+      "title": "Лагерь Дружба",
+      "tags": [
+          "Summer19",
+          "Summer19_place",
+          "fast_regenerate",
+          "Summer19_garbage"
+      ],
+      "garbage_assets": [
+          "Summer19_Garbage_Loc1_1",
+          "Summer19_Garbage_Loc1_2",
+          "Summer19_Garbage_Loc1_3"
+      ]
+  },
+  {
+      "code": 266,
+      "title": "Бассейн Амазонки",
+      "tags": [
+          "Summer19",
+          "Summer19_place",
+          "fast_regenerate",
+          "Summer19_garbage"
+      ],
+      "garbage_assets": [
+          "Summer19_Garbage_Loc2_1",
+          "Summer19_Garbage_Loc2_2",
+          "Summer19_Garbage_Loc2_3"
+      ]
+  },
+  {
+      "code": 267,
+      "title": "Деревня Бабушкино",
+      "tags": [
+          "Summer19",
+          "Summer19_place",
+          "fast_regenerate",
+          "Summer19_garbage"
+      ],
+      "garbage_assets": [
+          "Summer19_Garbage_Loc3_1",
+          "Summer19_Garbage_Loc3_2",
+          "Summer19_Garbage_Loc3_3"
+      ]
+  },
+  {
+      "code": "27",
+      "title": "Опушка",
+      "tags": [
+          "sylvan",
+          "world",
+          "daily_world",
+          "daily_all",
+          "rnd_world"
+      ],
+      "garbage_assets": [
+          "CurveCammock",
+          "Snag",
+          "BoarsTusk",
+          "BasketOfBerries",
+          "BirchBark"
+      ]
+  },
+  {
+      "code": 270,
+      "title": "Переправа",
+      "tags": [
+          "Varvara19",
+          "Varvara19_place",
+          "fast_regenerate",
+          "Varvara19_garbage"
+      ],
+      "garbage_assets": [
+          "Varvara19_Garbage_Loc1_1",
+          "Varvara19_Garbage_Loc1_2",
+          "Varvara19_Garbage_Loc1_3"
+      ]
+  },
+  {
+      "code": 271,
+      "title": "Покои Чуда-юда",
+      "tags": [
+          "Varvara19",
+          "Varvara19_place",
+          "fast_regenerate",
+          "Varvara19_garbage"
+      ],
+      "garbage_assets": [
+          "Varvara19_Garbage_Loc2_1",
+          "Varvara19_Garbage_Loc2_2",
+          "Varvara19_Garbage_Loc2_3"
+      ]
+  },
+  {
+      "code": 272,
+      "title": "Светлица Варварушки",
+      "tags": [
+          "Varvara19",
+          "Varvara19_place",
+          "fast_regenerate",
+          "Varvara19_garbage"
+      ],
+      "garbage_assets": [
+          "Varvara19_Garbage_Loc3_1",
+          "Varvara19_Garbage_Loc3_2",
+          "Varvara19_Garbage_Loc3_3"
+      ]
+  },
+  {
+      "code": 275,
+      "title": "Класс Зельеварения",
+      "tags": [
+          "KnowledgeDay19",
+          "KnowledgeDay19_place",
+          "fast_regenerate",
+          "KnowledgeDay19_garbage"
+      ],
+      "garbage_assets": [
+          "KnowledgeDay19_Garbage_Loc1_1",
+          "KnowledgeDay19_Garbage_Loc1_2",
+          "KnowledgeDay19_Garbage_Loc1_3"
+      ]
+  },
+  {
+      "code": 276,
+      "title": "Класс Волшебной зоологии",
+      "tags": [
+          "KnowledgeDay19",
+          "KnowledgeDay19_place",
+          "fast_regenerate",
+          "KnowledgeDay19_garbage"
+      ],
+      "garbage_assets": [
+          "KnowledgeDay19_Garbage_Loc2_1",
+          "KnowledgeDay19_Garbage_Loc2_2",
+          "KnowledgeDay19_Garbage_Loc2_3"
+      ]
+  },
+  {
+      "code": 277,
+      "title": "Призрачная",
+      "tags": [
+          "KnowledgeDay19",
+          "KnowledgeDay19_place",
+          "fast_regenerate",
+          "KnowledgeDay19_garbage"
+      ],
+      "garbage_assets": [
+          "KnowledgeDay19_Garbage_Loc3_1",
+          "KnowledgeDay19_Garbage_Loc3_2",
+          "KnowledgeDay19_Garbage_Loc3_3"
+      ]
+  },
+  {
+      "code": "28",
+      "title": "Дупло Филина",
+      "tags": [
+          "sylvan",
+          "world",
+          "rnd_world"
+      ],
+      "garbage_assets": [
+          "ShinySpoon",
+          "Earring",
+          "Kozinaki",
+          "OwlFeathers",
+          "RodentStone"
+      ]
+  },
+  {
+      "code": 281,
+      "title": "Столица Объединённого Царства",
+      "tags": [
+          "BD19",
+          "BD19_place",
+          "fast_regenerate",
+          "BD19_garbage"
+      ],
+      "garbage_assets": [
+          "BD19_Garbage_Loc1_1",
+          "BD19_Garbage_Loc1_2",
+          "BD19_Garbage_Loc1_3"
+      ]
+  },
+  {
+      "code": 282,
+      "title": "Ратное поле",
+      "tags": [
+          "BD19",
+          "BD19_place",
+          "fast_regenerate",
+          "BD19_garbage"
+      ],
+      "garbage_assets": [
+          "BD19_Garbage_Loc2_1",
+          "BD19_Garbage_Loc2_2",
+          "BD19_Garbage_Loc2_3"
+      ]
+  },
+  {
+      "code": 283,
+      "title": "Заповедник",
+      "tags": [
+          "BD19",
+          "BD19_place",
+          "fast_regenerate",
+          "BD19_garbage"
+      ],
+      "garbage_assets": [
+          "BD19_Garbage_Loc3_1",
+          "BD19_Garbage_Loc3_2",
+          "BD19_Garbage_Loc3_3"
+      ]
+  },
+  {
+      "code": 284,
+      "title": "Домик Шишинёнка",
+      "tags": [
+          "BD19",
+          "BD19_place"
+      ],
+      "garbage_assets": []
+  },
+  {
+      "code": 285,
+      "title": "Планета Рогатиков",
+      "tags": [
+          "BD19",
+          "BD19_place"
+      ],
+      "garbage_assets": []
+  },
+  {
+      "code": 286,
+      "title": "Метеорит Лунопузиков",
+      "tags": [
+          "BD19",
+          "BD19_place"
+      ],
+      "garbage_assets": []
+  },
+  {
+      "code": 289,
+      "title": "Изнакурнож",
+      "tags": [
+          "NY20",
+          "NY20_place",
+          "fast_regenerate",
+          "NY20_garbage",
+          "NY20_puzzle"
+      ],
+      "garbage_assets": [
+          "NY20_Garbage_Loc1_1",
+          "NY20_Garbage_Loc1_2",
+          "NY20_Garbage_Loc1_3"
+      ]
+  },
+  {
+      "code": "29",
+      "title": "Дендрарий",
+      "tags": [
+          "sylvan",
+          "world",
+          "rnd_world",
+          "dendrary",
+          "build_new_home"
+      ],
+      "garbage_assets": [
+          "BagelGarbage",
+          "MacaroniGarbage",
+          "MusicGarbage",
+          "TwinkleGarbage",
+          "RainGarbage"
+      ]
+  },
+  {
+      "code": 290,
+      "title": "Лаборатория абсолютных неожиданностей",
+      "tags": [
+          "NY20",
+          "NY20_place",
+          "fast_regenerate",
+          "NY20_garbage",
+          "NY20_puzzle"
+      ],
+      "garbage_assets": [
+          "NY20_Garbage_Loc2_1",
+          "NY20_Garbage_Loc2_2",
+          "NY20_Garbage_Loc2_3"
+      ]
+  },
+  {
+      "code": 291,
+      "title": "Кудыкина гора",
+      "tags": [
+          "NY20",
+          "NY20_place",
+          "fast_regenerate",
+          "NY20_garbage",
+          "NY20_puzzle"
+      ],
+      "garbage_assets": [
+          "NY20_Garbage_Loc3_1",
+          "NY20_Garbage_Loc3_2",
+          "NY20_Garbage_Loc3_3"
+      ]
+  },
+  {
+      "code": 293,
+      "title": "Остров Иллюзион",
+      "tags": [
+          "home",
+          "heavenly_archipelago",
+          "heavenly_illusion_island",
+          "rnd_big_home",
+          "build_big_home",
+          "fast_regenerate"
+      ],
+      "garbage_assets": [
+          "HeavenlyIllusionIsland_Garbage1",
+          "HeavenlyIllusionIsland_Garbage2",
+          "HeavenlyIllusionIsland_Garbage3"
+      ]
+  },
+  {
+      "code": 296,
+      "title": "Башня Устерлиц",
+      "tags": [
+          "March8_20",
+          "March8_20_place",
+          "fast_regenerate",
+          "March8_20_garbage"
+      ],
+      "garbage_assets": [
+          "March8_20_Garbage_Loc1_1",
+          "March8_20_Garbage_Loc1_2",
+          "March8_20_Garbage_Loc1_3"
+      ]
+  },
+  {
+      "code": 297,
+      "title": "Бор-перебор",
+      "tags": [
+          "March8_20",
+          "March8_20_place",
+          "fast_regenerate",
+          "March8_20_garbage"
+      ],
+      "garbage_assets": [
+          "March8_20_Garbage_Loc2_1",
+          "March8_20_Garbage_Loc2_2",
+          "March8_20_Garbage_Loc2_3"
+      ]
+  },
+  {
+      "code": 298,
+      "title": "Ведьмина избушка",
+      "tags": [
+          "March8_20",
+          "March8_20_place",
+          "fast_regenerate",
+          "March8_20_garbage"
+      ],
+      "garbage_assets": [
+          "March8_20_Garbage_Loc3_1",
+          "March8_20_Garbage_Loc3_2",
+          "March8_20_Garbage_Loc3_3"
+      ]
+  },
+  {
+      "code": "3",
+      "title": "Мастерская",
+      "tags": [
+          "home",
+          "workshop",
+          "old_home",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "rnd_old_home",
+          "lostgeneral_yellow",
+          "slow",
+          "build_old_home"
+      ],
+      "garbage_assets": [
+          
+          
+          
+          
+          "MasterSet",
+          "Chips",
+          "Trowel",
+          "BrokenPlate",
+          "Anvil",
+          "SmashedEarthenwarePot",
+          "ClayLump",
+          "SmashedEarthenwareTeaPot"
+      ]
+  },
+  {
+      "code": "30",
+      "title": "Расширенный дом",
+      "tags": [
+          "build_new_home"
+      ],
+      "garbage_assets": null
+  },
+  {
+      "code": 301,
+      "title": "Владения Переплута",
+      "tags": [
+          "Spring20",
+          "Spring20_place",
+          "fast_regenerate",
+          "Spring20_garbage",
+          "Spring20_puzzle"
+      ],
+      "garbage_assets": [
+          "Spring20_Garbage_Loc1_1",
+          "Spring20_Garbage_Loc1_2",
+          "Spring20_Garbage_Loc1_3"
+      ]
+  },
+  {
+      "code": 302,
+      "title": "Вересковая долина",
+      "tags": [
+          "Spring20",
+          "Spring20_place",
+          "fast_regenerate",
+          "Spring20_garbage",
+          "Spring20_puzzle"
+      ],
+      "garbage_assets": [
+          "Spring20_Garbage_Loc2_1",
+          "Spring20_Garbage_Loc2_2",
+          "Spring20_Garbage_Loc2_3"
+      ]
+  },
+  {
+      "code": 303,
+      "title": "Край света",
+      "tags": [
+          "Spring20",
+          "Spring20_place",
+          "fast_regenerate",
+          "Spring20_garbage",
+          "Spring20_puzzle"
+      ],
+      "garbage_assets": [
+          "Spring20_Garbage_Loc3_1",
+          "Spring20_Garbage_Loc3_2",
+          "Spring20_Garbage_Loc3_3"
+      ]
+  },
+  {
+      "code": 306,
+      "title": "Трактир \"У Солохи\"",
+      "tags": [
+          "Summer20",
+          "Summer20_place",
+          "fast_regenerate",
+          "Summer20_garbage"
+      ],
+      "garbage_assets": [
+          "Summer20_Garbage_Loc1_1",
+          "Summer20_Garbage_Loc1_2",
+          "Summer20_Garbage_Loc1_3"
+      ]
+  },
+  {
+      "code": 307,
+      "title": "Хата головы",
+      "tags": [
+          "Summer20",
+          "Summer20_place",
+          "fast_regenerate",
+          "Summer20_garbage"
+      ],
+      "garbage_assets": [
+          "Summer20_Garbage_Loc2_1",
+          "Summer20_Garbage_Loc2_2",
+          "Summer20_Garbage_Loc2_3"
+      ]
+  },
+  {
+      "code": 308,
+      "title": "Панночкин омут",
+      "tags": [
+          "Summer20",
+          "Summer20_place",
+          "fast_regenerate",
+          "Summer20_garbage"
+      ],
+      "garbage_assets": [
+          "Summer20_Garbage_Loc3_1",
+          "Summer20_Garbage_Loc3_2",
+          "Summer20_Garbage_Loc3_3"
+      ]
+  },
+  {
+      "code": 309,
+      "title": "Иловая спаленка",
+      "tags": [
+          "Summer20",
+          "Summer20_place"
+      ],
+      "garbage_assets": []
+  },
+  {
+      "code": "31",
+      "title": "Оранжерея",
+      "tags": [
+          "home",
+          "greenhouse",
+          "new_home",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "rnd_new_home",
+          "slow",
+          "build_new_home"
+      ],
+      "garbage_assets": [
+          
+          
+          "DeadFlower",
+          "BeetlePaws",
+          "FadedBouquet",
+          "WornGloves",
+          "GardenFigurine",
+          "BagOfFertilizer",
+          "Cucumber"
+      ]
+  },
+  {
+      "code": "310",
+      "title": "Барная комната",
+      "tags": [
+          "home",
+          "big_home",
+          "bar_room",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "rnd_big_home",
+          "fast",
+          "build_big_home"
+      ],
+      "garbage_assets": [
+          
+          
+          "BigHome_Garbage_Bar_BrokenDiscoBall",
+          "BigHome_Garbage_Bar_BrokenCocktail",
+          "BigHome_Garbage_Bar_NeonStick",
+          "CaveBug",
+          "MoneyRaffles"
+      ]
+  },
+  {
+      "code": "32",
+      "title": "Курятник",
+      "tags": [
+          "home",
+          "coop",
+          "new_home",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "rnd_new_home",
+          "slow",
+          "build_new_home"
+      ],
+      "garbage_assets": [
+          
+          
+          
+          "FoxTrail",
+          "ChickenFeathers",
+          "HandfulGrain",
+          "WickerBasket",
+          "BagOfFertilizer",
+          "EggShell"
+      ]
+  },
+  {
+      "code": "33",
+      "title": "Опочивальня",
+      "tags": [
+          "home",
+          "new_home",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "rnd_new_home",
+          "slow",
+          "build_new_home"
+      ],
+      "garbage_assets": [
+          "WoodenCrest",
+          "Megaphone",
+          "ClockRaffles",
+          "Earring",
+          "FeatherRaffles",
+          
+          
+          
+          "WebCommon"
+      ]
+  },
+  {
+      "code": "330",
+      "title": "Спортзал",
+      "tags": [
+          "farm",
+          "sportzal",
+          "fast",
+          "build_big_farm",
+          "daily_guest",
+          "daily_all",
+          "daily_photo"
+      ],
+      "garbage_assets": [
+          "Sportzal_Garbage1",
+          "Sportzal_Garbage2",
+          "Sportzal_Garbage3",
+          "Sportzal_Garbage4",
+          "Sportzal_Garbage5"
+      ]
+  },
+  {
+      "code": 331,
+      "title": "Сокровищница",
+      "tags": [
+          "seacrh_farm"
+      ],
+      "garbage_assets": null
+  },
+  {
+      "code": "34",
+      "title": "Ювелирка",
+      "tags": [
+          "home",
+          "new_home",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "rnd_new_home",
+          "slow",
+          "build_new_home"
+      ],
+      "garbage_assets": [
+          "PreciousStone",
+          "Cockleshell",
+          "LukomorieNugget",
+          "LukomorieScepter",
+          "ShinySpoon",
+          
+          
+          
+          "WebCommon"
+      ]
+  },
+  {
+      "code": "35",
+      "title": "Медная гора",
+      "tags": [
+          "build_new_home"
+      ],
+      "garbage_assets": null
+  },
+  {
+      "code": 352,
+      "title": "Потешная комната",
+      "tags": [
+          "Fun_Room"
+      ],
+      "garbage_assets": null
+  },
+  {
+      "code": 353,
+      "title": "Потешная поляна",
+      "tags": [
+          "Fun_Room",
+          "LawnRoom"
+      ],
+      "garbage_assets": [
+          "Fun_Room_Garbage_LocLawn_1",
+          "Fun_Room_Garbage_LocLawn_2",
+          "Fun_Room_Garbage_LocLawn_3",
+          "Fun_Room_Garbage_LocLawn_4",
+          "Fun_Room_Garbage_LocLawn_5",
+          "Fun_Room_Garbage_LocLawn_6"
+      ]
+  },
+  {
+      "code": 355,
+      "title": "Потехи 1: Назад в СССР",
+      "tags": [
+          "Fun_Room",
+          "Fun_Room_Loc_1"
+      ],
+      "garbage_assets": [
+          "Fun_Room_Fun1_Garbage1",
+          "Fun_Room_Fun1_Garbage2",
+          "Fun_Room_Fun1_Garbage3",
+          "Fun_Room_Fun1_Garbage4",
+          "Fun_Room_Fun1_Garbage5"
+      ]
+  },
+  {
+      "code": 356,
+      "title": "Потехи 2: Саванна",
+      "tags": [
+          "Fun_Room",
+          "Fun_Room_Loc_2"
+      ],
+      "garbage_assets": [
+          "Fun_Room_Fun2_Garbage1",
+          "Fun_Room_Fun2_Garbage2",
+          "Fun_Room_Fun2_Garbage3",
+          "Fun_Room_Fun2_Garbage4",
+          "Fun_Room_Fun2_Garbage5"
+      ]
+  },
+  {
+      "code": 357,
+      "title": "Потехи 3: Киношкола",
+      "tags": [
+          "Fun_Room",
+          "Fun_Room_Loc_3"
+      ],
+      "garbage_assets": [
+          "Fun_Room_Fun3_Garbage1",
+          "Fun_Room_Fun3_Garbage2",
+          "Fun_Room_Fun3_Garbage3",
+          "Fun_Room_Fun3_Garbage4",
+          "Fun_Room_Fun3_Garbage5"
+      ]
+  },
+  {
+      "code": 358,
+      "title": "Потехи 4: Лагерь \"Дружба\"",
+      "tags": [
+          "Fun_Room",
+          "Fun_Room_Loc_4"
+      ],
+      "garbage_assets": [
+          "Fun_Room_Fun4_Garbage1",
+          "Fun_Room_Fun4_Garbage2",
+          "Fun_Room_Fun4_Garbage3",
+          "Fun_Room_Fun4_Garbage4",
+          "Fun_Room_Fun4_Garbage5"
+      ]
+  },
+  {
+      "code": 359,
+      "title": "Потехи 5: Полцарства за невесту",
+      "tags": [
+          "Fun_Room",
+          "Fun_Room_Loc_5"
+      ],
+      "garbage_assets": [
+          "Fun_Room_Fun5_Garbage1",
+          "Fun_Room_Fun5_Garbage2",
+          "Fun_Room_Fun5_Garbage3",
+          "Fun_Room_Fun5_Garbage4",
+          "Fun_Room_Fun5_Garbage5"
+      ]
+  },
+  {
+      "code": "36",
+      "title": "Поляна",
+      "tags": [
+          "mountain",
+          "world",
+          "daily_world",
+          "daily_all",
+          "rnd_world",
+          "mountain_loc_1"
+      ],
+      "garbage_assets": [
+          "BasketOfBerries",
+          "BirchBark",
+          "LukomorieSole",
+          "OwlFeathers",
+          "FoxTrail"
+      ]
+  },
+  {
+      "code": 360,
+      "title": "Потехи 6: Необитаемый остров!",
+      "tags": [
+          "Fun_Room",
+          "Fun_Room_Loc_6"
+      ],
+      "garbage_assets": [
+          "Fun_Room_Fun6_Garbage1",
+          "Fun_Room_Fun6_Garbage2",
+          "Fun_Room_Fun6_Garbage3",
+          "Fun_Room_Fun6_Garbage4",
+          "Fun_Room_Fun6_Garbage5"
+      ]
+  },
+  {
+      "code": 361,
+      "title": "Дневной экзотический Остров",
+      "tags": [
+          "home",
+          "heavenly_archipelago",
+          "heavenly_exotic_island_day",
+          "rnd_big_home",
+          "build_big_home",
+          "fast_regenerate"
+      ],
+      "garbage_assets": [
+          "HeavenlyExoticDayIsland_Garbage1",
+          "HeavenlyExoticDayIsland_Garbage2",
+          "HeavenlyExoticDayIsland_Garbage3"
+      ]
+  },
+  {
+      "code": 362,
+      "title": "Ночной экзотический Остров",
+      "tags": [
+          "home",
+          "heavenly_archipelago",
+          "heavenly_exotic_island_night",
+          "rnd_big_home",
+          "build_big_home",
+          "fast_regenerate"
+      ],
+      "garbage_assets": [
+          "HeavenlyExoticNightIsland_Garbage1",
+          "HeavenlyExoticNightIsland_Garbage2",
+          "HeavenlyExoticNightIsland_Garbage3"
+      ]
+  },
+  {
+      "code": "37",
+      "title": "Пещера",
+      "tags": [
+          "mountain",
+          "world",
+          "daily_world",
+          "daily_all",
+          "rnd_world",
+          "mountain_loc_2"
+      ],
+      "garbage_assets": [
+          "Stalagmite",
+          "Stalactite",
+          "PreciousStone",
+          "CaveBug",
+          "Pick",
+          "ArmorOfSnail",
+          "PieceOfChain"
+      ]
+  },
+  {
+      "code": "38",
+      "title": "Гадальня",
+      "tags": [
+          "home",
+          "new_home",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "rnd_new_home",
+          "slow",
+          "build_new_home"
+      ],
+      "garbage_assets": [
+          "OwlFeathers",
+          "RodentStone",
+          "OracleBook",
+          "BoarsTusk",
+          "FragmentaryCard",
+          
+          
+          "Prickle",
+          "MirrorFragment",
+          "WebCommon"
+      ]
+  },
+  {
+      "code": "4",
+      "title": "Светлица",
+      "tags": [
+          "home",
+          "svetlitsa",
+          "old_home",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "rnd_old_home",
+          "lostgeneral_red",
+          "slow",
+          "build_old_home"
+      ],
+      "garbage_assets": [
+          
+          
+          
+          
+          "CandyWrapper",
+          "FrameBroken",
+          "BrokenBasketForNeedlework",
+          "FlapOfTissue",
+          "EmptySpoolOfThread",
+          "MirrorFragment",
+          "BigButton"
+      ]
+  },
+  {
+      "code": "40",
+      "title": "Гардеробная",
+      "tags": [
+          "home",
+          "wardrobe",
+          "slow",
+          "daily_guest"
+      ],
+      "garbage_assets": [
+          "MothPink",
+          "MothGreen",
+          "MothBlue"
+      ]
+  },
+  {
+      "code": "42",
+      "title": "Стеклодувня",
+      "tags": [
+          "home",
+          "new_home",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "rnd_new_home",
+          "slow",
+          "glass_blower",
+          "build_new_home"
+      ],
+      "garbage_assets": [
+          "GlassblowingTube",
+          "PaintJar",
+          "StainedGlass",
+          "BrokenBank",
+          "SmashedEarthenwareTeaPot",
+          
+          "CocoonCommon"
+      ]
+  },
+  {
+      "code": "43",
+      "title": "Гараж",
+      "tags": [
+          "home",
+          "garage",
+          "new_home",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "rnd_new_home",
+          "slow",
+          "build_new_home"
+      ],
+      "garbage_assets": [
+          
+          
+          "MasterSet",
+          "Trowel",
+          "Chips",
+          "BrokenTyre",
+          "BrokenBall",
+          "BrokenBear",
+          "BrokenGuitar"
+      ]
+  },
+  {
+      "code": "45",
+      "title": "Карта дачи",
+      "tags": [
+          "farm",
+          "build_farm"
+      ],
+      "garbage_assets": null
+  },
+  {
+      "code": "46",
+      "title": "Тепличка",
+      "tags": [
+          "farm",
+          "build_farm",
+          "conservatory"
+      ],
+      "garbage_assets": null
+  },
+  {
+      "code": "47",
+      "title": "Библиотека",
+      "tags": [
+          "farm_Room_Library",
+          "farm",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "fast",
+          "build_farm"
+      ],
+      "garbage_assets": [
+          "Mold",
+          "Magnifier",
+          "BrokenTypewriter",
+          "BrokenPictureFrame",
+          "Hanger",
+          "OldCamera"
+      ]
+  },
+  {
+      "code": "48",
+      "title": "Веранда",
+      "tags": [
+          "farm",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "veranda",
+          "fast",
+          "build_farm"
+      ],
+      "garbage_assets": [
+          "Mold",
+          "BrokenPot",
+          "Citron",
+          "Chocolate",
+          "FigureAcorns",
+          "Fan"
+      ]
+  },
+  {
+      "code": "49",
+      "title": "Игровая",
+      "tags": [
+          "farm",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "fast",
+          "build_farm"
+      ],
+      "garbage_assets": [
+          "Mold",
+          "RubiksCube",
+          "Lotto",
+          "Whirligig",
+          "BallJumper",
+          "PaperBoat"
+      ]
+  },
+  {
+      "code": "5",
+      "title": "Рукодельня",
+      "tags": [
+          "home",
+          "old_home",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "rnd_old_home",
+          "rukodelnya",
+          "slow",
+          "build_old_home"
+      ],
+      "garbage_assets": [
+          
+          
+          
+          
+          "FrameBroken",
+          "CandyWrapper",
+          "BrokenBasketForNeedlework",
+          "EmptySpoolOfThread",
+          "FlapOfTissue",
+          "YarnLump",
+          "SockWithHole"
+      ]
+  },
+  {
+      "code": "50",
+      "title": "Лужайка",
+      "tags": [
+          "farm",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "fast",
+          "build_farm",
+          "lawn"
+      ],
+      "garbage_assets": [
+          "Mold",
+          "TuftOfWolfFur",
+          "Macadam",
+          "Lizard",
+          "Ladybird",
+          "GrassMeadow"
+      ]
+  },
+  {
+      "code": "51",
+      "title": "Мансарда",
+      "tags": [
+          "farm",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "fast",
+          "build_farm"
+      ],
+      "garbage_assets": [
+          "Mold",
+          "CloakAstrologer",
+          "RippedAtlas",
+          "ToyRocket",
+          "GreenAlien",
+          "PillowThought"
+      ]
+  },
+  {
+      "code": "52",
+      "title": "Озерцо",
+      "tags": [
+          "farm",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "fast",
+          "build_farm",
+          "lake"
+      ],
+      "garbage_assets": [
+          "Mold",
+          "DragonflyGarbage",
+          "FishScales",
+          "Crayfish",
+          "Cane",
+          "Reed"
+      ]
+  },
+  {
+      "code": "53",
+      "title": "Чулан",
+      "tags": [
+          "farm",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "fast",
+          "build_farm",
+          "pantry"
+      ],
+      "garbage_assets": [
+          "Mold",
+          "BrokenLamp",
+          "FairyTalesBook",
+          "BagWithBarley",
+          "BrokenBroom",
+          "BunchOfPepper"
+      ]
+  },
+  {
+      "code": "54",
+      "title": "Владения Бабы Яги",
+      "tags": [
+          "build_new_home"
+      ],
+      "garbage_assets": null
+  },
+  {
+      "code": "55",
+      "title": "Темный лес",
+      "tags": [
+          "yaga",
+          "world",
+          "daily_world",
+          "daily_all",
+          "rnd_world",
+          "yaga_loc_1"
+      ],
+      "garbage_assets": [
+          "CurveCammock",
+          "RodentStone",
+          "BoarsTusk",
+          "ChickenFeathers",
+          "PieceOfChain",
+          "BasketOfBerries"
+      ]
+  },
+  {
+      "code": "56",
+      "title": "Избушка",
+      "tags": [
+          "yaga",
+          "world",
+          "rnd_world",
+          "yaga_loc_2"
+      ],
+      "garbage_assets": [
+          "FadedBouquet",
+          "SwoonedCaterpillar",
+          "GardenFigurine",
+          "HuddledUpMushroom",
+          "Bone"
+      ]
+  },
+  {
+      "code": "57",
+      "title": "Владения Водяного",
+      "tags": [
+          "build_new_home"
+      ],
+      "garbage_assets": null
+  },
+  {
+      "code": "58",
+      "title": "Омут",
+      "tags": [
+          "merman",
+          "world",
+          "daily_world",
+          "daily_all",
+          "rnd_world",
+          "build_new_home"
+      ],
+      "garbage_assets": [
+          "BirchLeaf",
+          "BrokenOar",
+          "Fishbone",
+          "Goldfish",
+          "Bittern"
+      ]
+  },
+  {
+      "code": "59",
+      "title": "Русалочий остров",
+      "tags": [
+          "merman",
+          "world",
+          "daily_world",
+          "daily_all",
+          "rnd_world",
+          "build_new_home"
+      ],
+      "garbage_assets": [
+          "WoodenCrest",
+          "Cockleshell",
+          "RiverCoral",
+          "Nightie",
+          "FloralWreath"
+      ]
+  },
+  {
+      "code": "6",
+      "title": "Мельница",
+      "tags": [
+          "home",
+          "mill",
+          "old_home",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "rnd_old_home",
+          "slow",
+          "build_old_home"
+      ],
+      "garbage_assets": [
+          
+          
+          
+          
+          "Ear",
+          "SwoonedCaterpillar",
+          "DirtyPan",
+          "SmashedEarthenwarePot",
+          "BeetlePaws",
+          "BittingPie"
+      ]
+  },
+  {
+      "code": "61",
+      "title": "Медпункт",
+      "tags": [
+          "home",
+          "medic",
+          "new_home",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "rnd_new_home",
+          "slow",
+          "build_new_home"
+      ],
+      "garbage_assets": [
+          
+          
+          
+          
+          "DrCap",
+          "Bulletin",
+          "Enema",
+          "Pounder",
+          "Pill"
+      ]
+  },
+  {
+      "code": "65",
+      "title": "Котельная",
+      "tags": [
+          "home",
+          "boiler",
+          "new_home",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "rnd_new_home",
+          "slow",
+          "build_new_home"
+      ],
+      "garbage_assets": [
+          
+          
+          
+          
+          "Valve",
+          "Gloves",
+          "Log",
+          "Ashes",
+          "RustyNail"
+      ]
+  },
+  {
+      "code": "66",
+      "title": "Зоопарк",
+      "tags": [
+          "home",
+          "zoo",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "build_old_home"
+      ],
+      "garbage_assets": [
+          "Garbage_Zoo_1",
+          "Garbage_Zoo_2",
+          "Garbage_Zoo_3"
+      ]
+  },
+  {
+      "code": "67",
+      "title": "Сад",
+      "tags": [
+          "home",
+          "garden",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "build_new_home"
+      ],
+      "garbage_assets": [
+          "Garbage_Garden_1",
+          "Garbage_Garden_2",
+          "Garbage_Garden_3"
+      ]
+  },
+  {
+      "code": "7",
+      "title": "Конюшня",
+      "tags": [
+          "home",
+          "old_home",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "stable",
+          "rnd_old_home",
+          "slow",
+          "build_old_home"
+      ],
+      "garbage_assets": [
+          
+          
+          
+          
+          "LeakyShoe",
+          "Anvil",
+          "BrokenPipe",
+          "SamovarBoot",
+          "HoleRiddenBag",
+          "EmptyMoneyBag",
+          "LeakyBucket"
+      ]
+  },
+  {
+      "code": "70",
+      "title": "Пиратская бухта",
+      "tags": [
+          "build_farm"
+      ],
+      "garbage_assets": null
+  },
+  {
+      "code": "71",
+      "title": "Причал",
+      "tags": [
+          "pirate",
+          "world",
+          "daily_world",
+          "daily_all",
+          "rnd_world",
+          "build_farm"
+      ],
+      "garbage_assets": [
+          "Starfish",
+          "Weed",
+          "Fishbone",
+          "Goldfish",
+          "Cockleshell"
+      ]
+  },
+  {
+      "code": "72",
+      "title": "Палуба",
+      "tags": [
+          "pirate",
+          "world",
+          "daily_world",
+          "daily_all",
+          "rnd_world",
+          "build_farm"
+      ],
+      "garbage_assets": [
+          "BottleWithNote",
+          "TornNet",
+          "BrokenJug",
+          "LeafPineapple",
+          "LukomorieSole"
+      ]
+  },
+  {
+      "code": "73",
+      "title": "Трюм",
+      "tags": [
+          "pirate",
+          "world",
+          "daily_world",
+          "daily_all",
+          "rnd_world",
+          "build_farm"
+      ],
+      "garbage_assets": [
+          "BrokenBarrel",
+          "BrokenSword",
+          "EmptyMoneyBag",
+          "DeadLeaf",
+          "PieceOfChain"
+      ]
+  },
+  {
+      "code": "74",
+      "title": "Каюта капитана",
+      "tags": [
+          "pirate",
+          "world",
+          "daily_world",
+          "daily_all",
+          "rnd_world",
+          "build_farm"
+      ],
+      "garbage_assets": [
+          "Tricorn",
+          "Barometer",
+          "LukomorieNugget",
+          "FragmentaryCard",
+          "NibbledDoughnut"
+      ]
+  },
+  {
+      "code": "75",
+      "title": "Трофейня",
+      "tags": [
+          "home",
+          "build_new_home"
+      ],
+      "garbage_assets": null
+  },
+  {
+      "code": "76",
+      "title": "Зачарованная долина",
+      "tags": [
+          "build_old_home"
+      ],
+      "garbage_assets": null
+  },
+  {
+      "code": 77,
+      "title": "Зачарованная долина",
+      "tags": [
+          "pet",
+          "build_old_home"
+      ],
+      "garbage_assets": null
+  },
+  {
+      "code": "78",
+      "title": "Океанариум",
+      "tags": [
+          "home",
+          "aquarium",
+          "new_home",
+          "daily_guest",
+          "daily_all",
+          "slow",
+          "build_new_home"
+      ],
+      "garbage_assets": [
+          "TurbidWater",
+          "Greens",
+          "FadedAlga",
+          "Shards",
+          "SnailReel"
+      ]
+  },
+  {
+      "code": "79",
+      "title": "Ледяное царство",
+      "tags": [
+          "build_farm"
+      ],
+      "garbage_assets": null
+  },
+  {
+      "code": "8",
+      "title": "Кузница",
+      "tags": [
+          "home",
+          "old_home",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "smithy",
+          "rnd_old_home",
+          "slow",
+          "build_old_home"
+      ],
+      "garbage_assets": [
+          
+          
+          "MasterSet",
+          
+          
+          "CircassianWalnutShell",
+          "DeadLeaf",
+          "RustyLock",
+          "LeakyShoe",
+          "Anvil"
+      ]
+  },
+  {
+      "code": "80",
+      "title": "Искристое озеро",
+      "tags": [
+          "snowstorm",
+          "snowstorm_lake",
+          "world",
+          "daily_world",
+          "daily_all",
+          "rnd_world",
+          "rnd_snowstorm",
+          "build_farm"
+      ],
+      "garbage_assets": [
+          "IcyHeart",
+          "CrystalSnowflake",
+          "FurHat",
+          "MirrorFragment",
+          "PreciousStone"
+      ]
+  },
+  {
+      "code": "81",
+      "title": "Бальная зала",
+      "tags": [
+          "snowstorm",
+          "world",
+          "daily_world",
+          "daily_all",
+          "rnd_world",
+          "rnd_snowstorm",
+          "build_farm"
+      ],
+      "garbage_assets": [
+          "CrownSnowstorm",
+          "BrokenStick",
+          "SilverClutch",
+          "SnowPattern",
+          "Earring",
+          "WoodenCrest"
+      ]
+  },
+  {
+      "code": "82",
+      "title": "Ледяной сад",
+      "tags": [
+          "snowstorm",
+          "world",
+          "daily_world",
+          "daily_all",
+          "rnd_world",
+          "rnd_snowstorm",
+          "build_farm"
+      ],
+      "garbage_assets": [
+          "FrozenTwig",
+          "MulticoloredBumps",
+          "FrozenFlower",
+          "LukomorieScepter",
+          "GlassblowingTube"
+      ]
+  },
+  {
+      "code": "83",
+      "title": "Покои Метелицы",
+      "tags": [
+          "snowstorm",
+          "snowstorm_room",
+          "world",
+          "daily_world",
+          "daily_all",
+          "rnd_world",
+          "rnd_snowstorm",
+          "build_farm"
+      ],
+      "garbage_assets": [
+          "SwarovskiCrystals",
+          "SoapBubble",
+          "BoxOfBiscuits",
+          "SnowPattern",
+          "StainedGlass",
+          "ShinySpoon"
+      ]
+  },
+  {
+      "code": "84",
+      "title": "Царская гардеробная",
+      "tags": [
+          "home",
+          "wardrobe_vip",
+          "slow",
+          "daily_guest"
+      ],
+      "garbage_assets": [
+          "Garbage_Shoes1",
+          "Garbage_Shoes2",
+          "Garbage_Shoes3"
+      ]
+  },
+  {
+      "code": "85",
+      "title": "Дворец",
+      "tags": [
+          "build_big_home"
+      ],
+      "garbage_assets": null
+  },
+  {
+      "code": "86",
+      "title": "Кухня",
+      "tags": [
+          "home",
+          "big_home",
+          "kitchen",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "rnd_big_home",
+          "fast",
+          "build_big_home"
+      ],
+      "garbage_assets": [
+          "GarbageJuicer",
+          "GarbageNapkins",
+          "GarbageCupCoffee",
+          "GarbageSpoon",
+          "GarbageCrumbs",
+          
+          "OrangeSkin",
+          "MossCommon"
+      ]
+  },
+  {
+      "code": "87",
+      "title": "Загадочная комната",
+      "tags": [
+          "home",
+          "big_home",
+          "mystery",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "fast",
+          "build_big_home"
+      ],
+      "garbage_assets": [
+          
+          
+          
+          
+          "GarbageFirefly",
+          "GarbageSphere"
+      ]
+  },
+  {
+      "code": "88",
+      "title": "Комната с привидениями",
+      "tags": [
+          "home",
+          "big_home",
+          "ghost",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "rnd_big_home",
+          "fast",
+          "build_big_home"
+      ],
+      "garbage_assets": [
+          "Garbage_Chandelier",
+          "Garbage_Shadow",
+          "Garbage_Pentagram",
+          "Garbage_Spider",
+          "LukomorieArrow",
+          
+          
+          "MushroomCommon"
+      ]
+  },
+  {
+      "code": "89",
+      "title": "Комната красоты",
+      "tags": [
+          "home",
+          "big_home",
+          "beauty",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "rnd_big_home",
+          "fast",
+          "build_big_home"
+      ],
+      "garbage_assets": [
+          "Garbage_NailPolish",
+          "Garbage_Makeup",
+          "DrCap",
+          
+          "Nightie",
+          
+          "SwarovskiCrystals",
+          "CocoonCommon"
+      ]
+  },
+  {
+      "code": "9",
+      "title": "Банька",
+      "tags": [
+          "home",
+          "bath",
+          "old_home",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "rnd_old_home",
+          "lostgeneral_blue",
+          "slow",
+          "build_old_home"
+      ],
+      "garbage_assets": [
+          
+          
+          
+          
+          "SamovarBoot",
+          "LeakyShoe",
+          "BrokenPipe",
+          "Frog",
+          "BirchLeaf",
+          "ThickFeltRag",
+          "StrawPinch"
+      ]
+  },
+  {
+      "code": "90",
+      "title": "Комната за часами",
+      "tags": [
+          "home",
+          "big_home",
+          "clock",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "rnd_big_home",
+          "fast",
+          "build_big_home"
+      ],
+      "garbage_assets": [
+          "Garbage_TornStrap",
+          "Garbage_ArrowClockTower",
+          "ClockRaffles",
+          "Valve",
+          "Garbage_Shadow",
+          
+          
+          "WebCommon"
+      ]
+  },
+  {
+      "code": "91",
+      "title": "Чародейная",
+      "tags": [
+          "home",
+          "big_home",
+          "alchemy",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "rnd_big_home",
+          "fast",
+          "build_big_home"
+      ],
+      "garbage_assets": [
+          "Garbage_Bulb",
+          "Garbage_PhilosopherStone",
+          "BagOfFertilizer",
+          "OracleBook",
+          "Barometer",
+          
+          
+          "MushroomCommon"
+      ]
+  },
+  {
+      "code": "92",
+      "title": "Оружейная",
+      "tags": [
+          "home",
+          "big_home",
+          "armory",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "rnd_big_home",
+          "fast",
+          "build_big_home"
+      ],
+      "garbage_assets": [
+          "Garbage_Armor",
+          "Garbage_Shield",
+          "Garbage_Helmet",
+          "Earring",
+          "TassleYarmolke",
+          
+          
+          "CocoonCommon"
+      ]
+  },
+  {
+      "code": "93",
+      "title": "Комната искусств",
+      "tags": [
+          "home",
+          "big_home",
+          "Art",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "rnd_big_home",
+          "fast",
+          "build_big_home"
+      ],
+      "garbage_assets": [
+          "Garbage_Saxophone",
+          "Garbage_TornPicture",
+          "Garbage_DarkenedBust",
+          "GarbageCupCoffee",
+          "MulticoloredBumps",
+          
+          
+          "MossCommon"
+      ]
+  },
+  {
+      "code": "94",
+      "title": "Голубятня",
+      "tags": [
+          "home",
+          "big_home",
+          "Dovecote",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "rnd_big_home",
+          "fast",
+          "build_big_home"
+      ],
+      "garbage_assets": [
+          "Garbage_Bread",
+          "Garbage_BirdGazette",
+          "Garbage_Perch",
+          "Chips",
+          "Pinions",
+          
+          
+          "WebCommon"
+      ]
+  },
+  {
+      "code": "95",
+      "title": "Цветущий балкон",
+      "tags": [
+          "farm",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "fast",
+          "build_big_farm"
+      ],
+      "garbage_assets": [
+          "Mold",
+          "Garbage_FoldingChair",
+          "Garbage_WarmBlanket",
+          "Garbage_Candlestick",
+          "Garbage_PictureBook",
+          "Garbage_Chiffchaff"
+      ]
+  },
+  {
+      "code": "96",
+      "title": "Планетарий",
+      "tags": [
+          "farm",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "fast",
+          "build_big_farm",
+          "planetariy"
+      ],
+      "garbage_assets": [
+          "Mold",
+          "Garbage_LittleSun",
+          "Garbage_Collapsar",
+          "Garbage_MilkyWay",
+          "Garbage_Ufo",
+          "Garbage_Crescent"
+      ]
+  },
+  {
+      "code": "97",
+      "title": "Карта дачи",
+      "tags": [
+          "build_big_farm"
+      ],
+      "garbage_assets": null
+  },
+  {
+      "code": "98",
+      "title": "Чайная комната",
+      "tags": [
+          "home",
+          "big_home",
+          "TeaHouse",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "rnd_big_home",
+          "fast",
+          "build_big_home"
+      ],
+      "garbage_assets": [
+          "Garbage_PinkPetals",
+          "Garbage_PaintedTeapot",
+          "Garbage_TurkishDelight",
+          "BrokenPlate",
+          "Kozinaki",
+          
+          "Garbage_Spot",
+          "WebCommon"
+      ]
+  },
+  {
+      "code": "99",
+      "title": "Сауна",
+      "tags": [
+          "farm",
+          "daily_guest",
+          "daily_all",
+          "daily_photo",
+          "sauna",
+          "fast",
+          "build_big_farm"
+      ],
+      "garbage_assets": [
+          "Mold",
+          "FarmBasketWithTowels",
+          "FarmSaltLamp",
+          "FarmRubberToy",
+          "FarmSlippersForSauna",
+          "FarmThermosBeverage"
+      ]
+  }
+]

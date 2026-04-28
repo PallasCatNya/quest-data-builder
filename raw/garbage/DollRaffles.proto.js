@@ -1,0 +1,40 @@
+{
+"class" : "AssetPrototype",
+"classname" : "DollRaffles",
+"title" : "Перчаточная кукла",
+"group" : "garbage",
+"subgroup" : "on_the_floor",
+"g_pest_probability_percent" : 16,
+"id" : "77022814",
+"rand_reward" : {"all":
+		[{"p":50,
+			"one_of":
+		[{"asset":"DollsCollection1",
+					"p":100},
+				{"asset":"DollsCollection2",
+					"p":100},
+				{"asset":"DollsCollection3",
+					"p":30},
+				{"asset":"DollsCollection4",
+					"p":100},
+				{"asset":"DollsCollection5",
+					"p":10}]}],
+	"money_alt":2,
+	"xp":3},
+"rand_reward_in_guest" : {"all":
+		[{"p":33,
+			"one_of":
+		[{"asset":"DollsCollection1",
+					"p":100},
+				{"asset":"DollsCollection2",
+					"p":100},
+				{"asset":"DollsCollection3",
+					"p":30},
+				{"asset":"DollsCollection4",
+					"p":100},
+				{"asset":"DollsCollection5",
+					"p":8}]}],
+	"money_alt":2,
+	"reputation_progress":1,
+	"xp":3}
+}

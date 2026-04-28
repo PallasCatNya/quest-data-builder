@@ -1,0 +1,41 @@
+{
+"class" : "AssetPrototype",
+"classname" : "NibbledCutlet",
+"title" : "Надкусанная котлета",
+"group" : "garbage",
+"subgroup" : "on_the_floor",
+"action_availability_conditions" : "done_quest=home1_clean_personage",
+"description" : "Сначала помыться надо, а потом мусор убирать.",
+"id" : "92675160",
+"rand_reward" : {"all":
+		[{"p":80,
+			"one_of":
+		[{"asset":"NibbledCutletCollection1",
+					"p":100},
+				{"asset":"NibbledCutletCollection2",
+					"p":100},
+				{"asset":"NibbledCutletCollection3",
+					"p":100},
+				{"asset":"NibbledCutletCollection4",
+					"p":70},
+				{"asset":"NibbledCutletCollection5",
+					"p":100}]}],
+	"money_alt":2,
+	"xp":1},
+"rand_reward_in_guest" : {"all":
+		[{"p":65,
+			"one_of":
+		[{"asset":"NibbledCutletCollection1",
+					"p":100},
+				{"asset":"NibbledCutletCollection2",
+					"p":100},
+				{"asset":"NibbledCutletCollection3",
+					"p":100},
+				{"asset":"NibbledCutletCollection4",
+					"p":35},
+				{"asset":"NibbledCutletCollection5",
+					"p":100}]}],
+	"money_alt":2,
+	"reputation_progress":1,
+	"xp":1}
+}

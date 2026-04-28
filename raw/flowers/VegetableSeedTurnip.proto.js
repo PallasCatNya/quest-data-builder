@@ -1,0 +1,20 @@
+{
+"class" : "AssetPrototype",
+"classname" : "VegetableSeedTurnip",
+"title" : "Семена репы",
+"description" : "Репа",
+"tags" : ["seed_vegetable","seed_simple","category_3"],
+"group" : "seeds",
+"subgroup" : "vegetables",
+"price" : 1,
+"currency" : "money",
+"sell_price" : 3,
+"meta_info" : "life=36000;states=3;icon_view_seed=1;help_view=VegetableSeedTurnipHelpIcon;location_board_view=VegetableTurnip;pack_asset=VegetableSeedTurnip_Package",
+"rand_reward" : {"asset":"VegetableTurnip", "xp":26},
+"rand_reward_in_guest" : {"reputation_progress":1, "xp":5},
+"energy_cost" : "dexterity=1",
+"accelerate_cost" : "asset=AccelerationPlantBooster:1",
+"recover_cost" : "asset=RecoverPlantBooster:1",
+"shop_conditions" : "done_quest=FarmNew7_Pack1_Planetarium1",
+"id" : 32453
+}

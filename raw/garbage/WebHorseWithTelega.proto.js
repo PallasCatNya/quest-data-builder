@@ -1,0 +1,40 @@
+{
+"class" : "AssetPrototype",
+"classname" : "WebHorseWithTelega",
+"title" : "Паутина на коне с телегой",
+"group" : "garbage",
+"subgroup" : "on_asset",
+"tags":["exclude_for_generation"],
+"id" : "58934178",
+"rand_reward" : {"all":
+		[{"p":50,
+			"one_of":
+		[{"asset":"HoleRiddenBagCollection1",
+					"p":50},
+				{"asset":"HoleRiddenBagCollection2",
+					"p":50},
+				{"asset":"HoleRiddenBagCollection3",
+					"p":100},
+				{"asset":"HoleRiddenBagCollection4",
+					"p":100},
+				{"asset":"HoleRiddenBagCollection5",
+					"p":100}]}],
+	"money_alt":2,
+	"xp":1},
+"rand_reward_in_guest" : {"all":
+		[{"p":50,
+			"one_of":
+		[{"asset":"HoleRiddenBagCollection1",
+					"p":50},
+				{"asset":"HoleRiddenBagCollection2",
+					"p":50},
+				{"asset":"HoleRiddenBagCollection3",
+					"p":100},
+				{"asset":"HoleRiddenBagCollection4",
+					"p":100},
+				{"asset":"HoleRiddenBagCollection5",
+					"p":100}]}],
+	"money_alt":2,
+	"reputation_progress":1,
+	"xp":1}
+}

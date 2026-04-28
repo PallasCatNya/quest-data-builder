@@ -1,0 +1,2657 @@
+{
+  "flowers_by_classname": {
+    "FlowerBlueRose": {
+      "id": 16916,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_simple",
+        "seed_magazine",
+        "category_5"
+      ],
+      "price": 100,
+      "req_user_level": null,
+      "meta_info": "life=86400;states=3",
+      "rand_reward": {
+        "all": [
+          {
+            "p": 10,
+            "one_of": [
+              {
+                "asset": "FlowerBlueRoseCollection1",
+                "p": 50
+              },
+              {
+                "asset": "FlowerBlueRoseCollection2",
+                "p": 50
+              },
+              {
+                "asset": "FlowerBlueRoseCollection3",
+                "p": 100
+              },
+              {
+                "asset": "FlowerBlueRoseCollection4",
+                "p": 100
+              },
+              {
+                "asset": "FlowerBlueRoseCollection5",
+                "p": 25
+              }
+            ]
+          }
+        ],
+        "money_alt": 500,
+        "pie": 10,
+        "xp": 20
+      },
+      "rand_reward_in_guest": {
+        "all": [
+          {
+            "p": 10,
+            "one_of": [
+              {
+                "asset": "FlowerBlueRoseCollection1",
+                "p": 50
+              },
+              {
+                "asset": "FlowerBlueRoseCollection2",
+                "p": 50
+              },
+              {
+                "asset": "FlowerBlueRoseCollection3",
+                "p": 100
+              },
+              {
+                "asset": "FlowerBlueRoseCollection4",
+                "p": 100
+              },
+              {
+                "asset": "FlowerBlueRoseCollection5",
+                "p": 25
+              }
+            ]
+          }
+        ],
+        "money_alt": 160,
+        "pie": 3,
+        "reputation_progress": 1,
+        "xp": 7
+      },
+      "classname": "FlowerBlueRose",
+      "title": "Синяя роза",
+      "source_file": "raw/flowers/FlowerBlueRose.proto.js"
+    },
+    "FlowerCvetikSemicvetik": {
+      "id": 70111,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_simple",
+        "seed_flower",
+        "category_7"
+      ],
+      "price": 1000,
+      "req_user_level": null,
+      "meta_info": "life=43200;states=3",
+      "rand_reward": {
+        "money_alt": 1100,
+        "pie": 15,
+        "xp": 30,
+        "all": [
+          {
+            "p": 50,
+            "one_of": [
+              {
+                "asset": "FlowerCvetikSemicvetikCollection1",
+                "p": 100
+              },
+              {
+                "asset": "FlowerCvetikSemicvetikCollection2",
+                "p": 70
+              },
+              {
+                "asset": "FlowerCvetikSemicvetikCollection3",
+                "p": 60
+              },
+              {
+                "asset": "FlowerCvetikSemicvetikCollection4",
+                "p": 90
+              },
+              {
+                "asset": "FlowerCvetikSemicvetikCollection5",
+                "p": 15
+              }
+            ]
+          }
+        ]
+      },
+      "rand_reward_in_guest": {
+        "money_alt": 100,
+        "pie": 5,
+        "reputation_progress": 1,
+        "xp": 10,
+        "all": [
+          {
+            "p": 40,
+            "one_of": [
+              {
+                "asset": "FlowerCvetikSemicvetikCollection1",
+                "p": 100
+              },
+              {
+                "asset": "FlowerCvetikSemicvetikCollection2",
+                "p": 70
+              },
+              {
+                "asset": "FlowerCvetikSemicvetikCollection3",
+                "p": 60
+              },
+              {
+                "asset": "FlowerCvetikSemicvetikCollection4",
+                "p": 90
+              },
+              {
+                "asset": "FlowerCvetikSemicvetikCollection5",
+                "p": 15
+              }
+            ]
+          }
+        ]
+      },
+      "classname": "FlowerCvetikSemicvetik",
+      "title": "Цветик-семицветик",
+      "source_file": "raw/flowers/FlowerCvetikSemicvetik.proto.js"
+    },
+    "FlowerDahlia": {
+      "id": 9866,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_simple",
+        "seed_quest",
+        "category_5"
+      ],
+      "price": 160,
+      "req_user_level": null,
+      "meta_info": "life=50400;states=3",
+      "rand_reward": {
+        "all": [
+          {
+            "p": 55,
+            "one_of": [
+              {
+                "asset": "FlowerDahliaCollection1",
+                "p": 50
+              },
+              {
+                "asset": "FlowerDahliaCollection2",
+                "p": 80
+              },
+              {
+                "asset": "FlowerDahliaCollection3",
+                "p": 30
+              },
+              {
+                "asset": "FlowerDahliaCollection4",
+                "p": 100
+              },
+              {
+                "asset": "FlowerDahliaCollection5",
+                "p": 100
+              }
+            ]
+          }
+        ],
+        "money_alt": 381,
+        "pie": 15,
+        "xp": 25
+      },
+      "rand_reward_in_guest": {
+        "all": [
+          {
+            "p": 55,
+            "one_of": [
+              {
+                "asset": "FlowerDahliaCollection1",
+                "p": 50
+              },
+              {
+                "asset": "FlowerDahliaCollection2",
+                "p": 80
+              },
+              {
+                "asset": "FlowerDahliaCollection3",
+                "p": 30
+              },
+              {
+                "asset": "FlowerDahliaCollection4",
+                "p": 100
+              },
+              {
+                "asset": "FlowerDahliaCollection5",
+                "p": 100
+              }
+            ]
+          }
+        ],
+        "money_alt": 127,
+        "pie": 5,
+        "reputation_progress": 1,
+        "xp": 8
+      },
+      "classname": "FlowerDahlia",
+      "title": "Георгин",
+      "source_file": "raw/flowers/FlowerDahlia.proto.js"
+    },
+    "FlowerEith": {
+      "id": 223810178,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_simple",
+        "seed_flower",
+        "category_1"
+      ],
+      "price": 10,
+      "req_user_level": 1,
+      "meta_info": "life=180;states=3",
+      "rand_reward": {
+        "money_alt": 16,
+        "pie": 2,
+        "xp": 2,
+        "all": [
+          {
+            "p": 20,
+            "one_of": [
+              {
+                "asset": "Fl8Col1",
+                "p": 100
+              },
+              {
+                "asset": "Fl8Col2",
+                "p": 100
+              },
+              {
+                "asset": "Fl8Col3",
+                "p": 5
+              },
+              {
+                "asset": "Fl8Col4",
+                "p": 30
+              },
+              {
+                "asset": "Fl8Col5",
+                "p": 100
+              }
+            ]
+          }
+        ]
+      },
+      "rand_reward_in_guest": {
+        "money_alt": 1,
+        "pie": 1,
+        "reputation_progress": 1,
+        "xp": 1,
+        "all": [
+          {
+            "p": 20,
+            "one_of": [
+              {
+                "asset": "Fl8Col1",
+                "p": 100
+              },
+              {
+                "asset": "Fl8Col2",
+                "p": 100
+              },
+              {
+                "asset": "Fl8Col3",
+                "p": 5
+              },
+              {
+                "asset": "Fl8Col4",
+                "p": 30
+              },
+              {
+                "asset": "Fl8Col5",
+                "p": 100
+              }
+            ]
+          }
+        ]
+      },
+      "classname": "FlowerEith",
+      "title": "Лютик",
+      "source_file": "raw/flowers/FlowerEith.proto.js"
+    },
+    "FlowerEith_ForTutorial": {
+      "id": 10655,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_simple",
+        "category_1"
+      ],
+      "price": 10,
+      "req_user_level": 1,
+      "meta_info": "life=600;states=3;spoil_period=3600",
+      "rand_reward": {
+        "money_alt": 16,
+        "pie": 2,
+        "xp": 2,
+        "all": [
+          {
+            "p": 20,
+            "one_of": [
+              {
+                "asset": "Fl8Col1",
+                "p": 100
+              },
+              {
+                "asset": "Fl8Col2",
+                "p": 100
+              },
+              {
+                "asset": "Fl8Col3",
+                "p": 7
+              },
+              {
+                "asset": "Fl8Col4",
+                "p": 30
+              },
+              {
+                "asset": "Fl8Col5",
+                "p": 100
+              }
+            ]
+          }
+        ]
+      },
+      "rand_reward_in_guest": {
+        "money_alt": 1,
+        "pie": 1,
+        "reputation_progress": 1,
+        "xp": 1,
+        "all": [
+          {
+            "p": 20,
+            "one_of": [
+              {
+                "asset": "Fl8Col1",
+                "p": 100
+              },
+              {
+                "asset": "Fl8Col2",
+                "p": 100
+              },
+              {
+                "asset": "Fl8Col3",
+                "p": 7
+              },
+              {
+                "asset": "Fl8Col4",
+                "p": 30
+              },
+              {
+                "asset": "Fl8Col5",
+                "p": 100
+              }
+            ]
+          }
+        ]
+      },
+      "classname": "FlowerEith_ForTutorial",
+      "title": "Лютик",
+      "source_file": "raw/flowers/FlowerEith_ForTutorial.proto.js"
+    },
+    "FlowerElewen": {
+      "id": 22013353,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_simple",
+        "seed_flower",
+        "category_5"
+      ],
+      "price": 315,
+      "req_user_level": 17,
+      "meta_info": "life=64800;states=3",
+      "rand_reward": {
+        "money_alt": 754,
+        "pie": 18,
+        "xp": 24,
+        "all": [
+          {
+            "p": 33,
+            "one_of": [
+              {
+                "asset": "Fl11Col1",
+                "p": 100
+              },
+              {
+                "asset": "Fl11Col2",
+                "p": 20
+              },
+              {
+                "asset": "Fl11Col3",
+                "p": 100
+              },
+              {
+                "asset": "Fl11Col4",
+                "p": 100
+              },
+              {
+                "asset": "Fl11Col5",
+                "p": 100
+              }
+            ]
+          }
+        ]
+      },
+      "rand_reward_in_guest": {
+        "money_alt": 26,
+        "pie": 6,
+        "reputation_progress": 1,
+        "xp": 1,
+        "all": [
+          {
+            "p": 33,
+            "one_of": [
+              {
+                "asset": "Fl11Col1",
+                "p": 100
+              },
+              {
+                "asset": "Fl11Col2",
+                "p": 20
+              },
+              {
+                "asset": "Fl11Col3",
+                "p": 100
+              },
+              {
+                "asset": "Fl11Col4",
+                "p": 100
+              },
+              {
+                "asset": "Fl11Col5",
+                "p": 100
+              }
+            ]
+          }
+        ]
+      },
+      "classname": "FlowerElewen",
+      "title": "Ландыш",
+      "source_file": "raw/flowers/FlowerElewen.proto.js"
+    },
+    "FlowerFive": {
+      "id": 219106365,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_simple",
+        "seed_flower",
+        "category_7"
+      ],
+      "price": 280,
+      "req_user_level": 26,
+      "meta_info": "life=345600;states=3",
+      "rand_reward": {
+        "money_alt": 1489,
+        "pie": 10,
+        "xp": 30,
+        "all": [
+          {
+            "p": 50,
+            "one_of": [
+              {
+                "asset": "Fl5Col1",
+                "p": 100
+              },
+              {
+                "asset": "Fl5Col2",
+                "p": 100
+              },
+              {
+                "asset": "Fl5Col3",
+                "p": 100
+              },
+              {
+                "asset": "Fl5Col4",
+                "p": 100
+              },
+              {
+                "asset": "Fl5Col5",
+                "p": 50
+              }
+            ]
+          }
+        ]
+      },
+      "rand_reward_in_guest": {
+        "money_alt": 50,
+        "pie": 4,
+        "reputation_progress": 1,
+        "xp": 1,
+        "all": [
+          {
+            "p": 50,
+            "one_of": [
+              {
+                "asset": "Fl5Col1",
+                "p": 100
+              },
+              {
+                "asset": "Fl5Col2",
+                "p": 100
+              },
+              {
+                "asset": "Fl5Col3",
+                "p": 100
+              },
+              {
+                "asset": "Fl5Col4",
+                "p": 100
+              },
+              {
+                "asset": "Fl5Col5",
+                "p": 50
+              }
+            ]
+          }
+        ]
+      },
+      "classname": "FlowerFive",
+      "title": "Роза",
+      "source_file": "raw/flowers/FlowerFive.proto.js"
+    },
+    "FlowerFour": {
+      "id": 245503309,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_simple",
+        "seed_flower",
+        "category_6"
+      ],
+      "price": 250,
+      "req_user_level": 24,
+      "meta_info": "life=259200;states=3",
+      "rand_reward": {
+        "money_alt": 898,
+        "pie": 16,
+        "xp": 28,
+        "all": [
+          {
+            "p": 33,
+            "one_of": [
+              {
+                "asset": "Fl4Col1",
+                "p": 20
+              },
+              {
+                "asset": "Fl4Col2",
+                "p": 100
+              },
+              {
+                "asset": "Fl4Col3",
+                "p": 100
+              },
+              {
+                "asset": "Fl4Col4",
+                "p": 100
+              },
+              {
+                "asset": "Fl4Col5",
+                "p": 100
+              }
+            ]
+          }
+        ]
+      },
+      "rand_reward_in_guest": {
+        "money_alt": 30,
+        "pie": 6,
+        "reputation_progress": 1,
+        "xp": 1,
+        "all": [
+          {
+            "p": 33,
+            "one_of": [
+              {
+                "asset": "Fl4Col1",
+                "p": 20
+              },
+              {
+                "asset": "Fl4Col2",
+                "p": 100
+              },
+              {
+                "asset": "Fl4Col3",
+                "p": 100
+              },
+              {
+                "asset": "Fl4Col4",
+                "p": 100
+              },
+              {
+                "asset": "Fl4Col5",
+                "p": 100
+              }
+            ]
+          }
+        ]
+      },
+      "classname": "FlowerFour",
+      "title": "Лилия",
+      "source_file": "raw/flowers/FlowerFour.proto.js"
+    },
+    "FlowerFuchsia": {
+      "id": 9864,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_simple",
+        "seed_quest",
+        "category_3"
+      ],
+      "price": 100,
+      "req_user_level": null,
+      "meta_info": "life=18000;states=3;spoil_period=25200",
+      "rand_reward": {
+        "all": [
+          {
+            "p": 45,
+            "one_of": [
+              {
+                "asset": "FlowerFuchsiaCollection1",
+                "p": 100
+              },
+              {
+                "asset": "FlowerFuchsiaCollection2",
+                "p": 100
+              },
+              {
+                "asset": "FlowerFuchsiaCollection3",
+                "p": 100
+              },
+              {
+                "asset": "FlowerFuchsiaCollection4",
+                "p": 100
+              },
+              {
+                "asset": "FlowerFuchsiaCollection5",
+                "p": 35
+              }
+            ]
+          }
+        ],
+        "money_alt": 123,
+        "pie": 10,
+        "xp": 16
+      },
+      "rand_reward_in_guest": {
+        "all": [
+          {
+            "p": 45,
+            "one_of": [
+              {
+                "asset": "FlowerFuchsiaCollection1",
+                "p": 100
+              },
+              {
+                "asset": "FlowerFuchsiaCollection2",
+                "p": 100
+              },
+              {
+                "asset": "FlowerFuchsiaCollection3",
+                "p": 100
+              },
+              {
+                "asset": "FlowerFuchsiaCollection4",
+                "p": 100
+              },
+              {
+                "asset": "FlowerFuchsiaCollection5",
+                "p": 35
+              }
+            ]
+          }
+        ],
+        "money_alt": 41,
+        "pie": 3,
+        "reputation_progress": 1,
+        "xp": 5
+      },
+      "classname": "FlowerFuchsia",
+      "title": "Фуксия",
+      "source_file": "raw/flowers/FlowerFuchsia.proto.js"
+    },
+    "FlowerHibiscus": {
+      "id": 23124,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_simple",
+        "seed_quest",
+        "category_5"
+      ],
+      "price": 210,
+      "req_user_level": null,
+      "meta_info": "life=86400;states=3",
+      "rand_reward": {
+        "all": [
+          {
+            "p": 33,
+            "one_of": [
+              {
+                "asset": "FlowerHibiscusCollection1",
+                "p": 100
+              },
+              {
+                "asset": "FlowerHibiscusCollection2",
+                "p": 100
+              },
+              {
+                "asset": "FlowerHibiscusCollection3",
+                "p": 100
+              },
+              {
+                "asset": "FlowerHibiscusCollection4",
+                "p": 20
+              },
+              {
+                "asset": "FlowerHibiscusCollection5",
+                "p": 100
+              }
+            ]
+          }
+        ],
+        "money_alt": 540,
+        "pie": 15,
+        "xp": 25
+      },
+      "rand_reward_in_guest": {
+        "all": [
+          {
+            "p": 33,
+            "one_of": [
+              {
+                "asset": "FlowerHibiscusCollection1",
+                "p": 100
+              },
+              {
+                "asset": "FlowerHibiscusCollection2",
+                "p": 100
+              },
+              {
+                "asset": "FlowerHibiscusCollection3",
+                "p": 100
+              },
+              {
+                "asset": "FlowerHibiscusCollection4",
+                "p": 20
+              },
+              {
+                "asset": "FlowerHibiscusCollection5",
+                "p": 100
+              }
+            ]
+          }
+        ],
+        "money_alt": 18,
+        "pie": 5,
+        "reputation_progress": 1,
+        "xp": 1
+      },
+      "classname": "FlowerHibiscus",
+      "title": "Гибискус",
+      "source_file": "raw/flowers/FlowerHibiscus.proto.js"
+    },
+    "FlowerKissTulip": {
+      "id": 15433,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_simple",
+        "seed_magazine",
+        "category_7"
+      ],
+      "price": 100,
+      "req_user_level": null,
+      "meta_info": "life=432000;states=3",
+      "rand_reward": {
+        "all": [
+          {
+            "p": 60,
+            "one_of": [
+              {
+                "asset": "FlowerKissTulipCollection1",
+                "p": 100
+              },
+              {
+                "asset": "FlowerKissTulipCollection2",
+                "p": 100
+              },
+              {
+                "asset": "FlowerKissTulipCollection3",
+                "p": 20
+              },
+              {
+                "asset": "FlowerKissTulipCollection4",
+                "p": 50
+              },
+              {
+                "asset": "FlowerKissTulipCollection5",
+                "p": 25
+              }
+            ]
+          }
+        ],
+        "money_alt": 1300,
+        "pie": 20,
+        "xp": 35
+      },
+      "rand_reward_in_guest": {
+        "all": [
+          {
+            "p": 60,
+            "one_of": [
+              {
+                "asset": "FlowerKissTulipCollection1",
+                "p": 100
+              },
+              {
+                "asset": "FlowerKissTulipCollection2",
+                "p": 100
+              },
+              {
+                "asset": "FlowerKissTulipCollection3",
+                "p": 20
+              },
+              {
+                "asset": "FlowerKissTulipCollection4",
+                "p": 50
+              },
+              {
+                "asset": "FlowerKissTulipCollection5",
+                "p": 25
+              }
+            ]
+          }
+        ],
+        "money_alt": 430,
+        "pie": 6,
+        "reputation_progress": 1,
+        "xp": 10
+      },
+      "classname": "FlowerKissTulip",
+      "title": "Тюльпан \"Поцелуй солнца\"",
+      "source_file": "raw/flowers/FlowerKissTulip.proto.js"
+    },
+    "FlowerLaysDill": {
+      "id": 9463,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_simple",
+        "unavailable_for_daily_tasks"
+      ],
+      "price": 100,
+      "req_user_level": null,
+      "meta_info": "life=3600;states=3;spoil_period=86400",
+      "rand_reward": {
+        "money_alt": 300,
+        "pie": 15,
+        "xp": 25
+      },
+      "rand_reward_in_guest": {
+        "reputation_progress": 1,
+        "money_alt": 20,
+        "pie": 3,
+        "xp": 5
+      },
+      "classname": "FlowerLaysDill",
+      "title": "Укропчик",
+      "source_file": "raw/flowers/FlowerLaysDill.proto.js"
+    },
+    "FlowerLaysPotato": {
+      "id": 9462,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_simple",
+        "category_2",
+        "unavailable_for_daily_tasks"
+      ],
+      "price": 50,
+      "req_user_level": null,
+      "meta_info": "life=900;states=3;spoil_period=3600",
+      "rand_reward": {
+        "money_alt": 10,
+        "pie": 2,
+        "xp": 5
+      },
+      "rand_reward_in_guest": {
+        "reputation_progress": 1,
+        "money_alt": 5,
+        "pie": 1,
+        "xp": 2
+      },
+      "classname": "FlowerLaysPotato",
+      "title": "Картошечка",
+      "source_file": "raw/flowers/FlowerLaysPotato.proto.js"
+    },
+    "FlowerMagazine4_Hippeastrum": {
+      "id": 22024,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_simple",
+        "seed_magazine",
+        "category_6"
+      ],
+      "price": 100,
+      "req_user_level": null,
+      "meta_info": "life=172800;states=3",
+      "rand_reward": {
+        "all": [
+          {
+            "p": 60,
+            "one_of": [
+              {
+                "asset": "FlowerMagazine4_HippeastrumCollection1",
+                "p": 100
+              },
+              {
+                "asset": "FlowerMagazine4_HippeastrumCollection2",
+                "p": 100
+              },
+              {
+                "asset": "FlowerMagazine4_HippeastrumCollection3",
+                "p": 20
+              },
+              {
+                "asset": "FlowerMagazine4_HippeastrumCollection4",
+                "p": 50
+              },
+              {
+                "asset": "FlowerMagazine4_HippeastrumCollection5",
+                "p": 25
+              }
+            ]
+          }
+        ],
+        "money_alt": 900,
+        "pie": 15,
+        "xp": 40
+      },
+      "rand_reward_in_guest": {
+        "all": [
+          {
+            "p": 60,
+            "one_of": [
+              {
+                "asset": "FlowerMagazine4_HippeastrumCollection1",
+                "p": 100
+              },
+              {
+                "asset": "FlowerMagazine4_HippeastrumCollection2",
+                "p": 100
+              },
+              {
+                "asset": "FlowerMagazine4_HippeastrumCollection3",
+                "p": 20
+              },
+              {
+                "asset": "FlowerMagazine4_HippeastrumCollection4",
+                "p": 50
+              },
+              {
+                "asset": "FlowerMagazine4_HippeastrumCollection5",
+                "p": 25
+              }
+            ]
+          }
+        ],
+        "money_alt": 300,
+        "pie": 5,
+        "reputation_progress": 1,
+        "xp": 13
+      },
+      "classname": "FlowerMagazine4_Hippeastrum",
+      "title": "Гиппеаструм",
+      "source_file": "raw/flowers/FlowerMagazine4_Hippeastrum.proto.js"
+    },
+    "FlowerMagazine5_RainbowCalla": {
+      "id": 26701,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_simple",
+        "seed_magazine",
+        "category_6"
+      ],
+      "price": 100,
+      "req_user_level": null,
+      "meta_info": "life=172800;states=3",
+      "rand_reward": {
+        "all": [
+          {
+            "p": 50,
+            "one_of": [
+              {
+                "asset": "FlowerMagazine5_RainbowCallaCollection1",
+                "p": 100
+              },
+              {
+                "asset": "FlowerMagazine5_RainbowCallaCollection2",
+                "p": 100
+              },
+              {
+                "asset": "FlowerMagazine5_RainbowCallaCollection3",
+                "p": 40
+              },
+              {
+                "asset": "FlowerMagazine5_RainbowCallaCollection4",
+                "p": 20
+              },
+              {
+                "asset": "FlowerMagazine5_RainbowCallaCollection5",
+                "p": 15
+              }
+            ]
+          }
+        ],
+        "money_alt": 950,
+        "pie": 17,
+        "xp": 45
+      },
+      "rand_reward_in_guest": {
+        "all": [
+          {
+            "p": 50,
+            "one_of": [
+              {
+                "asset": "FlowerMagazine5_RainbowCallaCollection1",
+                "p": 100
+              },
+              {
+                "asset": "FlowerMagazine5_RainbowCallaCollection2",
+                "p": 100
+              },
+              {
+                "asset": "FlowerMagazine5_RainbowCallaCollection3",
+                "p": 40
+              },
+              {
+                "asset": "FlowerMagazine5_RainbowCallaCollection4",
+                "p": 20
+              },
+              {
+                "asset": "FlowerMagazine5_RainbowCallaCollection5",
+                "p": 15
+              }
+            ]
+          }
+        ],
+        "money_alt": 300,
+        "pie": 5,
+        "reputation_progress": 1,
+        "xp": 13
+      },
+      "classname": "FlowerMagazine5_RainbowCalla",
+      "title": "Радужная калла",
+      "source_file": "raw/flowers/FlowerMagazine5_RainbowCalla.proto.js"
+    },
+    "FlowerMagazine6_TerryMallow": {
+      "id": 30870,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_simple",
+        "seed_magazine",
+        "category_3"
+      ],
+      "price": 100,
+      "req_user_level": null,
+      "meta_info": "life=21600;states=3;spoil_period=28800",
+      "rand_reward": {
+        "all": [
+          {
+            "p": 50,
+            "one_of": [
+              {
+                "asset": "FlowerMagazine6_TerryMallowCollection1",
+                "p": 50
+              },
+              {
+                "asset": "FlowerMagazine6_TerryMallowCollection2",
+                "p": 100
+              },
+              {
+                "asset": "FlowerMagazine6_TerryMallowCollection3",
+                "p": 5
+              },
+              {
+                "asset": "FlowerMagazine6_TerryMallowCollection4",
+                "p": 100
+              },
+              {
+                "asset": "FlowerMagazine6_TerryMallowCollection5",
+                "p": 60
+              }
+            ]
+          }
+        ],
+        "money_alt": 350,
+        "pie": 10,
+        "xp": 18
+      },
+      "rand_reward_in_guest": {
+        "all": [
+          {
+            "p": 50,
+            "one_of": [
+              {
+                "asset": "FlowerMagazine6_TerryMallowCollection1",
+                "p": 50
+              },
+              {
+                "asset": "FlowerMagazine6_TerryMallowCollection2",
+                "p": 100
+              },
+              {
+                "asset": "FlowerMagazine6_TerryMallowCollection3",
+                "p": 5
+              },
+              {
+                "asset": "FlowerMagazine6_TerryMallowCollection4",
+                "p": 100
+              },
+              {
+                "asset": "FlowerMagazine6_TerryMallowCollection5",
+                "p": 60
+              }
+            ]
+          }
+        ],
+        "money_alt": 150,
+        "pie": 4,
+        "reputation_progress": 1,
+        "xp": 10
+      },
+      "classname": "FlowerMagazine6_TerryMallow",
+      "title": "Мальва махровая",
+      "source_file": "raw/flowers/FlowerMagazine6_TerryMallow.proto.js"
+    },
+    "FlowerMagazine7_Lupinus": {
+      "id": 100017,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_simple",
+        "seed_magazine",
+        "category_5"
+      ],
+      "price": 160,
+      "req_user_level": null,
+      "meta_info": "life=57600;states=3;spoil_period=57600",
+      "rand_reward": {
+        "money_alt": 400,
+        "pie": 14,
+        "xp": 20,
+        "all": [
+          {
+            "p": 40,
+            "one_of": [
+              {
+                "asset": "FlowerMagazine7_LupinusCollection1",
+                "p": 100
+              },
+              {
+                "asset": "FlowerMagazine7_LupinusCollection2",
+                "p": 90
+              },
+              {
+                "asset": "FlowerMagazine7_LupinusCollection3",
+                "p": 6
+              },
+              {
+                "asset": "FlowerMagazine7_LupinusCollection4",
+                "p": 80
+              },
+              {
+                "asset": "FlowerMagazine7_LupinusCollection5",
+                "p": 60
+              }
+            ]
+          }
+        ]
+      },
+      "rand_reward_in_guest": {
+        "money_alt": 200,
+        "pie": 4,
+        "reputation_progress": 1,
+        "xp": 11,
+        "all": [
+          {
+            "p": 40,
+            "one_of": [
+              {
+                "asset": "FlowerMagazine7_LupinusCollection1",
+                "p": 100
+              },
+              {
+                "asset": "FlowerMagazine7_LupinusCollection2",
+                "p": 90
+              },
+              {
+                "asset": "FlowerMagazine7_LupinusCollection3",
+                "p": 6
+              },
+              {
+                "asset": "FlowerMagazine7_LupinusCollection4",
+                "p": 80
+              },
+              {
+                "asset": "FlowerMagazine7_LupinusCollection5",
+                "p": 60
+              }
+            ]
+          }
+        ]
+      },
+      "classname": "FlowerMagazine7_Lupinus",
+      "title": "Люпин",
+      "source_file": "raw/flowers/FlowerMagazine7_Lupinus.proto.js"
+    },
+    "FlowerMagazine8_Anthurium": {
+      "id": 50202,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_simple",
+        "seed_magazine",
+        "category_2",
+        "unavailable_for_daily_tasks"
+      ],
+      "price": 500,
+      "req_user_level": null,
+      "meta_info": "life=7200;states=3;spoil_period=14400",
+      "rand_reward": {
+        "money_alt": 580,
+        "pie": 15,
+        "xp": 10,
+        "all": [
+          {
+            "p": 30,
+            "one_of": [
+              {
+                "asset": "FlowerMagazine8_AnthuriumCollection1",
+                "p": 100
+              },
+              {
+                "asset": "FlowerMagazine8_AnthuriumCollection2",
+                "p": 100
+              },
+              {
+                "asset": "FlowerMagazine8_AnthuriumCollection3",
+                "p": 6
+              },
+              {
+                "asset": "FlowerMagazine8_AnthuriumCollection4",
+                "p": 90
+              },
+              {
+                "asset": "FlowerMagazine8_AnthuriumCollection5",
+                "p": 80
+              }
+            ]
+          }
+        ]
+      },
+      "rand_reward_in_guest": {
+        "money_alt": 300,
+        "pie": 4,
+        "reputation_progress": 1,
+        "xp": 12,
+        "all": [
+          {
+            "p": 30,
+            "one_of": [
+              {
+                "asset": "FlowerMagazine8_AnthuriumCollection1",
+                "p": 100
+              },
+              {
+                "asset": "FlowerMagazine8_AnthuriumCollection2",
+                "p": 100
+              },
+              {
+                "asset": "FlowerMagazine8_AnthuriumCollection3",
+                "p": 6
+              },
+              {
+                "asset": "FlowerMagazine8_AnthuriumCollection4",
+                "p": 90
+              },
+              {
+                "asset": "FlowerMagazine8_AnthuriumCollection5",
+                "p": 80
+              }
+            ]
+          }
+        ]
+      },
+      "classname": "FlowerMagazine8_Anthurium",
+      "title": "Антуриум",
+      "source_file": "raw/flowers/FlowerMagazine8_Anthurium.proto.js"
+    },
+    "FlowerMagazine9_Plumeria": {
+      "id": 53272,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_simple",
+        "seed_magazine",
+        "category_2",
+        "unavailable_for_daily_tasks"
+      ],
+      "price": 500,
+      "req_user_level": null,
+      "meta_info": "life=43200;states=3;spoil_period=43200",
+      "rand_reward": {
+        "money_alt": 550,
+        "pie": 15,
+        "xp": 20,
+        "all": [
+          {
+            "p": 30,
+            "one_of": [
+              {
+                "asset": "FlowerMagazine9_PlumeriaCollection1",
+                "p": 50
+              },
+              {
+                "asset": "FlowerMagazine9_PlumeriaCollection2",
+                "p": 100
+              },
+              {
+                "asset": "FlowerMagazine9_PlumeriaCollection3",
+                "p": 5
+              },
+              {
+                "asset": "FlowerMagazine9_PlumeriaCollection4",
+                "p": 80
+              },
+              {
+                "asset": "FlowerMagazine9_PlumeriaCollection5",
+                "p": 25
+              }
+            ]
+          }
+        ]
+      },
+      "rand_reward_in_guest": {
+        "money_alt": 200,
+        "pie": 4,
+        "reputation_progress": 1,
+        "xp": 11,
+        "all": [
+          {
+            "p": 30,
+            "one_of": [
+              {
+                "asset": "FlowerMagazine9_PlumeriaCollection1",
+                "p": 50
+              },
+              {
+                "asset": "FlowerMagazine9_PlumeriaCollection2",
+                "p": 100
+              },
+              {
+                "asset": "FlowerMagazine9_PlumeriaCollection3",
+                "p": 5
+              },
+              {
+                "asset": "FlowerMagazine9_PlumeriaCollection4",
+                "p": 80
+              },
+              {
+                "asset": "FlowerMagazine9_PlumeriaCollection5",
+                "p": 25
+              }
+            ]
+          }
+        ]
+      },
+      "classname": "FlowerMagazine9_Plumeria",
+      "title": "Плюмерия",
+      "source_file": "raw/flowers/FlowerMagazine9_Plumeria.proto.js"
+    },
+    "FlowerMatrix": {
+      "id": 45220,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_simple",
+        "seed_quest",
+        "category_5"
+      ],
+      "price": 1000,
+      "req_user_level": null,
+      "meta_info": "life=28800;states=3",
+      "rand_reward": {
+        "all": [
+          {
+            "p": 30,
+            "one_of": [
+              {
+                "asset": "FlowerMatrixCollection1",
+                "p": 50
+              },
+              {
+                "asset": "FlowerMatrixCollection2",
+                "p": 40
+              },
+              {
+                "asset": "FlowerMatrixCollection3",
+                "p": 30
+              },
+              {
+                "asset": "FlowerMatrixCollection4",
+                "p": 40
+              },
+              {
+                "asset": "FlowerMatrixCollection5",
+                "p": 20
+              }
+            ]
+          }
+        ],
+        "money_alt": 1500,
+        "pie": 20,
+        "xp": 40
+      },
+      "rand_reward_in_guest": {
+        "all": [
+          {
+            "p": 20,
+            "one_of": [
+              {
+                "asset": "FlowerMatrixCollection1",
+                "p": 60
+              },
+              {
+                "asset": "FlowerMatrixCollection2",
+                "p": 30
+              },
+              {
+                "asset": "FlowerMatrixCollection3",
+                "p": 30
+              },
+              {
+                "asset": "FlowerMatrixCollection4",
+                "p": 40
+              },
+              {
+                "asset": "FlowerMatrixCollection5",
+                "p": 20
+              }
+            ]
+          }
+        ],
+        "money_alt": 100,
+        "pie": 6,
+        "reputation_progress": 2,
+        "xp": 15
+      },
+      "classname": "FlowerMatrix",
+      "title": "Матричка",
+      "source_file": "raw/flowers/FlowerMatrix.proto.js"
+    },
+    "FlowerNine": {
+      "id": 54115038,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_simple",
+        "seed_flower",
+        "category_6"
+      ],
+      "price": 220,
+      "req_user_level": 22,
+      "meta_info": "life=172800;states=3",
+      "rand_reward": {
+        "money_alt": 940,
+        "pie": 14,
+        "xp": 26,
+        "all": [
+          {
+            "p": 33,
+            "one_of": [
+              {
+                "asset": "Fl9Col1",
+                "p": 100
+              },
+              {
+                "asset": "Fl9Col2",
+                "p": 100
+              },
+              {
+                "asset": "Fl9Col3",
+                "p": 100
+              },
+              {
+                "asset": "Fl9Col4",
+                "p": 20
+              },
+              {
+                "asset": "Fl9Col5",
+                "p": 100
+              }
+            ]
+          }
+        ]
+      },
+      "rand_reward_in_guest": {
+        "money_alt": 32,
+        "pie": 5,
+        "reputation_progress": 1,
+        "xp": 1,
+        "all": [
+          {
+            "p": 33,
+            "one_of": [
+              {
+                "asset": "Fl9Col1",
+                "p": 100
+              },
+              {
+                "asset": "Fl9Col2",
+                "p": 100
+              },
+              {
+                "asset": "Fl9Col3",
+                "p": 100
+              },
+              {
+                "asset": "Fl9Col4",
+                "p": 20
+              },
+              {
+                "asset": "Fl9Col5",
+                "p": 100
+              }
+            ]
+          }
+        ]
+      },
+      "classname": "FlowerNine",
+      "title": "Гербера",
+      "source_file": "raw/flowers/FlowerNine.proto.js"
+    },
+    "FlowerOne": {
+      "id": 7179045,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_simple",
+        "seed_flower",
+        "category_4"
+      ],
+      "price": 170,
+      "req_user_level": 15,
+      "meta_info": "life=43200;states=3",
+      "rand_reward": {
+        "money_alt": 422,
+        "pie": 10,
+        "xp": 19,
+        "all": [
+          {
+            "p": 50,
+            "one_of": [
+              {
+                "asset": "Fl1Col1",
+                "p": 100
+              },
+              {
+                "asset": "Fl1Col2",
+                "p": 100
+              },
+              {
+                "asset": "Fl1Col3",
+                "p": 45
+              },
+              {
+                "asset": "Fl1Col4",
+                "p": 100
+              },
+              {
+                "asset": "Fl1Col5",
+                "p": 100
+              }
+            ]
+          }
+        ]
+      },
+      "rand_reward_in_guest": {
+        "money_alt": 15,
+        "pie": 4,
+        "reputation_progress": 1,
+        "xp": 1,
+        "all": [
+          {
+            "p": 50,
+            "one_of": [
+              {
+                "asset": "Fl1Col1",
+                "p": 100
+              },
+              {
+                "asset": "Fl1Col2",
+                "p": 100
+              },
+              {
+                "asset": "Fl1Col3",
+                "p": 45
+              },
+              {
+                "asset": "Fl1Col4",
+                "p": 100
+              },
+              {
+                "asset": "Fl1Col5",
+                "p": 100
+              }
+            ]
+          }
+        ]
+      },
+      "classname": "FlowerOne",
+      "title": "Нарцисс",
+      "source_file": "raw/flowers/FlowerOne.proto.js"
+    },
+    "FlowerOrchid": {
+      "id": 9867,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_simple",
+        "seed_quest",
+        "category_7"
+      ],
+      "price": 500,
+      "req_user_level": null,
+      "meta_info": "life=432000;states=3",
+      "rand_reward": {
+        "all": [
+          {
+            "p": 60,
+            "one_of": [
+              {
+                "asset": "FlowerOrchidCollection1",
+                "p": 100
+              },
+              {
+                "asset": "FlowerOrchidCollection2",
+                "p": 100
+              },
+              {
+                "asset": "FlowerOrchidCollection3",
+                "p": 100
+              },
+              {
+                "asset": "FlowerOrchidCollection4",
+                "p": 50
+              },
+              {
+                "asset": "FlowerOrchidCollection5",
+                "p": 20
+              }
+            ]
+          }
+        ],
+        "money_alt": 1001,
+        "pie": 18,
+        "xp": 35
+      },
+      "rand_reward_in_guest": {
+        "all": [
+          {
+            "p": 60,
+            "one_of": [
+              {
+                "asset": "FlowerOrchidCollection1",
+                "p": 100
+              },
+              {
+                "asset": "FlowerOrchidCollection2",
+                "p": 100
+              },
+              {
+                "asset": "FlowerOrchidCollection3",
+                "p": 100
+              },
+              {
+                "asset": "FlowerOrchidCollection4",
+                "p": 50
+              },
+              {
+                "asset": "FlowerOrchidCollection5",
+                "p": 20
+              }
+            ]
+          }
+        ],
+        "money_alt": 333,
+        "pie": 6,
+        "reputation_progress": 1,
+        "xp": 11
+      },
+      "classname": "FlowerOrchid",
+      "title": "Ванда",
+      "source_file": "raw/flowers/FlowerOrchid.proto.js"
+    },
+    "FlowerPeony": {
+      "id": 9862,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_simple",
+        "seed_quest",
+        "category_2"
+      ],
+      "price": 30,
+      "req_user_level": null,
+      "meta_info": "life=2100;states=3;spoil_period=7200",
+      "rand_reward": {
+        "all": [
+          {
+            "p": 75,
+            "one_of": [
+              {
+                "asset": "FlowerPeonyCollection1",
+                "p": 100
+              },
+              {
+                "asset": "FlowerPeonyCollection2",
+                "p": 100
+              },
+              {
+                "asset": "FlowerPeonyCollection3",
+                "p": 100
+              },
+              {
+                "asset": "FlowerPeonyCollection4",
+                "p": 100
+              },
+              {
+                "asset": "FlowerPeonyCollection5",
+                "p": 100
+              }
+            ]
+          }
+        ],
+        "money_alt": 40,
+        "pie": 3,
+        "xp": 5
+      },
+      "rand_reward_in_guest": {
+        "all": [
+          {
+            "p": 75,
+            "one_of": [
+              {
+                "asset": "FlowerPeonyCollection1",
+                "p": 100
+              },
+              {
+                "asset": "FlowerPeonyCollection2",
+                "p": 100
+              },
+              {
+                "asset": "FlowerPeonyCollection3",
+                "p": 100
+              },
+              {
+                "asset": "FlowerPeonyCollection4",
+                "p": 100
+              },
+              {
+                "asset": "FlowerPeonyCollection5",
+                "p": 100
+              }
+            ]
+          }
+        ],
+        "money_alt": 13,
+        "pie": 1,
+        "reputation_progress": 1,
+        "xp": 2
+      },
+      "classname": "FlowerPeony",
+      "title": "Пион",
+      "source_file": "raw/flowers/FlowerPeony.proto.js"
+    },
+    "FlowerPetunia": {
+      "id": 9863,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_simple",
+        "seed_quest",
+        "category_2"
+      ],
+      "price": 700,
+      "req_user_level": null,
+      "meta_info": "life=10800;states=3;spoil_period=18000",
+      "rand_reward": {
+        "all": [
+          {
+            "p": 70,
+            "one_of": [
+              {
+                "asset": "FlowerPetuniaCollection1",
+                "p": 100
+              },
+              {
+                "asset": "FlowerPetuniaCollection2",
+                "p": 100
+              },
+              {
+                "asset": "FlowerPetuniaCollection3",
+                "p": 100
+              },
+              {
+                "asset": "FlowerPetuniaCollection4",
+                "p": 100
+              },
+              {
+                "asset": "FlowerPetuniaCollection5",
+                "p": 100
+              }
+            ]
+          }
+        ],
+        "money_alt": 850,
+        "pie": 20,
+        "xp": 12
+      },
+      "rand_reward_in_guest": {
+        "all": [
+          {
+            "p": 70,
+            "one_of": [
+              {
+                "asset": "FlowerPetuniaCollection1",
+                "p": 100
+              },
+              {
+                "asset": "FlowerPetuniaCollection2",
+                "p": 100
+              },
+              {
+                "asset": "FlowerPetuniaCollection3",
+                "p": 100
+              },
+              {
+                "asset": "FlowerPetuniaCollection4",
+                "p": 100
+              },
+              {
+                "asset": "FlowerPetuniaCollection5",
+                "p": 100
+              }
+            ]
+          }
+        ],
+        "money_alt": 283,
+        "pie": 6,
+        "reputation_progress": 1,
+        "xp": 4
+      },
+      "classname": "FlowerPetunia",
+      "title": "Петунья",
+      "source_file": "raw/flowers/FlowerPetunia.proto.js"
+    },
+    "FlowerPinkRose": {
+      "id": 13789,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_simple",
+        "seed_magazine",
+        "category_6"
+      ],
+      "price": 100,
+      "req_user_level": null,
+      "meta_info": "life=259200;states=3",
+      "rand_reward": {
+        "all": [
+          {
+            "p": 50,
+            "one_of": [
+              {
+                "asset": "FlowerPinkRoseCollection1",
+                "p": 50
+              },
+              {
+                "asset": "FlowerPinkRoseCollection2",
+                "p": 50
+              },
+              {
+                "asset": "FlowerPinkRoseCollection3",
+                "p": 100
+              },
+              {
+                "asset": "FlowerPinkRoseCollection4",
+                "p": 100
+              },
+              {
+                "asset": "FlowerPinkRoseCollection5",
+                "p": 25
+              }
+            ]
+          }
+        ],
+        "money_alt": 1300,
+        "pie": 20,
+        "xp": 29
+      },
+      "rand_reward_in_guest": {
+        "all": [
+          {
+            "p": 50,
+            "one_of": [
+              {
+                "asset": "FlowerPinkRoseCollection1",
+                "p": 50
+              },
+              {
+                "asset": "FlowerPinkRoseCollection2",
+                "p": 50
+              },
+              {
+                "asset": "FlowerPinkRoseCollection3",
+                "p": 100
+              },
+              {
+                "asset": "FlowerPinkRoseCollection4",
+                "p": 100
+              },
+              {
+                "asset": "FlowerPinkRoseCollection5",
+                "p": 25
+              }
+            ]
+          }
+        ],
+        "money_alt": 430,
+        "pie": 6,
+        "reputation_progress": 1,
+        "xp": 9
+      },
+      "classname": "FlowerPinkRose",
+      "title": "Роза Нежная страсть",
+      "source_file": "raw/flowers/FlowerPinkRose.proto.js"
+    },
+    "FlowerPrimula": {
+      "id": 9865,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_simple",
+        "seed_quest",
+        "category_4"
+      ],
+      "price": 150,
+      "req_user_level": null,
+      "meta_info": "life=36000;states=3;spoil_period=43200",
+      "rand_reward": {
+        "all": [
+          {
+            "p": 50,
+            "one_of": [
+              {
+                "asset": "FlowerPrimulaCollection1",
+                "p": 50
+              },
+              {
+                "asset": "FlowerPrimulaCollection2",
+                "p": 100
+              },
+              {
+                "asset": "FlowerPrimulaCollection3",
+                "p": 100
+              },
+              {
+                "asset": "FlowerPrimulaCollection4",
+                "p": 100
+              },
+              {
+                "asset": "FlowerPrimulaCollection5",
+                "p": 50
+              }
+            ]
+          }
+        ],
+        "money_alt": 267,
+        "pie": 12,
+        "xp": 22
+      },
+      "rand_reward_in_guest": {
+        "all": [
+          {
+            "p": 50,
+            "one_of": [
+              {
+                "asset": "FlowerPrimulaCollection1",
+                "p": 50
+              },
+              {
+                "asset": "FlowerPrimulaCollection2",
+                "p": 100
+              },
+              {
+                "asset": "FlowerPrimulaCollection3",
+                "p": 100
+              },
+              {
+                "asset": "FlowerPrimulaCollection4",
+                "p": 100
+              },
+              {
+                "asset": "FlowerPrimulaCollection5",
+                "p": 50
+              }
+            ]
+          }
+        ],
+        "money_alt": 89,
+        "pie": 4,
+        "reputation_progress": 1,
+        "xp": 7
+      },
+      "classname": "FlowerPrimula",
+      "title": "Примула",
+      "source_file": "raw/flowers/FlowerPrimula.proto.js"
+    },
+    "FlowerSeaBuckthorn": {
+      "id": 10121,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_simple"
+      ],
+      "price": 20,
+      "req_user_level": null,
+      "meta_info": "life=6300;states=3;spoil_period=25200",
+      "rand_reward": {
+        "money_alt": 25,
+        "pie": 4,
+        "xp": 6,
+        "all": [
+          {
+            "asset": "DecoctionSeaBuckthorn",
+            "p": 50
+          }
+        ]
+      },
+      "rand_reward_in_guest": {
+        "reputation_progress": 1,
+        "money_alt": 8,
+        "pie": 1,
+        "xp": 2
+      },
+      "classname": "FlowerSeaBuckthorn",
+      "title": "Облепиха",
+      "source_file": "raw/flowers/FlowerSeaBuckthorn.proto.js"
+    },
+    "FlowerSeven": {
+      "id": 174909196,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_simple",
+        "seed_flower",
+        "category_2"
+      ],
+      "price": 50,
+      "req_user_level": 6,
+      "meta_info": "life=3600;states=3;spoil_period=7200",
+      "rand_reward": {
+        "money_alt": 84,
+        "pie": 4,
+        "xp": 9,
+        "all": [
+          {
+            "p": 50,
+            "one_of": [
+              {
+                "asset": "Fl7Col1",
+                "p": 50
+              },
+              {
+                "asset": "Fl7Col2",
+                "p": 100
+              },
+              {
+                "asset": "Fl7Col3",
+                "p": 100
+              },
+              {
+                "asset": "Fl7Col4",
+                "p": 100
+              },
+              {
+                "asset": "Fl7Col5",
+                "p": 50
+              }
+            ]
+          }
+        ]
+      },
+      "rand_reward_in_guest": {
+        "money_alt": 3,
+        "pie": 1,
+        "reputation_progress": 1,
+        "xp": 1,
+        "all": [
+          {
+            "p": 50,
+            "one_of": [
+              {
+                "asset": "Fl7Col1",
+                "p": 50
+              },
+              {
+                "asset": "Fl7Col2",
+                "p": 100
+              },
+              {
+                "asset": "Fl7Col3",
+                "p": 100
+              },
+              {
+                "asset": "Fl7Col4",
+                "p": 100
+              },
+              {
+                "asset": "Fl7Col5",
+                "p": 50
+              }
+            ]
+          }
+        ]
+      },
+      "classname": "FlowerSeven",
+      "title": "Мак",
+      "source_file": "raw/flowers/FlowerSeven.proto.js"
+    },
+    "FlowerSix": {
+      "id": 34878595,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_simple",
+        "seed_flower",
+        "category_1"
+      ],
+      "price": 25,
+      "req_user_level": 10,
+      "meta_info": "life=900;states=3;spoil_period=3600",
+      "rand_reward": {
+        "money_alt": 35,
+        "pie": 2,
+        "xp": 4,
+        "all": [
+          {
+            "p": 33,
+            "one_of": [
+              {
+                "asset": "Fl6Col1",
+                "p": 20
+              },
+              {
+                "asset": "Fl6Col2",
+                "p": 100
+              },
+              {
+                "asset": "Fl6Col3",
+                "p": 100
+              },
+              {
+                "asset": "Fl6Col4",
+                "p": 100
+              },
+              {
+                "asset": "Fl6Col5",
+                "p": 100
+              }
+            ]
+          }
+        ]
+      },
+      "rand_reward_in_guest": {
+        "money_alt": 2,
+        "pie": 1,
+        "reputation_progress": 1,
+        "xp": 1,
+        "all": [
+          {
+            "p": 33,
+            "one_of": [
+              {
+                "asset": "Fl6Col1",
+                "p": 20
+              },
+              {
+                "asset": "Fl6Col2",
+                "p": 100
+              },
+              {
+                "asset": "Fl6Col3",
+                "p": 100
+              },
+              {
+                "asset": "Fl6Col4",
+                "p": 100
+              },
+              {
+                "asset": "Fl6Col5",
+                "p": 100
+              }
+            ]
+          }
+        ]
+      },
+      "classname": "FlowerSix",
+      "title": "Василек",
+      "source_file": "raw/flowers/FlowerSix.proto.js"
+    },
+    "FlowerTen": {
+      "id": 103202404,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_simple",
+        "seed_flower",
+        "category_2"
+      ],
+      "price": 650,
+      "req_user_level": 19,
+      "meta_info": "life=7200;states=3;spoil_period=14400",
+      "rand_reward": {
+        "money_alt": 710,
+        "pie": 16,
+        "xp": 9,
+        "all": [
+          {
+            "p": 33,
+            "one_of": [
+              {
+                "asset": "Fl10Col1",
+                "p": 20
+              },
+              {
+                "asset": "Fl10Col2",
+                "p": 100
+              },
+              {
+                "asset": "Fl10Col3",
+                "p": 100
+              },
+              {
+                "asset": "Fl10Col4",
+                "p": 100
+              },
+              {
+                "asset": "Fl10Col5",
+                "p": 100
+              }
+            ]
+          }
+        ]
+      },
+      "rand_reward_in_guest": {
+        "money_alt": 24,
+        "pie": 6,
+        "reputation_progress": 1,
+        "xp": 1,
+        "all": [
+          {
+            "p": 33,
+            "one_of": [
+              {
+                "asset": "Fl10Col1",
+                "p": 20
+              },
+              {
+                "asset": "Fl10Col2",
+                "p": 100
+              },
+              {
+                "asset": "Fl10Col3",
+                "p": 100
+              },
+              {
+                "asset": "Fl10Col4",
+                "p": 100
+              },
+              {
+                "asset": "Fl10Col5",
+                "p": 100
+              }
+            ]
+          }
+        ]
+      },
+      "classname": "FlowerTen",
+      "title": "Колокольчики",
+      "source_file": "raw/flowers/FlowerTen.proto.js"
+    },
+    "FlowerThree": {
+      "id": 57404730,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_simple",
+        "seed_flower",
+        "category_5"
+      ],
+      "price": 150,
+      "req_user_level": 20,
+      "meta_info": "life=86400;states=3",
+      "rand_reward": {
+        "money_alt": 510,
+        "pie": 14,
+        "xp": 24,
+        "all": [
+          {
+            "p": 33,
+            "one_of": [
+              {
+                "asset": "Fl3Col1",
+                "p": 20
+              },
+              {
+                "asset": "Fl3Col2",
+                "p": 100
+              },
+              {
+                "asset": "Fl3Col3",
+                "p": 100
+              },
+              {
+                "asset": "Fl3Col4",
+                "p": 100
+              },
+              {
+                "asset": "Fl3Col5",
+                "p": 100
+              }
+            ]
+          }
+        ]
+      },
+      "rand_reward_in_guest": {
+        "money_alt": 17,
+        "pie": 5,
+        "reputation_progress": 1,
+        "xp": 1,
+        "all": [
+          {
+            "p": 33,
+            "one_of": [
+              {
+                "asset": "Fl3Col1",
+                "p": 20
+              },
+              {
+                "asset": "Fl3Col2",
+                "p": 100
+              },
+              {
+                "asset": "Fl3Col3",
+                "p": 100
+              },
+              {
+                "asset": "Fl3Col4",
+                "p": 100
+              },
+              {
+                "asset": "Fl3Col5",
+                "p": 100
+              }
+            ]
+          }
+        ]
+      },
+      "classname": "FlowerThree",
+      "title": "Тюльпан",
+      "source_file": "raw/flowers/FlowerThree.proto.js"
+    },
+    "FlowerTwelve": {
+      "id": 119715392,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_simple",
+        "seed_flower",
+        "category_4"
+      ],
+      "price": 150,
+      "req_user_level": 14,
+      "meta_info": "life=28800;states=3;spoil_period=43200",
+      "rand_reward": {
+        "money_alt": 338,
+        "pie": 10,
+        "xp": 16,
+        "all": [
+          {
+            "p": 50,
+            "one_of": [
+              {
+                "asset": "Fl12Col1",
+                "p": 50
+              },
+              {
+                "asset": "Fl12Col2",
+                "p": 100
+              },
+              {
+                "asset": "Fl12Col3",
+                "p": 100
+              },
+              {
+                "asset": "Fl12Col4",
+                "p": 100
+              },
+              {
+                "asset": "Fl12Col5",
+                "p": 50
+              }
+            ]
+          }
+        ]
+      },
+      "rand_reward_in_guest": {
+        "money_alt": 12,
+        "pie": 4,
+        "reputation_progress": 1,
+        "xp": 1,
+        "all": [
+          {
+            "p": 50,
+            "one_of": [
+              {
+                "asset": "Fl12Col1",
+                "p": 50
+              },
+              {
+                "asset": "Fl12Col2",
+                "p": 100
+              },
+              {
+                "asset": "Fl12Col3",
+                "p": 100
+              },
+              {
+                "asset": "Fl12Col4",
+                "p": 100
+              },
+              {
+                "asset": "Fl12Col5",
+                "p": 50
+              }
+            ]
+          }
+        ]
+      },
+      "classname": "FlowerTwelve",
+      "title": "Маргаритка",
+      "source_file": "raw/flowers/FlowerTwelve.proto.js"
+    },
+    "FlowerTwo": {
+      "id": 259958864,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_simple",
+        "seed_flower",
+        "category_3"
+      ],
+      "price": 90,
+      "req_user_level": 9,
+      "meta_info": "life=14400;states=3;spoil_period=21600",
+      "rand_reward": {
+        "money_alt": 192,
+        "pie": 8,
+        "xp": 14,
+        "all": [
+          {
+            "p": 75,
+            "one_of": [
+              {
+                "asset": "Fl2Col1",
+                "p": 100
+              },
+              {
+                "asset": "Fl2Col2",
+                "p": 100
+              },
+              {
+                "asset": "Fl2Col3",
+                "p": 100
+              },
+              {
+                "asset": "Fl2Col4",
+                "p": 100
+              },
+              {
+                "asset": "Fl2Col5",
+                "p": 100
+              }
+            ]
+          }
+        ]
+      },
+      "rand_reward_in_guest": {
+        "money_alt": 7,
+        "pie": 3,
+        "reputation_progress": 1,
+        "xp": 1,
+        "all": [
+          {
+            "p": 75,
+            "one_of": [
+              {
+                "asset": "Fl2Col1",
+                "p": 100
+              },
+              {
+                "asset": "Fl2Col2",
+                "p": 100
+              },
+              {
+                "asset": "Fl2Col3",
+                "p": 100
+              },
+              {
+                "asset": "Fl2Col4",
+                "p": 100
+              },
+              {
+                "asset": "Fl2Col5",
+                "p": 100
+              }
+            ]
+          }
+        ]
+      },
+      "classname": "FlowerTwo",
+      "title": "Ирис",
+      "source_file": "raw/flowers/FlowerTwo.proto.js"
+    },
+    "MagicFlowerHome": {
+      "id": 2344,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_quest",
+        "seed_simple",
+        "category_6"
+      ],
+      "price": 220,
+      "req_user_level": null,
+      "meta_info": "life=216000;states=3",
+      "rand_reward": {
+        "money_alt": 400,
+        "pie": 10,
+        "xp": 60
+      },
+      "rand_reward_in_guest": {
+        "money_alt": 16,
+        "pie": 3,
+        "reputation_progress": 1,
+        "xp": 1
+      },
+      "classname": "MagicFlowerHome",
+      "title": "Цветок очага",
+      "source_file": "raw/flowers/MagicFlowerHome.proto.js"
+    },
+    "MagicFlowerMiracle": {
+      "id": 2345,
+      "group": "seeds",
+      "subgroup": "flower",
+      "tags": [
+        "seed_quest",
+        "seed_simple",
+        "category_6"
+      ],
+      "price": 300,
+      "req_user_level": null,
+      "meta_info": "life=129600;states=3",
+      "rand_reward": {
+        "money_alt": 480,
+        "pie": 10,
+        "xp": 46
+      },
+      "rand_reward_in_guest": {
+        "money_alt": 16,
+        "pie": 3,
+        "reputation_progress": 1,
+        "xp": 1
+      },
+      "classname": "MagicFlowerMiracle",
+      "title": "Цветок магии",
+      "source_file": "raw/flowers/MagicFlowerMiracle.proto.js"
+    }
+  },
+  "summary": {
+    "flowers_found": 36
+  }
+}

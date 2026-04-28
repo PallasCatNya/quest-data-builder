@@ -1,0 +1,22 @@
+{
+"class" : "AssetPrototype",
+"classname" : "MagicFlowerChrysanthemum",
+"title" : "Хризантема",
+"description" : "Хризантема созревает за 25 минут.\nДает: 120 опыта, 100 грошиков, шанс получить 1 червончик.\nВянет за 4 часа.",
+"tags" : ["seed_magic","seed_simple","category_8","category_money"],
+"group" : "seeds",
+"subgroup" : "magic",
+"price" : 1,
+"currency" : "money",
+"sell_price" : 3,
+"meta_info" : "life=1500;states=3;spoil_period=14400",
+"energy_cost" : "energy=1",
+"accelerate_cost" : "asset=AccelerationPlantBooster:1",
+"recover_cost" : "asset=RecoverPlantBooster:1",
+"register_event_counter_on_buy" : 1,
+"rand_reward" : {"xp":120, "money_alt":100, "all":[{"p":20, "money":1}]},
+"rand_reward_in_guest" : {"reputation_progress":1,
+                          "xp":6,
+                          "money_alt":5},
+"id" : 4868
+}

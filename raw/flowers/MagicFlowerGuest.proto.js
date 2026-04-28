@@ -1,0 +1,21 @@
+{
+"class" : "AssetPrototype",
+"classname" : "MagicFlowerGuest",
+"title" : "Цветок Дружбы",
+"tags" : ["seed_magic","seed_shield","seed_simple","category_2"],
+"group" : "seeds",
+"subgroup" : "magic",
+"price" : 1,
+"currency" : "money",
+"sell_price" : 3,
+"meta_info" : "life=1800;states=3;spoil_period=28800",
+"energy_cost" : "energy=1",
+"accelerate_cost" : "asset=AccelerationPlantBooster:1",
+"recover_cost" : "asset=RecoverPlantBooster:1",
+"register_event_counter_on_buy" : 1,
+"rand_reward" : {"all":	[{"p":50, "asset":"MagicShieldGuest"}],
+                  "xp":15},
+"rand_reward_in_guest" : {"reputation_progress":1,
+                          "xp":3},
+"id" : 1672
+}

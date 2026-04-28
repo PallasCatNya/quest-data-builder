@@ -1,0 +1,20 @@
+{
+"class" : "AssetPrototype",
+"classname" : "VegetableSeedCabbage",
+"title" : "Семена капусты",
+"description" : "Капуста",
+"tags" : ["seed_vegetable","seed_simple","category_5"],
+"group" : "seeds",
+"subgroup" : "vegetables",
+"price" : 1,
+"currency" : "money",
+"sell_price" : 3,
+"meta_info" : "life=64800;states=3;icon_view_seed=1;help_view=VegetableSeedCabbageHelpIcon;location_board_view=VegetableCabbage;pack_asset=VegetableSeedCabbage_Package",
+"rand_reward" : {"asset":"VegetableCabbage", "xp":34},
+"rand_reward_in_guest" : {"reputation_progress":1, "xp":8},
+"energy_cost" : "dexterity=1",
+"accelerate_cost" : "asset=AccelerationPlantBooster:1",
+"recover_cost" : "asset=RecoverPlantBooster:1",
+"shop_conditions" : "done_quest=FarmRestlessGuests12",
+"id" : 7772
+}

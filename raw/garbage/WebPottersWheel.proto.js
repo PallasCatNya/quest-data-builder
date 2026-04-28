@@ -1,0 +1,40 @@
+{
+"class" : "AssetPrototype",
+"classname" : "WebPottersWheel",
+"title" : "Паутина на гончарном круге",
+"group" : "garbage",
+"subgroup" : "on_asset",
+"tags":["exclude_for_generation"],
+"id" : "10443417",
+"rand_reward" : {"all":
+		[{"p":75,
+			"one_of":
+		[{"asset":"SmashedEarthenwarePotCollection1",
+					"p":100},
+				{"asset":"SmashedEarthenwarePotCollection2",
+					"p":100},
+				{"asset":"SmashedEarthenwarePotCollection3",
+					"p":100},
+				{"asset":"SmashedEarthenwarePotCollection4",
+					"p":100},
+				{"asset":"SmashedEarthenwarePotCollection5",
+					"p":100}]}],
+	"money_alt":2,
+	"xp":1},
+"rand_reward_in_guest" : {"all":
+		[{"p":75,
+			"one_of":
+		[{"asset":"SmashedEarthenwarePotCollection1",
+					"p":100},
+				{"asset":"SmashedEarthenwarePotCollection2",
+					"p":100},
+				{"asset":"SmashedEarthenwarePotCollection3",
+					"p":100},
+				{"asset":"SmashedEarthenwarePotCollection4",
+					"p":100},
+				{"asset":"SmashedEarthenwarePotCollection5",
+					"p":100}]}],
+	"money_alt":2,
+	"reputation_progress":1,
+	"xp":1}
+}

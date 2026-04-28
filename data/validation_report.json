@@ -1,0 +1,3194 @@
+{
+  "errors": [],
+  "warnings": [
+    {
+      "location_code": "124",
+      "title": "Трюм корабля",
+      "file": "raw/locations/locations.json",
+      "code": "location_missing_tags",
+      "message": "Location has no tags"
+    },
+    {
+      "location_code": "124",
+      "title": "Трюм корабля",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "126",
+      "title": "Село",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "13",
+      "title": "Остров Чинга",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "133",
+      "title": "Сокровищница",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "17",
+      "title": "Лукоморье",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "182",
+      "title": "Забавы",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "185",
+      "title": "Бинокль",
+      "file": "raw/locations/locations.json",
+      "code": "location_missing_tags",
+      "message": "Location has no tags"
+    },
+    {
+      "location_code": "185",
+      "title": "Бинокль",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "19",
+      "title": "Замок Кощея",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "2",
+      "title": "Чердачок",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "203",
+      "title": "Дно морское",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "204",
+      "title": "Новогодняя площадь",
+      "file": "raw/locations/locations.json",
+      "code": "location_missing_tags",
+      "message": "Location has no tags"
+    },
+    {
+      "location_code": "204",
+      "title": "Новогодняя площадь",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "209",
+      "title": "Зимняя полянка",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "210",
+      "title": "Волчий бор",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "211",
+      "title": "Ледяной каток",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "212",
+      "title": "Серебряная опушка",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "213",
+      "title": "Рождественский экспресс",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "214",
+      "title": "Рождественский экспресс",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "215",
+      "title": "Небесный архипелаг",
+      "file": "raw/locations/locations.json",
+      "code": "location_missing_tags",
+      "message": "Location has no tags"
+    },
+    {
+      "location_code": "215",
+      "title": "Небесный архипелаг",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "216",
+      "title": "Облачный цветник",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "225",
+      "title": "Небесный вегетарий",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "24",
+      "title": "Село",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "243",
+      "title": "Планета Президента",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "245",
+      "title": "Планета Честолюбца",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "247",
+      "title": "Планета Маленького принца",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "253",
+      "title": "Волшебный остров",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "259",
+      "title": "Иконрный склад",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "26",
+      "title": "Владения Лешего",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "260",
+      "title": "Остров старьёвщика",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "261",
+      "title": "Кладовка",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "284",
+      "title": "Домик Шишинёнка",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "285",
+      "title": "Планета Рогатиков",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "286",
+      "title": "Метеорит Лунопузиков",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "30",
+      "title": "Расширенный дом",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "309",
+      "title": "Иловая спаленка",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "331",
+      "title": "Сокровищница",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "35",
+      "title": "Медная гора",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "352",
+      "title": "Потешная комната",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "45",
+      "title": "Карта дачи",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "46",
+      "title": "Тепличка",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "54",
+      "title": "Владения Бабы Яги",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "57",
+      "title": "Владения Водяного",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "70",
+      "title": "Пиратская бухта",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "75",
+      "title": "Трофейня",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "76",
+      "title": "Зачарованная долина",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "77",
+      "title": "Зачарованная долина",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "79",
+      "title": "Ледяное царство",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "85",
+      "title": "Дворец",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "97",
+      "title": "Карта дачи",
+      "file": "raw/locations/locations.json",
+      "code": "location_empty_garbage_assets",
+      "message": "Location has empty or null garbage_assets"
+    },
+    {
+      "location_code": "120",
+      "location_title": "Лапландия",
+      "garbage_classname": "NY14_Lapland_ChristmasTreeBall",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "120",
+      "location_title": "Лапландия",
+      "garbage_classname": "NY14_Lapland_PieceOfGarland",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "120",
+      "location_title": "Лапландия",
+      "garbage_classname": "NY14_Lapland_ChristmasSock",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "121",
+      "location_title": "Таити",
+      "garbage_classname": "NY14_Tahiti_RapanaSink",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "121",
+      "location_title": "Таити",
+      "garbage_classname": "NY14_Tahiti_Slippers",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "121",
+      "location_title": "Таити",
+      "garbage_classname": "NY14_Tahiti_Seafoam",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "123",
+      "location_title": "Зазеркалье",
+      "garbage_classname": "Amanita",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "123",
+      "location_title": "Зазеркалье",
+      "garbage_classname": "NibbledGingerbread",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "123",
+      "location_title": "Зазеркалье",
+      "garbage_classname": "GrayMouse",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "123",
+      "location_title": "Зазеркалье",
+      "garbage_classname": "PaintedRose",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "123",
+      "location_title": "Зазеркалье",
+      "garbage_classname": "PestWeed",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "140",
+      "location_title": "Купальская полянка",
+      "garbage_classname": "IvanKupala15_Garbage_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "140",
+      "location_title": "Купальская полянка",
+      "garbage_classname": "IvanKupala15_Garbage_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "140",
+      "location_title": "Купальская полянка",
+      "garbage_classname": "IvanKupala15_Garbage_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "140",
+      "location_title": "Купальская полянка",
+      "garbage_classname": "IvanKupala15_Garbage_4",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "140",
+      "location_title": "Купальская полянка",
+      "garbage_classname": "IvanKupala15_Garbage_5",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "145",
+      "location_title": "Дремучий лес",
+      "garbage_classname": "BD15_Garbage_Forest_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "145",
+      "location_title": "Дремучий лес",
+      "garbage_classname": "BD15_Garbage_Forest_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "145",
+      "location_title": "Дремучий лес",
+      "garbage_classname": "BD15_Garbage_Forest_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "146",
+      "location_title": "Дворец Царя Гороха",
+      "garbage_classname": "BD15_Garbage_Palace_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "146",
+      "location_title": "Дворец Царя Гороха",
+      "garbage_classname": "BD15_Garbage_Palace_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "146",
+      "location_title": "Дворец Царя Гороха",
+      "garbage_classname": "BD15_Garbage_Palace_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "147",
+      "location_title": "Кукольный театр",
+      "garbage_classname": "BD15_Garbage_Puppet_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "147",
+      "location_title": "Кукольный театр",
+      "garbage_classname": "BD15_Garbage_Puppet_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "147",
+      "location_title": "Кукольный театр",
+      "garbage_classname": "BD15_Garbage_Puppet_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "149",
+      "location_title": "Новогодняя почта",
+      "garbage_classname": "NY16_Garbage_Mail_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "149",
+      "location_title": "Новогодняя почта",
+      "garbage_classname": "NY16_Garbage_Mail_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "149",
+      "location_title": "Новогодняя почта",
+      "garbage_classname": "NY16_Garbage_Mail_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "150",
+      "location_title": "Мастерская подарков",
+      "garbage_classname": "NY16_Garbage_Gift_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "150",
+      "location_title": "Мастерская подарков",
+      "garbage_classname": "NY16_Garbage_Gift_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "150",
+      "location_title": "Мастерская подарков",
+      "garbage_classname": "NY16_Garbage_Gift_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "151",
+      "location_title": "Срочная доставка",
+      "garbage_classname": "NY16_Garbage_Delivery_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "151",
+      "location_title": "Срочная доставка",
+      "garbage_classname": "NY16_Garbage_Delivery_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "151",
+      "location_title": "Срочная доставка",
+      "garbage_classname": "NY16_Garbage_Delivery_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "152",
+      "location_title": "Избушка Лешего",
+      "garbage_classname": "Christmas16_Garbage_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "152",
+      "location_title": "Избушка Лешего",
+      "garbage_classname": "Christmas16_Garbage_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "152",
+      "location_title": "Избушка Лешего",
+      "garbage_classname": "Christmas16_Garbage_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "152",
+      "location_title": "Избушка Лешего",
+      "garbage_classname": "Christmas16_Garbage_4",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "152",
+      "location_title": "Избушка Лешего",
+      "garbage_classname": "Christmas16_Garbage_5",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "155",
+      "location_title": "Зимняя берложка",
+      "garbage_classname": "AprilFunny16_Garbage_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "155",
+      "location_title": "Зимняя берложка",
+      "garbage_classname": "AprilFunny16_Garbage_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "155",
+      "location_title": "Зимняя берложка",
+      "garbage_classname": "AprilFunny16_Garbage_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "155",
+      "location_title": "Зимняя берложка",
+      "garbage_classname": "AprilFunny16_Garbage_4",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "155",
+      "location_title": "Зимняя берложка",
+      "garbage_classname": "AprilFunny16_Garbage_5",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "159",
+      "location_title": "Песочница",
+      "garbage_classname": "Ussr16_Garbage_Sandbox_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "159",
+      "location_title": "Песочница",
+      "garbage_classname": "Ussr16_Garbage_Sandbox_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "159",
+      "location_title": "Песочница",
+      "garbage_classname": "Ussr16_Garbage_Sandbox_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "160",
+      "location_title": "Продовольственный магазин",
+      "garbage_classname": "Ussr16_Garbage_Shop_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "160",
+      "location_title": "Продовольственный магазин",
+      "garbage_classname": "Ussr16_Garbage_Shop_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "160",
+      "location_title": "Продовольственный магазин",
+      "garbage_classname": "Ussr16_Garbage_Shop_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "161",
+      "location_title": "Парк",
+      "garbage_classname": "Ussr16_Garbage_Park_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "161",
+      "location_title": "Парк",
+      "garbage_classname": "Ussr16_Garbage_Park_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "161",
+      "location_title": "Парк",
+      "garbage_classname": "Ussr16_Garbage_Park_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "164",
+      "location_title": "Дон Кихот",
+      "garbage_classname": "KnowledgeDay16_Garbage_Loc1_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "164",
+      "location_title": "Дон Кихот",
+      "garbage_classname": "KnowledgeDay16_Garbage_Loc1_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "164",
+      "location_title": "Дон Кихот",
+      "garbage_classname": "KnowledgeDay16_Garbage_Loc1_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "165",
+      "location_title": "Легенды Греции",
+      "garbage_classname": "KnowledgeDay16_Garbage_Loc2_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "165",
+      "location_title": "Легенды Греции",
+      "garbage_classname": "KnowledgeDay16_Garbage_Loc2_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "165",
+      "location_title": "Легенды Греции",
+      "garbage_classname": "KnowledgeDay16_Garbage_Loc2_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "166",
+      "location_title": "Робин Гуд",
+      "garbage_classname": "KnowledgeDay16_Garbage_Loc3_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "166",
+      "location_title": "Робин Гуд",
+      "garbage_classname": "KnowledgeDay16_Garbage_Loc3_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "166",
+      "location_title": "Робин Гуд",
+      "garbage_classname": "KnowledgeDay16_Garbage_Loc3_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "169",
+      "location_title": "Сумеречная чаща",
+      "garbage_classname": "BD16_Garbage_TwilightThicket_ConeWithSequins",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "169",
+      "location_title": "Сумеречная чаща",
+      "garbage_classname": "BD16_Garbage_TwilightThicket_MoonPool",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "169",
+      "location_title": "Сумеречная чаща",
+      "garbage_classname": "BD16_Garbage_TwilightThicket_YellowMushroom",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "170",
+      "location_title": "Деревенский огород",
+      "garbage_classname": "BD16_Garbage_CountryGarden_OnionPeel",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "170",
+      "location_title": "Деревенский огород",
+      "garbage_classname": "BD16_Garbage_CountryGarden_PinwheelBySnakes",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "170",
+      "location_title": "Деревенский огород",
+      "garbage_classname": "BD16_Garbage_CountryGarden_Wattle",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "171",
+      "location_title": "Чародейное предгорье",
+      "garbage_classname": "BD16_Garbage_SorceressFoothills_CloverLeaf",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "171",
+      "location_title": "Чародейное предгорье",
+      "garbage_classname": "BD16_Garbage_SorceressFoothills_Heather",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "171",
+      "location_title": "Чародейное предгорье",
+      "garbage_classname": "BD16_Garbage_SorceressFoothills_FairySlipper",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "174",
+      "location_title": "Гора Йоулупукки",
+      "garbage_classname": "NY21_Garbage_Loc1_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "174",
+      "location_title": "Гора Йоулупукки",
+      "garbage_classname": "NY21_Garbage_Loc1_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "174",
+      "location_title": "Гора Йоулупукки",
+      "garbage_classname": "NY21_Garbage_Loc1_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "175",
+      "location_title": "Беловежская Пуща",
+      "garbage_classname": "NY21_Garbage_Loc2_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "175",
+      "location_title": "Беловежская Пуща",
+      "garbage_classname": "NY21_Garbage_Loc2_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "175",
+      "location_title": "Беловежская Пуща",
+      "garbage_classname": "NY21_Garbage_Loc2_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "176",
+      "location_title": "Великий Устюг",
+      "garbage_classname": "NY21_Garbage_Loc3_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "176",
+      "location_title": "Великий Устюг",
+      "garbage_classname": "NY21_Garbage_Loc3_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "176",
+      "location_title": "Великий Устюг",
+      "garbage_classname": "NY21_Garbage_Loc3_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "179",
+      "location_title": "Серебряная гора",
+      "garbage_classname": "March8_2017_Garbage_Loc1_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "179",
+      "location_title": "Серебряная гора",
+      "garbage_classname": "March8_2017_Garbage_Loc1_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "179",
+      "location_title": "Серебряная гора",
+      "garbage_classname": "March8_2017_Garbage_Loc1_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "180",
+      "location_title": "Чудо-юдо Рыба-кит",
+      "garbage_classname": "March8_2017_Garbage_Loc2_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "180",
+      "location_title": "Чудо-юдо Рыба-кит",
+      "garbage_classname": "March8_2017_Garbage_Loc2_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "180",
+      "location_title": "Чудо-юдо Рыба-кит",
+      "garbage_classname": "March8_2017_Garbage_Loc2_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "181",
+      "location_title": "Небесный терем",
+      "garbage_classname": "March8_2017_Garbage_Loc3_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "181",
+      "location_title": "Небесный терем",
+      "garbage_classname": "March8_2017_Garbage_Loc3_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "181",
+      "location_title": "Небесный терем",
+      "garbage_classname": "March8_2017_Garbage_Loc3_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "188",
+      "location_title": "Посад",
+      "garbage_classname": "Finist17_Garbage_Loc1_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "188",
+      "location_title": "Посад",
+      "garbage_classname": "Finist17_Garbage_Loc1_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "188",
+      "location_title": "Посад",
+      "garbage_classname": "Finist17_Garbage_Loc1_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "189",
+      "location_title": "Пещера Картауса",
+      "garbage_classname": "Finist17_Garbage_Loc2_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "189",
+      "location_title": "Пещера Картауса",
+      "garbage_classname": "Finist17_Garbage_Loc2_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "189",
+      "location_title": "Пещера Картауса",
+      "garbage_classname": "Finist17_Garbage_Loc2_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "190",
+      "location_title": "Лихие угодья",
+      "garbage_classname": "Finist17_Garbage_Loc3_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "190",
+      "location_title": "Лихие угодья",
+      "garbage_classname": "Finist17_Garbage_Loc3_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "190",
+      "location_title": "Лихие угодья",
+      "garbage_classname": "Finist17_Garbage_Loc3_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "193",
+      "location_title": "Плоская Земля",
+      "garbage_classname": "KnowledgeDay17_Garbage_Loc1_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "193",
+      "location_title": "Плоская Земля",
+      "garbage_classname": "KnowledgeDay17_Garbage_Loc1_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "193",
+      "location_title": "Плоская Земля",
+      "garbage_classname": "KnowledgeDay17_Garbage_Loc1_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "194",
+      "location_title": "Древний спортзал",
+      "garbage_classname": "KnowledgeDay17_Garbage_Loc2_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "194",
+      "location_title": "Древний спортзал",
+      "garbage_classname": "KnowledgeDay17_Garbage_Loc2_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "194",
+      "location_title": "Древний спортзал",
+      "garbage_classname": "KnowledgeDay17_Garbage_Loc2_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "195",
+      "location_title": "Лаборатория Лео",
+      "garbage_classname": "KnowledgeDay17_Garbage_Loc3_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "195",
+      "location_title": "Лаборатория Лео",
+      "garbage_classname": "KnowledgeDay17_Garbage_Loc3_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "195",
+      "location_title": "Лаборатория Лео",
+      "garbage_classname": "KnowledgeDay17_Garbage_Loc3_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "196",
+      "location_title": "Бассейн",
+      "garbage_classname": "Mold",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "196",
+      "location_title": "Бассейн",
+      "garbage_classname": "BrokenBrush",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "196",
+      "location_title": "Бассейн",
+      "garbage_classname": "DoubleFins",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "196",
+      "location_title": "Бассейн",
+      "garbage_classname": "Melting",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "196",
+      "location_title": "Бассейн",
+      "garbage_classname": "ChunkHill",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "196",
+      "location_title": "Бассейн",
+      "garbage_classname": "Kolobashka",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "197",
+      "location_title": "Небесный остров",
+      "garbage_classname": "HeavenlyIsland_Garbage_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "197",
+      "location_title": "Небесный остров",
+      "garbage_classname": "HeavenlyIsland_Garbage_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "197",
+      "location_title": "Небесный остров",
+      "garbage_classname": "HeavenlyIsland_Garbage_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "197",
+      "location_title": "Небесный остров",
+      "garbage_classname": "HeavenlyIsland_Garbage_4",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "197",
+      "location_title": "Небесный остров",
+      "garbage_classname": "HeavenlyIsland_Garbage_5",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "200",
+      "location_title": "Царство Салтана",
+      "garbage_classname": "BD17_Garbage_Loc1_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "200",
+      "location_title": "Царство Салтана",
+      "garbage_classname": "BD17_Garbage_Loc1_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "200",
+      "location_title": "Царство Салтана",
+      "garbage_classname": "BD17_Garbage_Loc1_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "201",
+      "location_title": "Ратное поле",
+      "garbage_classname": "BD17_Garbage_Loc2_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "201",
+      "location_title": "Ратное поле",
+      "garbage_classname": "BD17_Garbage_Loc2_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "201",
+      "location_title": "Ратное поле",
+      "garbage_classname": "BD17_Garbage_Loc2_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "202",
+      "location_title": "Обитель Чародея",
+      "garbage_classname": "BD17_Garbage_Loc3_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "202",
+      "location_title": "Обитель Чародея",
+      "garbage_classname": "BD17_Garbage_Loc3_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "202",
+      "location_title": "Обитель Чародея",
+      "garbage_classname": "BD17_Garbage_Loc3_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "206",
+      "location_title": "Лапландия",
+      "garbage_classname": "NY18_Garbage_Loc1_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "206",
+      "location_title": "Лапландия",
+      "garbage_classname": "NY18_Garbage_Loc1_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "206",
+      "location_title": "Лапландия",
+      "garbage_classname": "NY18_Garbage_Loc1_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "207",
+      "location_title": "Снежный шар",
+      "garbage_classname": "NY18_Garbage_Loc2_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "207",
+      "location_title": "Снежный шар",
+      "garbage_classname": "NY18_Garbage_Loc2_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "207",
+      "location_title": "Снежный шар",
+      "garbage_classname": "NY18_Garbage_Loc2_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "208",
+      "location_title": "Устюг",
+      "garbage_classname": "NY18_Garbage_Loc3_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "208",
+      "location_title": "Устюг",
+      "garbage_classname": "NY18_Garbage_Loc3_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "208",
+      "location_title": "Устюг",
+      "garbage_classname": "NY18_Garbage_Loc3_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "219",
+      "location_title": "Деревенька",
+      "garbage_classname": "March8_22_Garbage_Loc1_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "219",
+      "location_title": "Деревенька",
+      "garbage_classname": "March8_22_Garbage_Loc1_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "219",
+      "location_title": "Деревенька",
+      "garbage_classname": "March8_22_Garbage_Loc1_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "220",
+      "location_title": "Деревня Канагава",
+      "garbage_classname": "March8_22_Garbage_Loc2_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "220",
+      "location_title": "Деревня Канагава",
+      "garbage_classname": "March8_22_Garbage_Loc2_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "220",
+      "location_title": "Деревня Канагава",
+      "garbage_classname": "March8_22_Garbage_Loc2_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "221",
+      "location_title": "Гавана",
+      "garbage_classname": "March8_22_Garbage_Loc3_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "221",
+      "location_title": "Гавана",
+      "garbage_classname": "March8_22_Garbage_Loc3_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "221",
+      "location_title": "Гавана",
+      "garbage_classname": "March8_22_Garbage_Loc3_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "222",
+      "location_title": "Детская",
+      "garbage_classname": "CocoonCommon",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "238",
+      "location_title": "Царский остров",
+      "garbage_classname": "HeavenlyKingIsland_Garbage_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "238",
+      "location_title": "Царский остров",
+      "garbage_classname": "HeavenlyKingIsland_Garbage_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "238",
+      "location_title": "Царский остров",
+      "garbage_classname": "HeavenlyKingIsland_Garbage_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "242",
+      "location_title": "Планета Нефтяника",
+      "garbage_classname": "BD18_Garbage_Loc1_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "242",
+      "location_title": "Планета Нефтяника",
+      "garbage_classname": "BD18_Garbage_Loc1_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "242",
+      "location_title": "Планета Нефтяника",
+      "garbage_classname": "BD18_Garbage_Loc1_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "244",
+      "location_title": "Планета Игромана",
+      "garbage_classname": "BD18_Garbage_Loc3_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "244",
+      "location_title": "Планета Игромана",
+      "garbage_classname": "BD18_Garbage_Loc3_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "244",
+      "location_title": "Планета Игромана",
+      "garbage_classname": "BD18_Garbage_Loc3_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "246",
+      "location_title": "Планета Фонарщика",
+      "garbage_classname": "BD18_Garbage_Loc5_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "246",
+      "location_title": "Планета Фонарщика",
+      "garbage_classname": "BD18_Garbage_Loc5_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "246",
+      "location_title": "Планета Фонарщика",
+      "garbage_classname": "BD18_Garbage_Loc5_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "250",
+      "location_title": "Дупло белок",
+      "garbage_classname": "NY19_Garbage_Loc1_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "250",
+      "location_title": "Дупло белок",
+      "garbage_classname": "NY19_Garbage_Loc1_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "250",
+      "location_title": "Дупло белок",
+      "garbage_classname": "NY19_Garbage_Loc1_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "251",
+      "location_title": "Школа бегемулей",
+      "garbage_classname": "NY19_Garbage_Loc2_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "251",
+      "location_title": "Школа бегемулей",
+      "garbage_classname": "NY19_Garbage_Loc2_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "251",
+      "location_title": "Школа бегемулей",
+      "garbage_classname": "NY19_Garbage_Loc2_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "252",
+      "location_title": "Домик мисс Бьорк",
+      "garbage_classname": "NY19_Garbage_Loc3_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "252",
+      "location_title": "Домик мисс Бьорк",
+      "garbage_classname": "NY19_Garbage_Loc3_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "252",
+      "location_title": "Домик мисс Бьорк",
+      "garbage_classname": "NY19_Garbage_Loc3_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "256",
+      "location_title": "Государство иноземское",
+      "garbage_classname": "March8_19_Garbage_Loc1_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "256",
+      "location_title": "Государство иноземское",
+      "garbage_classname": "March8_19_Garbage_Loc1_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "256",
+      "location_title": "Государство иноземское",
+      "garbage_classname": "March8_19_Garbage_Loc1_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "257",
+      "location_title": "Княжество заморское",
+      "garbage_classname": "March8_19_Garbage_Loc2_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "257",
+      "location_title": "Княжество заморское",
+      "garbage_classname": "March8_19_Garbage_Loc2_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "257",
+      "location_title": "Княжество заморское",
+      "garbage_classname": "March8_19_Garbage_Loc2_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "258",
+      "location_title": "Родная сторонушка",
+      "garbage_classname": "March8_19_Garbage_Loc3_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "258",
+      "location_title": "Родная сторонушка",
+      "garbage_classname": "March8_19_Garbage_Loc3_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "258",
+      "location_title": "Родная сторонушка",
+      "garbage_classname": "March8_19_Garbage_Loc3_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "265",
+      "location_title": "Лагерь Дружба",
+      "garbage_classname": "Summer19_Garbage_Loc1_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "265",
+      "location_title": "Лагерь Дружба",
+      "garbage_classname": "Summer19_Garbage_Loc1_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "265",
+      "location_title": "Лагерь Дружба",
+      "garbage_classname": "Summer19_Garbage_Loc1_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "266",
+      "location_title": "Бассейн Амазонки",
+      "garbage_classname": "Summer19_Garbage_Loc2_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "266",
+      "location_title": "Бассейн Амазонки",
+      "garbage_classname": "Summer19_Garbage_Loc2_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "266",
+      "location_title": "Бассейн Амазонки",
+      "garbage_classname": "Summer19_Garbage_Loc2_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "267",
+      "location_title": "Деревня Бабушкино",
+      "garbage_classname": "Summer19_Garbage_Loc3_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "267",
+      "location_title": "Деревня Бабушкино",
+      "garbage_classname": "Summer19_Garbage_Loc3_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "267",
+      "location_title": "Деревня Бабушкино",
+      "garbage_classname": "Summer19_Garbage_Loc3_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "270",
+      "location_title": "Переправа",
+      "garbage_classname": "Varvara19_Garbage_Loc1_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "270",
+      "location_title": "Переправа",
+      "garbage_classname": "Varvara19_Garbage_Loc1_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "270",
+      "location_title": "Переправа",
+      "garbage_classname": "Varvara19_Garbage_Loc1_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "271",
+      "location_title": "Покои Чуда-юда",
+      "garbage_classname": "Varvara19_Garbage_Loc2_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "271",
+      "location_title": "Покои Чуда-юда",
+      "garbage_classname": "Varvara19_Garbage_Loc2_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "271",
+      "location_title": "Покои Чуда-юда",
+      "garbage_classname": "Varvara19_Garbage_Loc2_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "272",
+      "location_title": "Светлица Варварушки",
+      "garbage_classname": "Varvara19_Garbage_Loc3_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "272",
+      "location_title": "Светлица Варварушки",
+      "garbage_classname": "Varvara19_Garbage_Loc3_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "272",
+      "location_title": "Светлица Варварушки",
+      "garbage_classname": "Varvara19_Garbage_Loc3_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "275",
+      "location_title": "Класс Зельеварения",
+      "garbage_classname": "KnowledgeDay19_Garbage_Loc1_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "275",
+      "location_title": "Класс Зельеварения",
+      "garbage_classname": "KnowledgeDay19_Garbage_Loc1_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "275",
+      "location_title": "Класс Зельеварения",
+      "garbage_classname": "KnowledgeDay19_Garbage_Loc1_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "276",
+      "location_title": "Класс Волшебной зоологии",
+      "garbage_classname": "KnowledgeDay19_Garbage_Loc2_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "276",
+      "location_title": "Класс Волшебной зоологии",
+      "garbage_classname": "KnowledgeDay19_Garbage_Loc2_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "276",
+      "location_title": "Класс Волшебной зоологии",
+      "garbage_classname": "KnowledgeDay19_Garbage_Loc2_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "277",
+      "location_title": "Призрачная",
+      "garbage_classname": "KnowledgeDay19_Garbage_Loc3_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "277",
+      "location_title": "Призрачная",
+      "garbage_classname": "KnowledgeDay19_Garbage_Loc3_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "277",
+      "location_title": "Призрачная",
+      "garbage_classname": "KnowledgeDay19_Garbage_Loc3_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "281",
+      "location_title": "Столица Объединённого Царства",
+      "garbage_classname": "BD19_Garbage_Loc1_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "281",
+      "location_title": "Столица Объединённого Царства",
+      "garbage_classname": "BD19_Garbage_Loc1_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "281",
+      "location_title": "Столица Объединённого Царства",
+      "garbage_classname": "BD19_Garbage_Loc1_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "282",
+      "location_title": "Ратное поле",
+      "garbage_classname": "BD19_Garbage_Loc2_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "282",
+      "location_title": "Ратное поле",
+      "garbage_classname": "BD19_Garbage_Loc2_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "282",
+      "location_title": "Ратное поле",
+      "garbage_classname": "BD19_Garbage_Loc2_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "283",
+      "location_title": "Заповедник",
+      "garbage_classname": "BD19_Garbage_Loc3_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "283",
+      "location_title": "Заповедник",
+      "garbage_classname": "BD19_Garbage_Loc3_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "283",
+      "location_title": "Заповедник",
+      "garbage_classname": "BD19_Garbage_Loc3_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "289",
+      "location_title": "Изнакурнож",
+      "garbage_classname": "NY20_Garbage_Loc1_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "289",
+      "location_title": "Изнакурнож",
+      "garbage_classname": "NY20_Garbage_Loc1_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "289",
+      "location_title": "Изнакурнож",
+      "garbage_classname": "NY20_Garbage_Loc1_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "29",
+      "location_title": "Дендрарий",
+      "garbage_classname": "BagelGarbage",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "29",
+      "location_title": "Дендрарий",
+      "garbage_classname": "MacaroniGarbage",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "29",
+      "location_title": "Дендрарий",
+      "garbage_classname": "MusicGarbage",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "29",
+      "location_title": "Дендрарий",
+      "garbage_classname": "TwinkleGarbage",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "29",
+      "location_title": "Дендрарий",
+      "garbage_classname": "RainGarbage",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "290",
+      "location_title": "Лаборатория абсолютных неожиданностей",
+      "garbage_classname": "NY20_Garbage_Loc2_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "290",
+      "location_title": "Лаборатория абсолютных неожиданностей",
+      "garbage_classname": "NY20_Garbage_Loc2_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "290",
+      "location_title": "Лаборатория абсолютных неожиданностей",
+      "garbage_classname": "NY20_Garbage_Loc2_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "291",
+      "location_title": "Кудыкина гора",
+      "garbage_classname": "NY20_Garbage_Loc3_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "291",
+      "location_title": "Кудыкина гора",
+      "garbage_classname": "NY20_Garbage_Loc3_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "291",
+      "location_title": "Кудыкина гора",
+      "garbage_classname": "NY20_Garbage_Loc3_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "293",
+      "location_title": "Остров Иллюзион",
+      "garbage_classname": "HeavenlyIllusionIsland_Garbage1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "293",
+      "location_title": "Остров Иллюзион",
+      "garbage_classname": "HeavenlyIllusionIsland_Garbage2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "293",
+      "location_title": "Остров Иллюзион",
+      "garbage_classname": "HeavenlyIllusionIsland_Garbage3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "296",
+      "location_title": "Башня Устерлиц",
+      "garbage_classname": "March8_20_Garbage_Loc1_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "296",
+      "location_title": "Башня Устерлиц",
+      "garbage_classname": "March8_20_Garbage_Loc1_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "296",
+      "location_title": "Башня Устерлиц",
+      "garbage_classname": "March8_20_Garbage_Loc1_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "297",
+      "location_title": "Бор-перебор",
+      "garbage_classname": "March8_20_Garbage_Loc2_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "297",
+      "location_title": "Бор-перебор",
+      "garbage_classname": "March8_20_Garbage_Loc2_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "297",
+      "location_title": "Бор-перебор",
+      "garbage_classname": "March8_20_Garbage_Loc2_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "298",
+      "location_title": "Ведьмина избушка",
+      "garbage_classname": "March8_20_Garbage_Loc3_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "298",
+      "location_title": "Ведьмина избушка",
+      "garbage_classname": "March8_20_Garbage_Loc3_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "298",
+      "location_title": "Ведьмина избушка",
+      "garbage_classname": "March8_20_Garbage_Loc3_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "301",
+      "location_title": "Владения Переплута",
+      "garbage_classname": "Spring20_Garbage_Loc1_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "301",
+      "location_title": "Владения Переплута",
+      "garbage_classname": "Spring20_Garbage_Loc1_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "301",
+      "location_title": "Владения Переплута",
+      "garbage_classname": "Spring20_Garbage_Loc1_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "302",
+      "location_title": "Вересковая долина",
+      "garbage_classname": "Spring20_Garbage_Loc2_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "302",
+      "location_title": "Вересковая долина",
+      "garbage_classname": "Spring20_Garbage_Loc2_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "302",
+      "location_title": "Вересковая долина",
+      "garbage_classname": "Spring20_Garbage_Loc2_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "303",
+      "location_title": "Край света",
+      "garbage_classname": "Spring20_Garbage_Loc3_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "303",
+      "location_title": "Край света",
+      "garbage_classname": "Spring20_Garbage_Loc3_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "303",
+      "location_title": "Край света",
+      "garbage_classname": "Spring20_Garbage_Loc3_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "306",
+      "location_title": "Трактир \"У Солохи\"",
+      "garbage_classname": "Summer20_Garbage_Loc1_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "306",
+      "location_title": "Трактир \"У Солохи\"",
+      "garbage_classname": "Summer20_Garbage_Loc1_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "306",
+      "location_title": "Трактир \"У Солохи\"",
+      "garbage_classname": "Summer20_Garbage_Loc1_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "307",
+      "location_title": "Хата головы",
+      "garbage_classname": "Summer20_Garbage_Loc2_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "307",
+      "location_title": "Хата головы",
+      "garbage_classname": "Summer20_Garbage_Loc2_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "307",
+      "location_title": "Хата головы",
+      "garbage_classname": "Summer20_Garbage_Loc2_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "308",
+      "location_title": "Панночкин омут",
+      "garbage_classname": "Summer20_Garbage_Loc3_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "308",
+      "location_title": "Панночкин омут",
+      "garbage_classname": "Summer20_Garbage_Loc3_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "308",
+      "location_title": "Панночкин омут",
+      "garbage_classname": "Summer20_Garbage_Loc3_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "330",
+      "location_title": "Спортзал",
+      "garbage_classname": "Sportzal_Garbage1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "330",
+      "location_title": "Спортзал",
+      "garbage_classname": "Sportzal_Garbage2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "330",
+      "location_title": "Спортзал",
+      "garbage_classname": "Sportzal_Garbage3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "330",
+      "location_title": "Спортзал",
+      "garbage_classname": "Sportzal_Garbage4",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "330",
+      "location_title": "Спортзал",
+      "garbage_classname": "Sportzal_Garbage5",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "353",
+      "location_title": "Потешная поляна",
+      "garbage_classname": "Fun_Room_Garbage_LocLawn_1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "353",
+      "location_title": "Потешная поляна",
+      "garbage_classname": "Fun_Room_Garbage_LocLawn_2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "353",
+      "location_title": "Потешная поляна",
+      "garbage_classname": "Fun_Room_Garbage_LocLawn_3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "353",
+      "location_title": "Потешная поляна",
+      "garbage_classname": "Fun_Room_Garbage_LocLawn_4",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "353",
+      "location_title": "Потешная поляна",
+      "garbage_classname": "Fun_Room_Garbage_LocLawn_5",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "353",
+      "location_title": "Потешная поляна",
+      "garbage_classname": "Fun_Room_Garbage_LocLawn_6",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "355",
+      "location_title": "Потехи 1: Назад в СССР",
+      "garbage_classname": "Fun_Room_Fun1_Garbage1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "355",
+      "location_title": "Потехи 1: Назад в СССР",
+      "garbage_classname": "Fun_Room_Fun1_Garbage2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "355",
+      "location_title": "Потехи 1: Назад в СССР",
+      "garbage_classname": "Fun_Room_Fun1_Garbage3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "355",
+      "location_title": "Потехи 1: Назад в СССР",
+      "garbage_classname": "Fun_Room_Fun1_Garbage4",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "355",
+      "location_title": "Потехи 1: Назад в СССР",
+      "garbage_classname": "Fun_Room_Fun1_Garbage5",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "356",
+      "location_title": "Потехи 2: Саванна",
+      "garbage_classname": "Fun_Room_Fun2_Garbage1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "356",
+      "location_title": "Потехи 2: Саванна",
+      "garbage_classname": "Fun_Room_Fun2_Garbage2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "356",
+      "location_title": "Потехи 2: Саванна",
+      "garbage_classname": "Fun_Room_Fun2_Garbage3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "356",
+      "location_title": "Потехи 2: Саванна",
+      "garbage_classname": "Fun_Room_Fun2_Garbage4",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "356",
+      "location_title": "Потехи 2: Саванна",
+      "garbage_classname": "Fun_Room_Fun2_Garbage5",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "357",
+      "location_title": "Потехи 3: Киношкола",
+      "garbage_classname": "Fun_Room_Fun3_Garbage1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "357",
+      "location_title": "Потехи 3: Киношкола",
+      "garbage_classname": "Fun_Room_Fun3_Garbage2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "357",
+      "location_title": "Потехи 3: Киношкола",
+      "garbage_classname": "Fun_Room_Fun3_Garbage3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "357",
+      "location_title": "Потехи 3: Киношкола",
+      "garbage_classname": "Fun_Room_Fun3_Garbage4",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "357",
+      "location_title": "Потехи 3: Киношкола",
+      "garbage_classname": "Fun_Room_Fun3_Garbage5",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "358",
+      "location_title": "Потехи 4: Лагерь \"Дружба\"",
+      "garbage_classname": "Fun_Room_Fun4_Garbage1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "358",
+      "location_title": "Потехи 4: Лагерь \"Дружба\"",
+      "garbage_classname": "Fun_Room_Fun4_Garbage2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "358",
+      "location_title": "Потехи 4: Лагерь \"Дружба\"",
+      "garbage_classname": "Fun_Room_Fun4_Garbage3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "358",
+      "location_title": "Потехи 4: Лагерь \"Дружба\"",
+      "garbage_classname": "Fun_Room_Fun4_Garbage4",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "358",
+      "location_title": "Потехи 4: Лагерь \"Дружба\"",
+      "garbage_classname": "Fun_Room_Fun4_Garbage5",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "359",
+      "location_title": "Потехи 5: Полцарства за невесту",
+      "garbage_classname": "Fun_Room_Fun5_Garbage1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "359",
+      "location_title": "Потехи 5: Полцарства за невесту",
+      "garbage_classname": "Fun_Room_Fun5_Garbage2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "359",
+      "location_title": "Потехи 5: Полцарства за невесту",
+      "garbage_classname": "Fun_Room_Fun5_Garbage3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "359",
+      "location_title": "Потехи 5: Полцарства за невесту",
+      "garbage_classname": "Fun_Room_Fun5_Garbage4",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "359",
+      "location_title": "Потехи 5: Полцарства за невесту",
+      "garbage_classname": "Fun_Room_Fun5_Garbage5",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "360",
+      "location_title": "Потехи 6: Необитаемый остров!",
+      "garbage_classname": "Fun_Room_Fun6_Garbage1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "360",
+      "location_title": "Потехи 6: Необитаемый остров!",
+      "garbage_classname": "Fun_Room_Fun6_Garbage2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "360",
+      "location_title": "Потехи 6: Необитаемый остров!",
+      "garbage_classname": "Fun_Room_Fun6_Garbage3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "360",
+      "location_title": "Потехи 6: Необитаемый остров!",
+      "garbage_classname": "Fun_Room_Fun6_Garbage4",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "360",
+      "location_title": "Потехи 6: Необитаемый остров!",
+      "garbage_classname": "Fun_Room_Fun6_Garbage5",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "361",
+      "location_title": "Дневной экзотический Остров",
+      "garbage_classname": "HeavenlyExoticDayIsland_Garbage1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "361",
+      "location_title": "Дневной экзотический Остров",
+      "garbage_classname": "HeavenlyExoticDayIsland_Garbage2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "361",
+      "location_title": "Дневной экзотический Остров",
+      "garbage_classname": "HeavenlyExoticDayIsland_Garbage3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "362",
+      "location_title": "Ночной экзотический Остров",
+      "garbage_classname": "HeavenlyExoticNightIsland_Garbage1",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "362",
+      "location_title": "Ночной экзотический Остров",
+      "garbage_classname": "HeavenlyExoticNightIsland_Garbage2",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "362",
+      "location_title": "Ночной экзотический Остров",
+      "garbage_classname": "HeavenlyExoticNightIsland_Garbage3",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "42",
+      "location_title": "Стеклодувня",
+      "garbage_classname": "CocoonCommon",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "47",
+      "location_title": "Библиотека",
+      "garbage_classname": "Mold",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "47",
+      "location_title": "Библиотека",
+      "garbage_classname": "Magnifier",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "47",
+      "location_title": "Библиотека",
+      "garbage_classname": "BrokenTypewriter",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "47",
+      "location_title": "Библиотека",
+      "garbage_classname": "BrokenPictureFrame",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "47",
+      "location_title": "Библиотека",
+      "garbage_classname": "Hanger",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "47",
+      "location_title": "Библиотека",
+      "garbage_classname": "OldCamera",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "48",
+      "location_title": "Веранда",
+      "garbage_classname": "Mold",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "48",
+      "location_title": "Веранда",
+      "garbage_classname": "BrokenPot",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "48",
+      "location_title": "Веранда",
+      "garbage_classname": "Citron",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "48",
+      "location_title": "Веранда",
+      "garbage_classname": "Chocolate",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "48",
+      "location_title": "Веранда",
+      "garbage_classname": "FigureAcorns",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "48",
+      "location_title": "Веранда",
+      "garbage_classname": "Fan",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "49",
+      "location_title": "Игровая",
+      "garbage_classname": "Mold",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "49",
+      "location_title": "Игровая",
+      "garbage_classname": "RubiksCube",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "49",
+      "location_title": "Игровая",
+      "garbage_classname": "Lotto",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "49",
+      "location_title": "Игровая",
+      "garbage_classname": "Whirligig",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "49",
+      "location_title": "Игровая",
+      "garbage_classname": "BallJumper",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "49",
+      "location_title": "Игровая",
+      "garbage_classname": "PaperBoat",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "50",
+      "location_title": "Лужайка",
+      "garbage_classname": "Mold",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "50",
+      "location_title": "Лужайка",
+      "garbage_classname": "TuftOfWolfFur",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "50",
+      "location_title": "Лужайка",
+      "garbage_classname": "Macadam",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "50",
+      "location_title": "Лужайка",
+      "garbage_classname": "Lizard",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "50",
+      "location_title": "Лужайка",
+      "garbage_classname": "Ladybird",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "50",
+      "location_title": "Лужайка",
+      "garbage_classname": "GrassMeadow",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "51",
+      "location_title": "Мансарда",
+      "garbage_classname": "Mold",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "51",
+      "location_title": "Мансарда",
+      "garbage_classname": "CloakAstrologer",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "51",
+      "location_title": "Мансарда",
+      "garbage_classname": "RippedAtlas",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "51",
+      "location_title": "Мансарда",
+      "garbage_classname": "ToyRocket",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "51",
+      "location_title": "Мансарда",
+      "garbage_classname": "GreenAlien",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "51",
+      "location_title": "Мансарда",
+      "garbage_classname": "PillowThought",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "52",
+      "location_title": "Озерцо",
+      "garbage_classname": "Mold",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "52",
+      "location_title": "Озерцо",
+      "garbage_classname": "DragonflyGarbage",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "52",
+      "location_title": "Озерцо",
+      "garbage_classname": "FishScales",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "52",
+      "location_title": "Озерцо",
+      "garbage_classname": "Crayfish",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "52",
+      "location_title": "Озерцо",
+      "garbage_classname": "Cane",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "52",
+      "location_title": "Озерцо",
+      "garbage_classname": "Reed",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "53",
+      "location_title": "Чулан",
+      "garbage_classname": "Mold",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "53",
+      "location_title": "Чулан",
+      "garbage_classname": "BrokenLamp",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "53",
+      "location_title": "Чулан",
+      "garbage_classname": "FairyTalesBook",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "53",
+      "location_title": "Чулан",
+      "garbage_classname": "BagWithBarley",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "53",
+      "location_title": "Чулан",
+      "garbage_classname": "BrokenBroom",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "53",
+      "location_title": "Чулан",
+      "garbage_classname": "BunchOfPepper",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "89",
+      "location_title": "Комната красоты",
+      "garbage_classname": "CocoonCommon",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "92",
+      "location_title": "Оружейная",
+      "garbage_classname": "CocoonCommon",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "95",
+      "location_title": "Цветущий балкон",
+      "garbage_classname": "Mold",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "96",
+      "location_title": "Планетарий",
+      "garbage_classname": "Mold",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "99",
+      "location_title": "Сауна",
+      "garbage_classname": "Mold",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "99",
+      "location_title": "Сауна",
+      "garbage_classname": "FarmBasketWithTowels",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "99",
+      "location_title": "Сауна",
+      "garbage_classname": "FarmSaltLamp",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "99",
+      "location_title": "Сауна",
+      "garbage_classname": "FarmRubberToy",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "99",
+      "location_title": "Сауна",
+      "garbage_classname": "FarmSlippersForSauna",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "location_code": "99",
+      "location_title": "Сауна",
+      "garbage_classname": "FarmThermosBeverage",
+      "code": "location_unknown_garbage",
+      "message": "Location has garbage_assets entry missing from garbage_by_classname"
+    },
+    {
+      "garbage_classname": "Birthday2Bush",
+      "garbage_title": "Кусты с колючками",
+      "file": "raw/garbage/Birthday2Bush.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "Birthday2Grass",
+      "garbage_title": "Трава-мурова",
+      "file": "raw/garbage/Birthday2Grass.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "Birthday2MountainCans",
+      "garbage_title": "Гора банок",
+      "file": "raw/garbage/Birthday2MountainCans.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "GoldWebOne",
+      "garbage_title": "Золотая паутина",
+      "file": "raw/garbage/GoldWebOne.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "GoldWebTwo",
+      "garbage_title": "Золотая паутина",
+      "file": "raw/garbage/GoldWebTwo.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "GoldWebVertical",
+      "garbage_title": "Золотая паутина",
+      "file": "raw/garbage/GoldWebVertical.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "LukomorieBlossomingFern",
+      "garbage_title": "Цветущий папоротник",
+      "file": "raw/garbage/LukomorieBlossomingFern.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "NY13_BrokenGarland",
+      "garbage_title": "Разбитая гирлянда",
+      "file": "raw/garbage/NY13_BrokenGarland.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "NY13_BrokenSki",
+      "garbage_title": "Сломанные лыжи",
+      "file": "raw/garbage/NY13_BrokenSki.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "NY13_Mittens",
+      "garbage_title": "Варежки на резинке",
+      "file": "raw/garbage/NY13_Mittens.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "SilverWebOne",
+      "garbage_title": "Серебряная паутина",
+      "file": "raw/garbage/SilverWebOne.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "SilverWebTwo",
+      "garbage_title": "Серебряная паутина",
+      "file": "raw/garbage/SilverWebTwo.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "Smoke",
+      "garbage_title": "Дым",
+      "file": "raw/garbage/Smoke.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "WebAlchemy",
+      "garbage_title": "Паутина на алхимическом колпаке",
+      "file": "raw/garbage/WebAlchemy.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "WebAnvil",
+      "garbage_title": "Паутина на наковальне",
+      "file": "raw/garbage/WebAnvil.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "WebBar",
+      "garbage_title": "Паутина на Барной стойке",
+      "file": "raw/garbage/WebBar.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "WebBarrelForPickles",
+      "garbage_title": "Паутина на бочке для солений",
+      "file": "raw/garbage/WebBarrelForPickles.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "WebBasinWithGrate",
+      "garbage_title": "Паутина",
+      "file": "raw/garbage/WebBasinWithGrate.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "WebBeauty",
+      "garbage_title": "Паутина на маникюрном столике",
+      "file": "raw/garbage/WebBeauty.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "WebBirdhouse",
+      "garbage_title": "Паутина на кормушке",
+      "file": "raw/garbage/WebBirdhouse.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "WebBoiler",
+      "garbage_title": "Паутина на печурке",
+      "file": "raw/garbage/WebBoiler.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "WebClock",
+      "garbage_title": "Паутина на шкафу часовщика",
+      "file": "raw/garbage/WebClock.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "WebCoop",
+      "garbage_title": "Паутина на курятнике",
+      "file": "raw/garbage/WebCoop.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "WebDistaff",
+      "garbage_title": "Паутина на прялке",
+      "file": "raw/garbage/WebDistaff.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "WebDoctorDesk",
+      "garbage_title": "Паутина на столе",
+      "file": "raw/garbage/WebDoctorDesk.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "WebEastShop",
+      "garbage_title": "Паутина на восточной лавке",
+      "file": "raw/garbage/WebEastShop.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "WebFireplace",
+      "garbage_title": "Паутина на камине",
+      "file": "raw/garbage/WebFireplace.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "WebGarageDrumKit",
+      "garbage_title": "Паутина на Барабанной установке",
+      "file": "raw/garbage/WebGarageDrumKit.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "WebGhost",
+      "garbage_title": "Паутина на монстрике под кроватью",
+      "file": "raw/garbage/WebGhost.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "WebGlassblowingFurnace",
+      "garbage_title": "Паутина на плавильной печи",
+      "file": "raw/garbage/WebGlassblowingFurnace.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "WebGobelin",
+      "garbage_title": "Паутина на гобелене",
+      "file": "raw/garbage/WebGobelin.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "WebHive",
+      "garbage_title": "Паутина на улье",
+      "file": "raw/garbage/WebHive.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "WebHorseWithTelega",
+      "garbage_title": "Паутина на коне с телегой",
+      "file": "raw/garbage/WebHorseWithTelega.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "WebJewelryTable",
+      "garbage_title": "Паутина на ювелирном столе",
+      "file": "raw/garbage/WebJewelryTable.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "WebKitchen",
+      "garbage_title": "Паутина на духовке",
+      "file": "raw/garbage/WebKitchen.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "WebMill",
+      "garbage_title": "Паутина на мельнице",
+      "file": "raw/garbage/WebMill.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "WebNursery",
+      "garbage_title": "Паутина на ящике с игрушками",
+      "file": "raw/garbage/WebNursery.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "WebOracleBoll",
+      "garbage_title": "Паутина на гадальном столе",
+      "file": "raw/garbage/WebOracleBoll.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "WebOverview",
+      "garbage_title": "Паутина на глобусе",
+      "file": "raw/garbage/WebOverview.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "WebPiano",
+      "garbage_title": "Паутина на фортепиано",
+      "file": "raw/garbage/WebPiano.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "WebPot",
+      "garbage_title": "Паутина",
+      "file": "raw/garbage/WebPot.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "WebPottersWheel",
+      "garbage_title": "Паутина на гончарном круге",
+      "file": "raw/garbage/WebPottersWheel.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "WebServ",
+      "garbage_title": "Паутина на главном сервере",
+      "file": "raw/garbage/WebServ.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "WebStove",
+      "garbage_title": "Паутина на печи",
+      "file": "raw/garbage/WebStove.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "WebTambour",
+      "garbage_title": "Паутина на пяльцах",
+      "file": "raw/garbage/WebTambour.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    },
+    {
+      "garbage_classname": "WebWorckbench",
+      "garbage_title": "Паутина",
+      "file": "raw/garbage/WebWorckbench.proto.js",
+      "code": "garbage_unused_in_locations",
+      "message": "Garbage exists but is not used in any location"
+    }
+  ],
+  "summary": {
+    "errors": 0,
+    "warnings": 454,
+    "generated_at": "2026-04-27T14:28:04.853504+00:00",
+    "locations_found": 213,
+    "garbage_found": 272,
+    "flowers_found": 36,
+    "collections_found": 1441,
+    "garbage_drop_links_created": 2085,
+    "flower_drop_links_created": 310
+  }
+}

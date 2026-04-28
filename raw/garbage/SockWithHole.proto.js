@@ -1,0 +1,42 @@
+{
+"class" : "AssetPrototype",
+"classname" : "SockWithHole",
+"title" : "Грязный носок",
+"group" : "garbage",
+"subgroup" : "on_the_floor",
+"price" : "1",
+"currency" : "money_alt",
+"g_pest_probability_percent" : "16",
+"id" : "177972837",
+"rand_reward" : {"all":
+		[{"p":50,
+			"one_of":
+		[{"asset":"SockWithHoleCollection1",
+					"p":100},
+				{"asset":"SockWithHoleCollection2",
+					"p":100},
+				{"asset":"SockWithHoleCollection3",
+					"p":100},
+				{"asset":"SockWithHoleCollection4",
+					"p":50},
+				{"asset":"SockWithHoleCollection5",
+					"p":50}]}],
+	"money_alt":2,
+	"xp":3},
+"rand_reward_in_guest" : {"all":
+		[{"p":50,
+			"one_of":
+		[{"asset":"SockWithHoleCollection1",
+					"p":100},
+				{"asset":"SockWithHoleCollection2",
+					"p":100},
+				{"asset":"SockWithHoleCollection3",
+					"p":100},
+				{"asset":"SockWithHoleCollection4",
+					"p":50},
+				{"asset":"SockWithHoleCollection5",
+					"p":50}]}],
+	"money_alt":2,
+	"reputation_progress":1,
+	"xp":3}
+}

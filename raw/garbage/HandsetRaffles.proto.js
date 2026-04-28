@@ -1,0 +1,40 @@
+{
+"class" : "AssetPrototype",
+"classname" : "HandsetRaffles",
+"title" : "Телефонная трубка",
+"group" : "garbage",
+"subgroup" : "on_the_floor",
+"g_pest_probability_percent" : 16,
+"id" : "82378924",
+"rand_reward" : {"all":
+		[{"p":33,
+			"one_of":
+		[{"asset":"PhonesCollection1",
+					"p":20},
+				{"asset":"PhonesCollection2",
+					"p":100},
+				{"asset":"PhonesCollection3",
+					"p":100},
+				{"asset":"PhonesCollection4",
+					"p":100},
+				{"asset":"PhonesCollection5",
+					"p":100}]}],
+	"money_alt":2,
+	"xp":3},
+"rand_reward_in_guest" : {"all":
+		[{"p":33,
+			"one_of":
+		[{"asset":"PhonesCollection1",
+					"p":20},
+				{"asset":"PhonesCollection2",
+					"p":100},
+				{"asset":"PhonesCollection3",
+					"p":100},
+				{"asset":"PhonesCollection4",
+					"p":100},
+				{"asset":"PhonesCollection5",
+					"p":100}]}],
+	"money_alt":2,
+	"reputation_progress":1,
+	"xp":3}
+}

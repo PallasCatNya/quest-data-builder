@@ -1,0 +1,20 @@
+{
+"class" : "AssetPrototype",
+"classname" : "VegetableSeedCarrot",
+"title" : "Семена моркови",
+"description" : "Морковь",
+"tags" : ["seed_vegetable","seed_simple","category_5"],
+"group" : "seeds",
+"subgroup" : "vegetables",
+"price" : 2,
+"currency" : "money",
+"sell_price" : 3,
+"meta_info" : "life=86400;states=3;icon_view_seed=1;help_view=VegetableSeedCarrotHelpIcon;location_board_view=VegetableCarrot;pack_asset=VegetableSeedCarrot_Package",
+"rand_reward" : {"asset":"VegetableCarrot", "xp":36},
+"rand_reward_in_guest" : {"reputation_progress":1, "xp":8},
+"energy_cost" : "dexterity=1",
+"accelerate_cost" : "asset=AccelerationPlantBooster:1",
+"recover_cost" : "asset=RecoverPlantBooster:1",
+"shop_conditions" : "done_quest=FarmHolidays10",
+"id" : 7770
+}

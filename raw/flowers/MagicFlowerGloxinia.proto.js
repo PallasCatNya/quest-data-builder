@@ -1,0 +1,22 @@
+{
+"class" : "AssetPrototype",
+"classname" : "MagicFlowerGloxinia",
+"title" : "Глоксиния",
+"description" : "Глоксиния созревает за 3 часа.\nДает: 500 опыта, 300 грошиков, шанс получить 1 червончик.\nВянет за 10 часов.",
+"tags" : ["seed_magic","seed_simple","category_8","category_money"],
+"group" : "seeds",
+"subgroup" : "magic",
+"price" : 1,
+"currency" : "money",
+"sell_price" : 3,
+"meta_info" : "life=10800;states=3;spoil_period=36000",
+"energy_cost" : "energy=1",
+"accelerate_cost" : "asset=AccelerationPlantBooster:1",
+"recover_cost" : "asset=RecoverPlantBooster:1",
+"register_event_counter_on_buy" : 1,
+"rand_reward" : {"xp":500, "money_alt":300, "all":[{"p":20, "money":1}]},
+"rand_reward_in_guest" : {"reputation_progress":1,
+                          "xp":25,
+                          "money_alt":20},
+"id" : 4869
+}

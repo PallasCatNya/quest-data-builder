@@ -1,0 +1,40 @@
+{
+"class" : "AssetPrototype",
+"classname" : "MoneyRaffles",
+"title" : "Рваная купюра",
+"group" : "garbage",
+"subgroup" : "on_the_floor",
+"g_pest_probability_percent" : "16",
+"id" : "192393318",
+"rand_reward" : {"all":
+		[{"p":75,
+			"one_of":
+		[{"asset":"MoneysCollection1",
+					"p":100},
+				{"asset":"MoneysCollection2",
+					"p":100},
+				{"asset":"MoneysCollection3",
+					"p":100},
+				{"asset":"MoneysCollection4",
+					"p":50},
+				{"asset":"MoneysCollection5",
+					"p":10}]}],
+	"money_alt":2,
+	"xp":3},
+"rand_reward_in_guest" : {"all":
+		[{"p":33,
+			"one_of":
+		[{"asset":"MoneysCollection1",
+					"p":100},
+				{"asset":"MoneysCollection2",
+					"p":100},
+				{"asset":"MoneysCollection3",
+					"p":100},
+				{"asset":"MoneysCollection4",
+					"p":50},
+				{"asset":"MoneysCollection5",
+					"p":10}]}],
+	"money_alt":2,
+	"reputation_progress":1,
+	"xp":3}
+}

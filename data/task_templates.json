@@ -1,0 +1,286 @@
+{
+  "version": 2,
+  "source": "Инструкция этап 4",
+  "templates": [
+    {
+      "id": "TT-001",
+      "name_ru": "Диалог",
+      "task_type": "action dialog",
+      "category": "dialog",
+      "status": "supported",
+      "data_needs": ["quest_context", "character"]
+    },
+    {
+      "id": "TT-002",
+      "name_ru": "Крафт",
+      "task_type": "get_and_decrease_asset craft",
+      "category": "craft",
+      "status": "supported",
+      "data_needs": ["quest_context", "generated_resource"]
+    },
+    {
+      "id": "TT-003",
+      "name_ru": "HOG в мире",
+      "task_type": "HOG clean_debris world",
+      "category": "hog",
+      "status": "supported",
+      "data_needs": ["quest_context", "generated_hog"]
+    },
+    {
+      "id": "TT-004",
+      "name_ru": "HOG на локации",
+      "task_type": "HOG clean_debris location",
+      "category": "hog",
+      "status": "supported",
+      "data_needs": ["quest_context", "generated_hog"]
+    },
+    {
+      "id": "TT-005",
+      "name_ru": "HOG в локациях дома",
+      "task_type": "HOG clean_debris home_locations",
+      "category": "hog",
+      "status": "supported",
+      "data_needs": ["quest_context", "generated_hog"]
+    },
+    {
+      "id": "TT-006",
+      "name_ru": "HOG в виде скрытого предмета",
+      "task_type": "HOG clean_debris hidden_object",
+      "category": "hog",
+      "status": "supported",
+      "data_needs": ["quest_context", "generated_hog"]
+    },
+    {
+      "id": "TT-007",
+      "name_ru": "HOG поиск истинного среди ложного",
+      "task_type": "HOG clean_debris true_among_false",
+      "category": "hog",
+      "status": "supported",
+      "data_needs": ["quest_context", "generated_hog"]
+    },
+    {
+      "id": "TT-008",
+      "name_ru": "Получить ASK",
+      "task_type": "get_asset ASK",
+      "category": "request",
+      "status": "supported",
+      "data_needs": ["quest_context", "generated_resource"]
+    },
+    {
+      "id": "TT-009",
+      "name_ru": "Получить PER",
+      "task_type": "get_asset PER",
+      "category": "request",
+      "status": "supported",
+      "data_needs": ["quest_context", "generated_resource"]
+    },
+    {
+      "id": "TT-010",
+      "name_ru": "Получить CL (награда за коллекцию)",
+      "task_type": "get_asset CL",
+      "category": "collection_reward",
+      "status": "supported",
+      "data_needs": ["quest_context", "generated_resource", "collection"]
+    },
+    {
+      "id": "TT-011",
+      "name_ru": "Получить элемент коллекции (зависит от редкости)",
+      "task_type": "get_asset Collection",
+      "category": "collection",
+      "status": "supported",
+      "data_needs": ["quest_context", "collection_drop"]
+    },
+    {
+      "id": "TT-012",
+      "name_ru": "Получить FA (экшен на площади у друга)",
+      "task_type": "get_asset FA",
+      "category": "friend_action",
+      "status": "supported",
+      "data_needs": ["quest_context", "generated_resource"]
+    },
+    {
+      "id": "TT-013",
+      "name_ru": "GR с мусора в локации дома",
+      "task_type": "get_asset GR garbage location_tags",
+      "category": "gr_garbage",
+      "status": "supported",
+      "data_needs": ["quest_context", "garbage", "location"]
+    },
+    {
+      "id": "TT-014",
+      "name_ru": "GR с конкретного мусора в гостях",
+      "task_type": "get_asset GR in_guest garbage classname",
+      "category": "gr_garbage",
+      "status": "supported",
+      "data_needs": ["quest_context", "garbage", "location"]
+    },
+    {
+      "id": "TT-015",
+      "name_ru": "GR с конкретного мусора дома",
+      "task_type": "get_asset GR garbage classname",
+      "category": "gr_garbage",
+      "status": "supported",
+      "data_needs": ["quest_context", "garbage", "location"]
+    },
+    {
+      "id": "TT-016",
+      "name_ru": "GR с цветов в гостях",
+      "task_type": "get_asset GR in_guest flower",
+      "category": "gr_flower",
+      "status": "supported",
+      "data_needs": ["quest_context", "flower"]
+    },
+    {
+      "id": "TT-017",
+      "name_ru": "GR с цветов дома",
+      "task_type": "get_asset GR flower",
+      "category": "gr_flower",
+      "status": "supported",
+      "data_needs": ["quest_context", "flower"]
+    },
+    {
+      "id": "TT-018",
+      "name_ru": "Сбор цветов дома (зависит от времени роста)",
+      "task_type": "action take_crop",
+      "category": "flower",
+      "status": "supported",
+      "data_needs": ["quest_context", "flower"]
+    },
+    {
+      "id": "TT-019",
+      "name_ru": "Сбор цветов в гостях",
+      "task_type": "action take_crop_in_guest",
+      "category": "flower",
+      "status": "supported",
+      "data_needs": ["quest_context", "flower"]
+    },
+    {
+      "id": "TT-020",
+      "name_ru": "Уборка конкретного мусора в гостях",
+      "task_type": "garbage classname in_guest",
+      "category": "garbage",
+      "status": "supported",
+      "data_needs": ["quest_context", "garbage", "location"]
+    },
+    {
+      "id": "TT-021",
+      "name_ru": "Уборка конкретного мусора дома",
+      "task_type": "garbage classname",
+      "category": "garbage",
+      "status": "supported",
+      "data_needs": ["quest_context", "garbage", "location"]
+    },
+    {
+      "id": "TT-022",
+      "name_ru": "Загадка на цветок в гостях",
+      "task_type": "action take_crop_in_guest mystery",
+      "category": "mystery_flower",
+      "status": "supported",
+      "data_needs": ["quest_context", "flower"]
+    },
+    {
+      "id": "TT-023",
+      "name_ru": "Загадка на цветок дома (зависит от времени роста)",
+      "task_type": "action take_crop mystery",
+      "category": "mystery_flower",
+      "status": "supported",
+      "data_needs": ["quest_context", "flower"]
+    },
+    {
+      "id": "TT-024",
+      "name_ru": "Загадка на мусор в гостях",
+      "task_type": "garbage classname in_guest mystery",
+      "category": "mystery_garbage",
+      "status": "supported",
+      "data_needs": ["quest_context", "garbage", "location"]
+    },
+    {
+      "id": "TT-025",
+      "name_ru": "Загадка на мусор дома",
+      "task_type": "garbage classname mystery",
+      "category": "mystery_garbage",
+      "status": "supported",
+      "data_needs": ["quest_context", "garbage", "location"]
+    },
+    {
+      "id": "TT-026",
+      "name_ru": "Загадка на коллекцию (зависит от редкости)",
+      "task_type": "get_asset Collection mystery",
+      "category": "mystery_collection",
+      "status": "supported",
+      "data_needs": ["quest_context", "collection_drop"]
+    },
+    {
+      "id": "TT-027",
+      "name_ru": "Загадка задом наперед на коллекцию (зависит от редкости)",
+      "task_type": "get_asset Collection reverse_mystery",
+      "category": "mystery_collection",
+      "status": "supported",
+      "data_needs": ["quest_context", "collection_drop"]
+    },
+    {
+      "id": "TT-028",
+      "name_ru": "Силуэт элемент коллекции (зависит от редкости)",
+      "task_type": "get_asset Collection is_silhouette",
+      "category": "silhouette_collection",
+      "status": "supported",
+      "data_needs": ["quest_context", "collection_drop"]
+    },
+    {
+      "id": "TT-029",
+      "name_ru": "Силуэт мусора в гостях",
+      "task_type": "garbage classname is_silhouette in_guest",
+      "category": "silhouette_garbage",
+      "status": "supported",
+      "data_needs": ["quest_context", "garbage", "location"]
+    },
+    {
+      "id": "TT-030",
+      "name_ru": "Силуэт мусора  дома",
+      "task_type": "garbage classname is_silhouette",
+      "category": "silhouette_garbage",
+      "status": "supported",
+      "data_needs": ["quest_context", "garbage", "location"]
+    },
+    {
+      "id": "TT-031",
+      "name_ru": "Силуэт цветка в гостях",
+      "task_type": "action take_crop_in_guest is_silhouette",
+      "category": "silhouette_flower",
+      "status": "supported",
+      "data_needs": ["quest_context", "flower"]
+    },
+    {
+      "id": "TT-032",
+      "name_ru": "Силуэт цветка дома (зависит от времени роста)",
+      "task_type": "action take_crop is_silhouette",
+      "category": "silhouette_flower",
+      "status": "supported",
+      "data_needs": ["quest_context", "flower"]
+    },
+    {
+      "id": "TT-033",
+      "name_ru": "Передача предмета",
+      "task_type": "action give",
+      "category": "interaction",
+      "status": "supported",
+      "data_needs": ["quest_context", "generated_resource", "character"]
+    },
+    {
+      "id": "TT-034",
+      "name_ru": "Фото предмета",
+      "task_type": "action post_photo",
+      "category": "interaction",
+      "status": "supported",
+      "data_needs": ["quest_context", "character"]
+    },
+    {
+      "id": "TT-035",
+      "name_ru": "Следы с ресурсами",
+      "task_type": "not_ready",
+      "category": "interaction",
+      "status": "not_ready",
+      "data_needs": []
+    }
+  ]
+}

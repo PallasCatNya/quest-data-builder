@@ -1,0 +1,20 @@
+{
+"class" : "AssetPrototype",
+"classname" : "VegetableSeedSpinach",
+"title" : "Семена шпината",
+"description" : "Шпинат",
+"tags" : ["seed_vegetable","seed_simple","category_2","unavailable_for_daily_tasks"],
+"group" : "seeds",
+"subgroup" : "vegetables",
+"price" : 1,
+"currency" : "money",
+"sell_price" : 3,
+"meta_info" : "life=43200;states=3;icon_view_seed=1;spoil_period=43200;help_view=VegetableSeedSpinachHelpIcon;location_board_view=VegetableSeedSpinach;pack_asset=VegetableSeedSpinach_Package",
+"rand_reward" : {"asset":"VegetableSpinach", "xp":30},
+"rand_reward_in_guest" : {"reputation_progress":1, "xp":15},
+"energy_cost" : "dexterity=1",
+"accelerate_cost" : "asset=AccelerationPlantBooster:1",
+"recover_cost" : "asset=RecoverPlantBooster:1",
+"shop_conditions" : "done_quest=FarmSportzalQuest_6_Pack3",
+"id" : 55140
+}

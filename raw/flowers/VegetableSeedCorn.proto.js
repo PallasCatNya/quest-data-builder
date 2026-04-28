@@ -1,0 +1,20 @@
+{
+"class" : "AssetPrototype",
+"classname" : "VegetableSeedCorn",
+"title" : "Семена кукурузы",
+"description" : "Кукуруза",
+"tags" : ["seed_vegetable","seed_simple","category_6"],
+"group" : "seeds",
+"subgroup" : "vegetables",
+"price" : 2,
+"currency" : "money",
+"sell_price" : 3,
+"meta_info" : "life=432000;states=3;icon_view_seed=1;help_view=VegetableSeedCornHelpIcon;location_board_view=VegetableCorn;pack_asset=VegetableSeedCorn_Package",
+"rand_reward" : {"asset":"VegetableCorn", "xp":52},
+"rand_reward_in_guest" : {"reputation_progress":1, "xp":11},
+"energy_cost" : "dexterity=1",
+"accelerate_cost" : "asset=AccelerationPlantBooster:1",
+"recover_cost" : "asset=RecoverPlantBooster:1",
+"shop_conditions" : "done_quest=FarmMurenka10",
+"id" : 7773
+}

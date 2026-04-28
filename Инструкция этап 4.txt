@@ -1,0 +1,1344 @@
+ЭТАП 4: ЗАПОЛНЕНИЕ TASKS
+
+ГЛОССАРИЙ ТЕРМИНОВ
+
+Термин | Описание
+--------|----------
+HOG (Hidden Object Game) | Скрытый предмет, который игрок должен найти в игровом мире
+Task type | Тип задания, определяющий механику игрового процесса
+Classname | Уникальный идентификатор квеста или предмета в системе
+GR (Game Resource) | Игровой ресурс, который выпадает при определенных действиях
+Collection | Коллекционные предметы, которые игрок собирает
+is_silhouette | Параметр, указывающий, что предмет показан только силуэтом
+is_hide | Параметр, скрывающий иконку предмета под знаком "?"
+Mystery | Особый тип задания в форме загадки
+in_guest | Параметр, указывающий, что действие выполняется в гостях у друзей
+
+ПРАВИЛА НЕЙМИНГА:
+
+Сущность | Формат | Пример
+----------|--------|--------
+Пакет квестов | [Тема]_[Год] | Easter_2025
+Квесты | [Тема]_[Год]_Story_[Номер] | Easter_2025_Story_1
+HOG | [Тема]_[Год]_HOG_[Номер] | Easter_2025_HOG_1
+GR (ресурс) | [Тема]_[Год]_GR_[Номер] | Easter_2025_GR_1
+GR из цветов | использовать общий счетчик GR | Easter_2025_GR_2
+PER (запрос) | [Тема]_[Год]_PER_[Номер] | Easter_2025_PER_1
+ASK (просьба) | [Тема]_[Год]_ASK_[Номер] | Easter_2025_ASK_1
+Рецепты (R) | [Тема]_[Год]_R_[Номер] | Easter_2025_R_1
+Персонажи | [Тема]_[Год]_Character_[Номер] | Easter_2025_Character_1
+Свободные подарки | [Тема]_[Год]_FG_[Номер] | Easter_2025_FG_1
+
+Требования к этапу:
+- Заполнить JSON-структуру для каждого таска
+- Следовать шаблону для выбранного Task type
+- Адаптировать содержимое под контекст задания
+- Соблюдать правила нейминга
+- Для загадок (mystery) создавать рифмованные тексты
+
+Ограничения:
+1. Нельзя менять текст который не находится в [] в шаблонах это стандартный текст и должен остаться как есть.
+
+НОВЫЙ WORKFLOW ЭТАПА 4
+
+Этап 4 теперь работает не напрямую с raw-данными и не с полным индексом.
+
+Входные файлы:
+- `output/context_pack.json` — основной вход для ИИ. В нем есть квесты, таски, выбранные `task_template_id`, контекст сюжета и компактные списки реальных кандидатов.
+- `data/task_templates.json` — машинный каталог актуальных шаблонов `TT-001` ... `TT-035`.
+- `output/filled_tasks.example.json` — пример формата ответа.
+
+Результат этапа 4:
+- `output/filled_tasks.json`
+
+После заполнения обязательно запустить проверку:
+
+```bash
+python src/validate_task_objects.py output/filled_tasks.json
+```
+
+Если валидатор нашел ошибки, нужно исправить `output/filled_tasks.json` или попросить ИИ перезаполнить конкретные task.
+
+ГЛАВНОЕ ПРАВИЛО ЭТАПА 4
+
+ИИ может творчески адаптировать `title`, `hint`, загадку и смысловое обоснование, но не может выдумывать реальные игровые данные.
+
+Нельзя выдумывать:
+- `garbage_classname`
+- `garbage_title`
+- `flower_classname`
+- `flower_title`
+- `collection_classname`
+- `collection_title`
+- реальные location title
+
+Все эти значения должны быть взяты только из `candidates` внутри `output/context_pack.json`.
+
+Можно создавать по неймингу пакета:
+- `GR`
+- `ASK`
+- `PER`
+- `CL`
+- `FA`
+- `HOG`
+- `R`
+- `Character`
+- `Stuff`
+- action classname для dialog/give/craft/post_photo
+
+СТРОГИЕ ПРАВИЛА РЕАЛЬНЫХ ЛОКАЦИЙ
+
+Любая фраза в `hint`, которая указывает место, должна ссылаться только на существующую игровую локацию.
+
+Строго проверяемые фразы:
+- `Он находится ...`
+- `Она находится ...`
+- `Место поиска: ...`
+- `Найди его у себя на ...`
+
+Правило:
+- После этих фраз нельзя писать сюжетные или атмосферные места.
+- Нельзя писать: `у крыльца`, `под тучей`, `в мясном дожде`, `у котла`, `на небесной трещине`, если такой локации нет в `context_pack`.
+- Нужно использовать точный `title` реальной локации из `candidate.locations`.
+
+Примеры:
+
+Плохо:
+```json
+"hint": "Поговори с Дедушкой Домоведом. Для этого просто кликни на него. Он находится у крыльца под фрикадельковой тучей."
+```
+
+Хорошо:
+```json
+"hint": "Поговори с Дедушкой Домоведом. Для этого просто кликни на него. Он находится в Барной комнате."
+```
+
+Плохо:
+```json
+"hint": "Найди Следы мясного дождя. Место поиска: крыльцо у дома. Если найти все не удаётся, можно купить подсказку."
+```
+
+Хорошо:
+```json
+"hint": "Найди Следы мясного дождя. Место поиска: Барная комната. Если найти все не удаётся, можно купить подсказку."
+```
+
+Если для generated/story template нет своего candidate, используй реальную локацию из других кандидатов этого же квеста в `context_pack`.
+Если подходящей реальной локации нет, не выдумывай ее: нужно запросить новый context pack или ручной override.
+
+ПРАВИЛО РАЗДЕЛЕНИЯ ИСТОЧНИКОВ
+
+В одном квесте не нужно ставить:
+- task на уборку конкретного мусора;
+- и task на получение элемента коллекции, который выпадает из этого же мусора.
+
+Плохо:
+```text
+TT-021 garbage FoxTrail
+TT-011 collection_drop FoxTrailCollection5 из FoxTrail
+```
+
+Лучше:
+```text
+TT-021 garbage FoxTrail
+TT-011 collection_drop из другого source_classname
+```
+
+Причина: игроку это выглядит как повтор одного и того же источника, а квест должен давать разнообразные действия.
+
+ПРАВИЛО НУМЕРАЦИИ GENERATED-СУЩНОСТЕЙ
+
+Нумерация generated-сущностей идет отдельными списками по типу сущности, а не по номеру task.
+
+Для пакета `MeatballRain_2026` правильно:
+
+```text
+MeatballRain_2026_HOG_1
+MeatballRain_2026_GR_1
+MeatballRain_2026_ASK_1
+MeatballRain_2026_GR_2
+MeatballRain_2026_R_1
+```
+
+Неправильно:
+
+```text
+MeatballRain_2026_HOG_2
+MeatballRain_2026_GR_6
+MeatballRain_2026_ASK_7
+MeatballRain_2026_GR_8
+MeatballRain_2026_R_9
+```
+
+Отдельные счетчики:
+- HOG: `[Префикс]_HOG_1`, `[Префикс]_HOG_2`, ...
+- GR: `[Префикс]_GR_1`, `[Префикс]_GR_2`, ...
+- ASK: `[Префикс]_ASK_1`, `[Префикс]_ASK_2`, ...
+- PER: `[Префикс]_PER_1`, `[Префикс]_PER_2`, ...
+- CL: `[Префикс]_CL_1`, `[Префикс]_CL_2`, ...
+- FA: `[Префикс]_FA_1`, `[Префикс]_FA_2`, ...
+- R: `[Префикс]_R_1`, `[Префикс]_R_2`, ...
+
+Для `GR с цветов` тоже используй общий счетчик `GR`, если отдельная инструкция пакета не требует иначе.
+
+ПРАВИЛО ВИЗУАЛИЗИРУЕМЫХ ПРЕДМЕТОВ
+
+Generated-предметы `GR`, `ASK`, `PER`, `CL`, `FA`, `R` должны быть конкретными объектами, которые можно нарисовать и добавить в игру.
+
+Нельзя делать предметом абстрактную сущность:
+- `Небесное давление`
+- `Магическая сила`
+- `Сытость`
+- `Заряд радости`
+- `Фрикадельковый фронт`
+
+Нужно делать предметом физический объект:
+- `Латунная стрелка барометра`
+- `Крышка для непослушного котла`
+- `Лепесток сытости`
+- `Соусный клапан`
+- `Медный фиксатор трещины`
+
+Если хочется передать абстрактную идею, привяжи ее к предмету:
+- не `Небесное давление`, а `Латунная стрелка барометра`;
+- не `Сытость`, а `Лепесток сытости`;
+- не `Магия котла`, а `Закопченный амулет котла`.
+
+ФОРМАТ `filled_tasks.json`
+
+Ответ этапа 4 должен быть JSON-объектом:
+
+```json
+{
+  "quests": [
+    {
+      "classname_quests": "[classname квеста]",
+      "title_quest": "[название квеста]",
+      "quest_number": 1,
+      "tasks": [
+        {
+          "task_number": 1,
+          "task_template_id": "TT-020",
+          "task_template_name": "Уборка конкретного мусора в гостях",
+          "task_type": "garbage classname in_guest",
+          "selected_candidate_id": "garbage:Ashes",
+          "choice_reason": "Почему выбран именно этот кандидат по контексту квеста.",
+          "task_object": {
+            "type": "garbage",
+            "classname": "Ashes",
+            "in_guest": 1,
+            "amount": 1,
+            "price": 1,
+            "title": "Убери мусор Пепел в гостях",
+            "hint": "Убери мусор Пепел в гостях. Для этого просто кликни на нужный мусор в гостях у друга. Место поиска: Котельная.",
+            "identifier": ""
+          }
+        }
+      ]
+    }
+  ]
+}
+```
+
+Обязательные поля task-записи:
+- `task_number`
+- `task_template_id`
+- `task_template_name`
+- `task_type`
+- `selected_candidate_id`
+- `choice_reason`
+- `task_object`
+
+Если шаблон не требует реального кандидата, например `TT-001`, `TT-002`, `TT-008`, `TT-009`, `TT-033`, `TT-034`, тогда:
+- `selected_candidate_id` можно поставить `null`;
+- игровые/generated classname создаются по правилам нейминга;
+- в `choice_reason` нужно объяснить сюжетную логику.
+
+КАК ВЫБИРАТЬ КАНДИДАТА
+
+Для каждого task в `context_pack.json` есть:
+- `task_template_id`
+- `task_template_name`
+- `task_type`
+- `description`
+- `congratulation`
+- `character`
+- `candidate_domain`
+- `candidates`
+- `manual_override`
+- `notes`
+
+Правила выбора:
+1. Выбери ровно один `selected_candidate_id` из `candidates`, если список `candidates` не пустой.
+2. Не выбирай кандидата вне списка.
+3. Если есть `manual_override.avoid_candidates`, не выбирай эти `candidate_id`.
+4. Если есть `manual_override.prefer_candidates`, сначала попробуй выбрать из них, но только если это подходит контексту.
+5. Если есть `manual_override.instruction`, выполни эту инструкцию.
+6. Подбирай кандидата по смыслу `description`, `congratulation`, `title_quest` и персонажа.
+7. В `choice_reason` коротко объясни выбор.
+
+Как использовать кандидатов:
+
+Для `candidate_domain = "garbage"`:
+- `task_object.classname` должен быть равен `candidate.garbage_classname`;
+- в title/hint используй `candidate.garbage_title`;
+- место поиска бери из `candidate.locations`.
+
+Для `candidate_domain = "flower"`:
+- `task_object.param` должен быть равен `candidate.flower_classname`;
+- в title/hint используй `candidate.flower_title`.
+
+Для `candidate_domain = "collection_drop"`:
+- `task_object.classname` должен быть равен `candidate.collection_classname`;
+- если есть `icon`, он должен быть равен `candidate.collection_classname`;
+- в title/hint используй `candidate.collection_title`;
+- источник выпадения бери из `candidate.source_title`, `candidate.source_type`, `candidate.mode`, `candidate.locations`.
+
+Для `candidate_domain = "gr_garbage"`:
+- `task_object.classname` и `icon` создаются как `[Префикс]_GR_[Номер]`;
+- в hint используй `candidate.garbage_title`;
+- место поиска бери из `candidate.locations`;
+- сам GR — новый ресурс пакета, но источник мусора должен быть реальным кандидатом.
+
+Для generated/story templates без кандидатов:
+- используй контекст квеста;
+- соблюдай нейминг;
+- не вставляй реальные garbage/flower/collection, если их нет в кандидате.
+
+ТИПИЧНЫЙ ПОРЯДОК РАБОТЫ ИИ НА ЭТАПЕ 4
+
+1. Открыть `output/context_pack.json`.
+2. Для каждого квеста прочитать `title_quest`, `description`, `congratulation`, `Character`.
+3. Для каждого task посмотреть `task_template_id`.
+4. Найти соответствующий шаблон в этой инструкции.
+5. Выбрать кандидата из `candidates`, если он нужен.
+6. Заполнить `task_object`.
+7. Проверить, что реальные classname/title взяты только из выбранного кандидата.
+8. Сохранить итоговый JSON в `output/filled_tasks.json`.
+9. Запустить `python src/validate_task_objects.py output/filled_tasks.json`.
+
+КРИТИЧЕСКИЕ ОШИБКИ ЭТАПА 4
+
+Нельзя:
+- выбирать `selected_candidate_id`, которого нет в `context_pack`;
+- менять `task_template_id` на этапе 4;
+- использовать `TT-035`;
+- придумывать реальные collection/garbage/flower classname;
+- придумывать реальные локации в `hint`;
+- писать после `Он находится` или `Место поиска:` локацию, которой нет в `context_pack`;
+- использовать collection title от одного кандидата, а classname от другого;
+- использовать garbage title от одного кандидата, а classname от другого;
+- ставить в одном квесте уборку мусора и collection drop из того же самого мусора;
+- для flower task ставить `param`, которого нет в выбранном flower candidate;
+- нумеровать generated-сущности по номеру task вместо отдельного счетчика сущности;
+- делать `GR`, `ASK`, `PER`, `R` абстрактными сущностями, которые нельзя отрисовать как предмет;
+- игнорировать `manual_override`;
+- возвращать CSV вместо `filled_tasks.json`;
+- удалять обязательные поля шаблона.
+
+ШАБЛОНЫ ДЛЯ РАЗНЫХ ТИПОВ ТАСКОВ:
+
+Источник актуального списка: таблица `Шаблоны тасков.csv`.
+
+ID шаблона таска — стабильный идентификатор шаблона для этапа 4. Русское название шаблона сохранено как в таблице.
+
+Важно:
+- `task_template_id` не является полем игрового task object. Это служебный ID инструкции.
+- Все значения в квадратных скобках нужно заполнить по контексту квеста и реальным данным.
+- Мусор, цветы, коллекции, локации и их title брать только из `data/quest_ready_index.json` и `data/quest_ready_drops.index.json`.
+- Пакетные сущности квеста (`HOG`, `GR`, `ASK`, `PER`, `CL`, `FA`, `R`, `Character`, `Stuff`) создаются по правилам нейминга текущего квестового пакета.
+- Поле `identifier` присутствует в актуальной таблице как пустое служебное поле. Если pipeline не требует его в JSON task object, оно может оставаться пустым.
+- `amount` и `price` в таблице отличаются по примерам; если отдельная балансировочная таблица не задана, подбирай их осознанно под сложность задания.
+
+КАТАЛОГ АКТУАЛЬНЫХ ШАБЛОНОВ:
+
+ID шаблона таска | Раздел таблицы | Название шаблона из таблицы | Рекомендуемый Task type этапа 3
+-----------------|----------------|------------------------------|-------------------------------
+TT-001 | Шаблон диалог | Диалог | action dialog
+TT-002 | Шаблон крафт | Крафт | get_and_decrease_asset craft
+TT-003 | Шаблон HOG | HOG в мире | HOG clean_debris world
+TT-004 | Шаблон HOG | HOG на локации | HOG clean_debris location
+TT-005 | Шаблон HOG | HOG в локациях дома | HOG clean_debris home_locations
+TT-006 | Шаблон HOG | HOG в виде скрытого предмета | HOG clean_debris hidden_object
+TT-007 | Шаблон HOG | HOG поиск истинного среди ложного | HOG clean_debris true_among_false
+TT-008 | Шаблон получение ресурсов | Получить ASK | get_asset ASK
+TT-009 | Шаблон получение ресурсов | Получить PER | get_asset PER
+TT-010 | Шаблон получение ресурсов | Получить CL (награда за коллекцию) | get_asset CL
+TT-011 | Шаблон получение ресурсов | Получить элемент коллекции (зависит от редкости) | get_asset Collection
+TT-012 | Шаблон получение ресурсов | Получить FA (экшен на площади у друга) | get_asset FA
+TT-013 | Шаблон GR | GR с мусора в локации дома | get_asset GR garbage location_tags
+TT-014 | Шаблон GR | GR с конкретного мусора в гостях | get_asset GR in_guest garbage classname
+TT-015 | Шаблон GR | GR с конкретного мусора дома | get_asset GR garbage classname
+TT-016 | Шаблон GR | GR с цветов в гостях | get_asset GR in_guest flower
+TT-017 | Шаблон GR | GR с цветов дома | get_asset GR flower
+TT-018 | Шаблон сбор цветов | Сбор цветов дома (зависит от времени роста) | action take_crop
+TT-019 | Шаблон сбор цветов | Сбор цветов в гостях | action take_crop_in_guest
+TT-020 | Шаблон уборка мусора | Уборка конкретного мусора в гостях | garbage classname in_guest
+TT-021 | Шаблон уборка мусора | Уборка конкретного мусора дома | garbage classname
+TT-022 | Шаблон Загадки | Загадка на цветок в гостях | action take_crop_in_guest mystery
+TT-023 | Шаблон Загадки | Загадка на цветок дома (зависит от времени роста) | action take_crop mystery
+TT-024 | Шаблон Загадки | Загадка на мусор в гостях | garbage classname in_guest mystery
+TT-025 | Шаблон Загадки | Загадка на мусор дома | garbage classname mystery
+TT-026 | Шаблон Загадки | Загадка на коллекцию (зависит от редкости) | get_asset Collection mystery
+TT-027 | Шаблон Загадки | Загадка задом наперед на коллекцию (зависит от редкости) | get_asset Collection reverse_mystery
+TT-028 | Шаблон Силуэты | Силуэт элемент коллекции (зависит от редкости) | get_asset Collection is_silhouette
+TT-029 | Шаблон Силуэты | Силуэт мусора в гостях | garbage classname is_silhouette in_guest
+TT-030 | Шаблон Силуэты | Силуэт мусора  дома | garbage classname is_silhouette
+TT-031 | Шаблон Силуэты | Силуэт цветка в гостях | action take_crop_in_guest is_silhouette
+TT-032 | Шаблон Силуэты | Силуэт цветка дома (зависит от времени роста) | action take_crop is_silhouette
+TT-033 | Шаблон Взаимодействия | Передача предмета | action give
+TT-034 | Шаблон Взаимодействия | Фото предмета | action post_photo
+TT-035 | Шаблон Взаимодействия | Следы с ресурсами | not_ready
+
+ПОДРОБНЫЕ ШАБЛОНЫ:
+
+TT-001. Диалог
+
+```json
+{
+  "type": "action",
+  "icon": "[Префикс]_Character_[Номер]",
+  "action": "[Префикс]_Character_[Номер]_Dialog_[Номер]",
+  "title": "Поговори с [персонаж]",
+  "hint": "Поговори с [персонаж]. Для этого просто кликни на него. Он находится в [локация].",
+  "go_to_location": [
+    {"classname": "[Префикс]_Character_[Номер]"}
+  ],
+  "identifier": ""
+}
+```
+
+TT-002. Крафт
+
+```json
+{
+  "type": "get_and_decrease_asset",
+  "classname": "[Префикс]_R_[Номер]",
+  "icon": "[Префикс]_R_[Номер]",
+  "amount": 1,
+  "title": "Создай [название предмета]",
+  "go_to_location": [
+    {"classname": "[Префикс]_Workbench_[Номер]"}
+  ],
+  "hint": "Для создания используй [название станка/объекта].",
+  "identifier": ""
+}
+```
+
+TT-003. HOG в мире
+
+```json
+{
+  "type": "action",
+  "action": "clean_debris",
+  "param": "[Префикс]_HOG_[Номер]",
+  "search_action": "search_[Префикс]_HOG_[Номер]",
+  "after_buy_actions": [
+    {"do": "remove_stuff", "classname": "[Префикс]_HOG_[Номер]"}
+  ],
+  "amount": 1,
+  "price": 1,
+  "title": "Найди [название скрытого предмета]",
+  "hint": "Найди [название скрытого предмета]. Место поиска: Мир. Если найти все не удаётся, можно купить подсказку.",
+  "identifier": ""
+}
+```
+
+TT-004. HOG на локации
+
+```json
+{
+  "type": "action",
+  "action": "clean_debris",
+  "param": "[Префикс]_HOG_[Номер]",
+  "search_action": "search_[Префикс]_HOG_[Номер]",
+  "after_buy_actions": [
+    {"do": "remove_stuff", "classname": "[Префикс]_HOG_[Номер]"}
+  ],
+  "amount": 1,
+  "price": 1,
+  "title": "[Краткое действие с предметами]",
+  "hint": "[Краткое действие с предметами]. Место поиска: [локация]. Если найти все не удаётся, можно купить подсказку.",
+  "identifier": ""
+}
+```
+
+TT-005. HOG в локациях дома
+
+```json
+{
+  "type": "action",
+  "action": "clean_debris",
+  "param": "[Префикс]_HOG_[Номер]",
+  "amount": 1,
+  "price": 1,
+  "title": "Найди [название скрытого предмета]",
+  "hint": "Найди [название скрытого предмета]. Они могут быть в [список домашних локаций].",
+  "identifier": ""
+}
+```
+
+TT-006. HOG в виде скрытого предмета
+
+```json
+{
+  "type": "action",
+  "action": "clean_debris",
+  "param": "[Префикс]_HOG_[Номер]",
+  "amount": 1,
+  "price": 1,
+  "title": "[Краткое описание скрытого предмета]",
+  "hint": "[Подсказка где искать скрытый предмет].",
+  "identifier": ""
+}
+```
+
+TT-007. HOG поиск истинного среди ложного
+
+```json
+{
+  "type": "action",
+  "action": "clean_debris",
+  "param": "[Префикс]_HOG_[Номер]",
+  "amount": 1,
+  "price": 1,
+  "title": "[Найди настоящий предмет среди похожих]",
+  "hint": "[Подсказка как отличить правильный предмет от ложных].",
+  "identifier": ""
+}
+```
+
+TT-008. Получить ASK
+
+```json
+{
+  "type": "get_asset",
+  "classname": "[Префикс]_ASK_[Номер]",
+  "icon": "[Префикс]_ASK_[Номер]",
+  "amount": 1,
+  "price": 1,
+  "title": "Попроси у друзей [название предмета]",
+  "hint": "Попроси у друзей или купи.",
+  "identifier": ""
+}
+```
+
+TT-009. Получить PER
+
+```json
+{
+  "type": "get_asset",
+  "classname": "[Префикс]_PER_[Номер]",
+  "icon": "[Префикс]_PER_[Номер]",
+  "amount": 1,
+  "price": 1,
+  "title": "Попроси у друзей [название предмета]",
+  "hint": "Отправь личные просьбы друзьям или купи.",
+  "identifier": ""
+}
+```
+
+TT-010. Получить CL (награда за коллекцию)
+
+```json
+{
+  "type": "get_asset",
+  "classname": "[Префикс]_CL_[Номер]",
+  "icon": "[Префикс]_CL_[Номер]",
+  "amount": 1,
+  "price": 1,
+  "title": "Найди [название ресурса]",
+  "hint": "[Название ресурса] можно получить за сбор коллекции [название коллекции] при уборке мусора в локации [локация] дома и в гостях.",
+  "identifier": ""
+}
+```
+
+TT-011. Получить элемент коллекции (зависит от редкости)
+
+```json
+{
+  "type": "get_asset",
+  "classname": "[collection_classname]",
+  "icon": "[collection_classname]",
+  "amount": 1,
+  "price": 1,
+  "title": "Найди [collection_title]",
+  "hint": "[collection_title] - элемент коллекции, выпадает при уборке мусора [garbage_title] дома и в гостях. Место поиска: [список локаций].",
+  "identifier": ""
+}
+```
+
+TT-012. Получить FA (экшен на площади у друга)
+
+```json
+{
+  "type": "get_asset",
+  "classname": "[Префикс]_FA_[Номер]",
+  "icon": "[Префикс]_FA_[Номер]",
+  "amount": 1,
+  "price": 1,
+  "title": "Получи [название ресурса]",
+  "hint": "[Название ресурса] можно получить [описание действия на площади у друга]",
+  "identifier": ""
+}
+```
+
+TT-013. GR с мусора в локации дома
+
+```json
+{
+  "type": "get_asset",
+  "classname": "[Префикс]_GR_[Номер]",
+  "icon": "[Префикс]_GR_[Номер]",
+  "amount": 1,
+  "price": 1,
+  "title": "Найди [название ресурса]",
+  "hint": "Убирай мусор в локации [локация] дома, чтобы найти.",
+  "identifier": ""
+}
+```
+
+TT-014. GR с конкретного мусора в гостях
+
+```json
+{
+  "type": "get_asset",
+  "classname": "[Префикс]_GR_[Номер]",
+  "icon": "[Префикс]_GR_[Номер]",
+  "amount": 1,
+  "price": 1,
+  "title": "Найди [название ресурса]",
+  "hint": "Убирай мусор [garbage_title] в гостях, чтобы найти. Место поиска: [список локаций].",
+  "identifier": ""
+}
+```
+
+TT-015. GR с конкретного мусора дома
+
+```json
+{
+  "type": "get_asset",
+  "classname": "[Префикс]_GR_[Номер]",
+  "icon": "[Префикс]_GR_[Номер]",
+  "amount": 1,
+  "price": 1,
+  "title": "Найди [название ресурса]",
+  "hint": "Убирай мусор [garbage_title] дома, чтобы найти. Место поиска: [список локаций].",
+  "identifier": ""
+}
+```
+
+TT-016. GR с цветов в гостях
+
+```json
+{
+  "type": "get_asset",
+  "classname": "[Префикс]_GR_[Номер]",
+  "icon": "[Префикс]_GR_[Номер]",
+  "amount": 1,
+  "price": 1,
+  "title": "Получи [название ресурса]",
+  "hint": "Собирай цветы [flower_title] в гостях, чтобы найти. Чтобы собрать растение, кликни на горшок с нужным растением в гостях у друга",
+  "identifier": ""
+}
+```
+
+TT-017. GR с цветов дома
+
+```json
+{
+  "type": "get_asset",
+  "classname": "[Префикс]_GR_[Номер]",
+  "icon": "[Префикс]_GR_[Номер]",
+  "amount": 1,
+  "price": 1,
+  "title": "Получи [название ресурса]",
+  "hint": "Собирай цветы [flower_title] дома, чтобы найти. Чтобы собрать растение, кликни на горшок с нужным растением.",
+  "identifier": ""
+}
+```
+
+TT-018. Сбор цветов дома (зависит от времени роста)
+
+```json
+{
+  "type": "action",
+  "action": "take_crop",
+  "param": "[flower_classname]",
+  "amount": 1,
+  "price": 1,
+  "title": "Собери [flower_title] дома",
+  "hint": "Собирай [flower_title] дома. Чтобы собрать растение, кликни на горшок с нужным растением",
+  "identifier": ""
+}
+```
+
+TT-019. Сбор цветов в гостях
+
+```json
+{
+  "type": "action",
+  "action": "take_crop_in_guest",
+  "param": "[flower_classname]",
+  "amount": 1,
+  "price": 1,
+  "title": "Собери [flower_title] в гостях",
+  "hint": "Собирай [flower_title] в гостях. Чтобы собрать растение, кликни на горшок с нужным растением в гостях у друга",
+  "identifier": ""
+}
+```
+
+TT-020. Уборка конкретного мусора в гостях
+
+```json
+{
+  "type": "garbage",
+  "classname": "[garbage_classname]",
+  "in_guest": 1,
+  "amount": 1,
+  "price": 1,
+  "title": "Убери мусор [garbage_title] в гостях",
+  "hint": "Убери мусор [garbage_title] в гостях. Для этого просто кликни на нужный мусор в гостях у друга. Место поиска: [список локаций].",
+  "identifier": ""
+}
+```
+
+TT-021. Уборка конкретного мусора дома
+
+```json
+{
+  "type": "garbage",
+  "classname": "[garbage_classname]",
+  "amount": 1,
+  "price": 1,
+  "title": "Убери мусор [garbage_title] дома",
+  "hint": "Убери мусор [garbage_title] дома. Для этого просто кликни на нужный мусор дома. Место поиска: [список локаций].",
+  "identifier": ""
+}
+```
+
+TT-022. Загадка на цветок в гостях
+
+```json
+{
+  "type": "action",
+  "action": "take_crop_in_guest",
+  "param": "[flower_classname]",
+  "is_hide": 1,
+  "amount": 1,
+  "price": 1,
+  "title": "Загадка, цветы в гостях у друга",
+  "hint": "[Рифмованная загадка о flower_title]",
+  "identifier": ""
+}
+```
+
+TT-023. Загадка на цветок дома (зависит от времени роста)
+
+```json
+{
+  "type": "action",
+  "action": "take_crop",
+  "param": "[flower_classname]",
+  "is_hide": 1,
+  "amount": 1,
+  "price": 1,
+  "title": "Загадка, цветы дома",
+  "hint": "[Рифмованная загадка о flower_title]",
+  "identifier": ""
+}
+```
+
+TT-024. Загадка на мусор в гостях
+
+```json
+{
+  "type": "garbage",
+  "classname": "[garbage_classname]",
+  "in_guest": 1,
+  "is_hide": 1,
+  "amount": 1,
+  "price": 1,
+  "title": "Загадка, мусор в гостях",
+  "hint": "[Рифмованная загадка о garbage_title]",
+  "identifier": ""
+}
+```
+
+TT-025. Загадка на мусор дома
+
+```json
+{
+  "type": "garbage",
+  "classname": "[garbage_classname]",
+  "is_hide": 1,
+  "amount": 1,
+  "price": 1,
+  "title": "Загадка, мусор дома",
+  "hint": "[Рифмованная загадка о garbage_title]",
+  "identifier": ""
+}
+```
+
+TT-026. Загадка на коллекцию (зависит от редкости)
+
+```json
+{
+  "type": "get_asset",
+  "classname": "[collection_classname]",
+  "is_hide": 1,
+  "amount": 1,
+  "price": 1,
+  "title": "Загадка, предмет из коллекции",
+  "hint": "[Рифмованная загадка о collection_title]",
+  "identifier": ""
+}
+```
+
+TT-027. Загадка задом наперед на коллекцию (зависит от редкости)
+
+```json
+{
+  "type": "get_asset",
+  "classname": "[collection_classname]",
+  "is_silhouette": 1,
+  "amount": 1,
+  "price": 1,
+  "title": "[Фраза задания задом наперед]",
+  "hint": "Прочитай фразу задания задом наперед.",
+  "identifier": ""
+}
+```
+
+TT-028. Силуэт элемент коллекции (зависит от редкости)
+
+```json
+{
+  "type": "get_asset",
+  "classname": "[collection_classname]",
+  "is_silhouette": 1,
+  "amount": 1,
+  "price": 1,
+  "title": "Угадай элемент коллекции",
+  "hint": "Угадай элемент коллекции и найди его дома или в гостях у друзей",
+  "identifier": ""
+}
+```
+
+TT-029. Силуэт мусора в гостях
+
+```json
+{
+  "type": "garbage",
+  "classname": "[garbage_classname]",
+  "is_silhouette": 1,
+  "in_guest": 1,
+  "amount": 1,
+  "price": 1,
+  "title": "Угадай загаданный мусор",
+  "hint": "Угадай загаданный мусор и убери его в гостях у друзей",
+  "identifier": ""
+}
+```
+
+TT-030. Силуэт мусора  дома
+
+```json
+{
+  "type": "garbage",
+  "classname": "[garbage_classname]",
+  "is_silhouette": 1,
+  "amount": 1,
+  "price": 1,
+  "title": "Угадай загаданный мусор и убери его дома",
+  "hint": "Угадай загаданный мусор и убери его дома",
+  "identifier": ""
+}
+```
+
+TT-031. Силуэт цветка в гостях
+
+```json
+{
+  "type": "action",
+  "action": "take_crop_in_guest",
+  "param": "[flower_classname]",
+  "is_silhouette": 1,
+  "amount": 1,
+  "price": 1,
+  "title": "Угадай загаданный цветок",
+  "hint": "Угадай загаданный цветок и собери его в гостях у друга",
+  "identifier": ""
+}
+```
+
+TT-032. Силуэт цветка дома (зависит от времени роста)
+
+```json
+{
+  "type": "action",
+  "action": "take_crop",
+  "param": "[flower_classname]",
+  "is_silhouette": 1,
+  "amount": 1,
+  "price": 1,
+  "title": "Угадай загаданный цветок и собери его дома",
+  "hint": "Угадай загаданный цветок и собери его дома",
+  "identifier": ""
+}
+```
+
+TT-033. Передача предмета
+
+```json
+{
+  "type": "action",
+  "action": "action_[Префикс]_Stuff_[Номер]_[Номер]_Give_[Номер]",
+  "icon": "[Префикс]_Stuff_[Номер]_[Номер]",
+  "go_to_location": [
+    {"classname": "[Префикс]_Stuff_[Номер]_[Номер]"}
+  ],
+  "amount": 1,
+  "title": "[Действие] [название предмета]",
+  "hint": "[Инструкция как передать предмет]. Он находится на [локация].",
+  "identifier": ""
+}
+```
+
+TT-034. Фото предмета
+
+```json
+{
+  "type": "action",
+  "action": "post_photo",
+  "icon": "[Префикс]_Character_[Номер]",
+  "param": "[Префикс]_Character_[Номер]",
+  "amount": 1,
+  "title": "Сфотографируйся с [персонаж]",
+  "hint": "[Персонаж] - персонаж, с которым нужно сфотографироваться. Найди его у себя на [локация] и нажми на иконку \"Сделать фотографию\" в правом верхнем углу. Наведи фокус на [персонаж], сфотографируйся с ним и нажми \"Славненько\".",
+  "identifier": ""
+}
+```
+
+TT-035. Следы с ресурсами
+
+В CSV есть строка шаблона `Следы с ресурсами`, но поля task object после заголовка не заполнены. Этот шаблон нельзя использовать для генерации, пока не будет добавлена актуальная структура.
+
+Чек-лист для Этапа 4:
+- [ ] Входным файлом был `output/context_pack.json`
+- [ ] Итог сохранен в формате `output/filled_tasks.json`
+- [ ] Для каждого таска сохранены `task_number`, `task_template_id`, `task_template_name`, `task_type`
+- [ ] Для каждого таска заполнен `selected_candidate_id`, если в context pack были candidates
+- [ ] Для каждого таска добавлен `choice_reason`
+- [ ] Для каждого таска создана корректная JSON-структура
+- [ ] Структура соответствует выбранному Task type
+- [ ] Все обязательные поля заполнены
+- [ ] Содержимое логично связано с `description` и `congratulation` квеста
+- [ ] Для загадок созданы рифмованные описания
+- [ ] Соблюдены правила нейминга
+- [ ] Generated-сущности нумеруются отдельными счетчиками: `GR_1`, `GR_2`, `ASK_1`, `R_1`
+- [ ] Generated-предметы являются конкретными визуализируемыми объектами
+- [ ] Все фразы `Он находится` и `Место поиска:` используют точные реальные location title из `context_pack`
+- [ ] В одном квесте нет пары "убрать мусор X" + "получить collection drop из мусора X"
+- [ ] Мусор, цветы, коллекции и локации взяты только из кандидатов `context_pack.json`
+- [ ] `manual_override` учтен, если он есть
+- [ ] Использованы подходящие значения параметров (`classname`, `param`, `amount`, `price` и т.д.)
+- [ ] Запущена команда `python src/validate_task_objects.py output/filled_tasks.json`
+- [ ] В `output/filled_tasks.validation.json` нет errors
+
+Примеры правильно выполненного Этапа 4.
+
+ВАЖНО: вот так тебе нужно выдавать ответ.
+
+Начало пакета квестов 1
+Название пака квестов "Долгая дорога домой" - CosmoDay_2025
+
+Classname quests: CosmoDay_2025_Story_1
+title_quest: Кораблекрушение
+№ quest: 1
+№ task: 1 2 3
+Task type: action Dialog / garbage location_index home / get_asset Collection
+description: "О, божечки! Что это за шум? Кажется, что-то упало с неба... Это же космический корабль! Инопланетянин без сознания! Нам нужно срочно помочь ему выбраться!"
+Tasks: 
+{"type":"action",
+"icon":"CosmoDay_2025_Character_2_1_icon",
+"action":"action_CosmoDay_2025_Character_2_1_Dialog_1",
+"title":"Поговори с Белым кроликом",
+"hint":"Поговори с Белым кроликом. Для этого просто кликни на него. Он находится на Лужайке.",
+"go_to_location":[{"classname":"CosmoDay_2025_Character_2_1"}],
+"amount":1},
+
+{"type":"garbage",
+"location_index":50,
+"amount":40,
+"price":14,
+"title":"Убери любой мусор на Мельнице",
+"go_to_location":[{"location_id":50}]},
+
+{"type" : "get_asset",
+"classname" : "BrokenPlowCollection2",
+"icon" : "BrokenPlowCollection2",
+"amount" : 12,
+"price" : 20,
+"title" : "Найди Лопаты",
+"hint" : "Лопата - элемент коллекции, выпадает при уборке мусора Сломанный плуг дома. Место поиска: Село"}
+
+
+congratulation: "Фух, мы вытащили его! Но он выглядит так плохо... Нам нужно оказать ему первую помощь, иначе он не выживет!"
+Character: Белый кролик
+
+Classname quests: CosmoDay_2025_Story_2
+title_quest: Первая земная помощь
+№ quest: 2
+№ task: 4 5 6
+Task type: action take_crop_in_guest / get_asset Collection is_silhouette / get_asset Collection is_silhouette
+description: "Он дышит, но еле-еле... Нам нужны медикаменты! Я знаю, где можно найти нашатырь и бинты. Давайте скорее, каждая секунда на счету!"
+Tasks: 
+{"type" : "action",
+"action" : "take_crop_in_guest",
+"title" : "Собери цветы Очага в гостях",
+"hint" : "Собирай Цветы очага в гостях. Чтобы собрать растение, кликни на горшок с нужным растением в гостях у друга",
+"param" : "MagicFlowerHome",
+"amount" : 60,
+"price" : 12}, 
+
+{"type" : "get_asset",
+"classname" : "PillCollection3",
+"icon" : "PillCollection3",
+"amount" : 8,
+"price" : 16,
+"is_silhouette" : 1,
+"title" : "Угадай, элемент коллекции",
+"hint" : "Угадай, загаданный элемент коллекции и найди его"},  
+
+{"type" : "get_asset",
+"classname" : "DrCapCollection5",
+"icon" : "DrCapCollection5",
+"amount" : 12,
+"price" : 20,
+"is_silhouette" : 1,
+"title" : "Угадай, элемент коллекции",
+"hint" : "Угадай, загаданный элемент коллекции и найди его"},
+
+congratulation: "Фух, мы вытащили его! Но он выглядит так плохо... Нам нужно оказать ему первую помощь, иначе он не выживет!"
+Character: Белый кролик
+
+Classname quests: CosmoDay_2025_Story_3
+title_quest: Переводчик Дружбы
+№ quest: 3
+№ task: 7 8 9
+Task type: get_asset GR in_guest Flower / get_asset PER / get_asset action Give Craft
+description: "Он пытается что-то сказать, но я ничего не понимаю! Это звучит как бессмысленная тарабарщина... Может, мы сможем создать что-то вроде переводчика? У меня есть идея, но нам понадобятся детали"
+Tasks: 
+{"type" : "get_asset",
+"classname" : "CosmoDay_2025_GR_1",
+"icon" : "CosmoDay_2025_GR_1",
+"title" : "Найди Жидкую энергию",
+"hint" : "Собирай цветы Ирисы дома, чтобы найти. Чтобы собрать, нажми на горшок с нужным растением в гостях у друга.",        
+"amount" : 40,
+"price" : 12},
+
+{"type" : "get_asset",
+"classname" : "CosmoDay_2025_PER_1",
+"icon" : "CosmoDay_2025_PER_1",
+"amount" : 10,
+"price" : 10,
+"title" : "Попроси у друзей \"Микродинамик\"",
+"hint" : "Отправь личные просьбы друзьям или купи."},
+
+{"type" : "action",
+"action" : "action_CosmoDay_2025_Character_1_2_Give_1",
+"icon" : "CosmoDay_2025_R_1",
+"title" : "Сделай и отдай инопланетянину Переводчик дружбы",
+"hint" : "Клинкни на инопланетянина. Нажми на кнопку \"Отдать\", чтобы передать Переводчик дружбы. Он находится на Лужайке.",
+"go_to_location":[
+{"classname":"DayOfDomovoyCaldron", "conditions":"asset!=CosmoDay_2025_R_1:1"},
+{"classname":"CosmoDay_2025_Character_1_2", "conditions":"asset=CosmoDay_2025_R_1:1"}
+],
+"amount" : 1},
+
+congratulation: "Ура! Переводчик готов! Теперь мы можем понять друг друга. Он говорит, что его зовут Кролус и он изучал земную Страну чудес... Но его корабль столкнулся с астероидом и ему нужна наша помощь!"
+Character: Белый кролик
+
+Classname quests: CosmoDay_2025_Story_4
+title_quest: Переводчик Дружбы
+№ quest: 4
+№ task: 10 11 12
+Task type: get_asset Collection / Garbage classname is_silhouette in_guest / action take_crop_in_guest
+description: "Бип... Ошибка системы... Требуется ремонт... Помогите... Бип.."
+Tasks: 
+{"type" : "get_asset",
+"classname" : "Garbage_LittleSun_Collection2",
+"icon" : "Garbage_LittleSun_Collection2",
+"amount" : 12,
+"price" : 20,
+"title" : "Найди Солнечные батареи",
+"hint" : "Солнечная батарея - элемент коллекции, выпадает при уборке мусора Маленькое солнышко дома и в гостях. Место поиска: Планетарий"},
+
+{"type":"garbage",
+"classname":"ClockRaffles",
+"is_silhouette" : 1,
+"in_guest" : 1,
+"amount":30,
+"price":15,
+"title" : "Угадай загаданный мусор",
+"hint" : "Угадай загаданный мусор и убери его в гостях у друзей"},
+
+{"type" : "action",
+"action" : "take_crop_in_guest",
+"title" : "Собери Маки в гостях",
+"hint" : "Собирай Маки в гостях. Чтобы собрать растение, кликни на горшок с нужным растением в гостях у друга",
+"param" : "FlowerSeven",
+"amount" : 100,
+"price" : 25},
+
+congratulation: "Система восстановлена. Спасибо за помощь. Теперь я могу связаться с базой и помочь Кролусу."
+Character: Связной
+
+Classname quests: CosmoDay_2025_Story_5
+title_quest: Звёздные лилии
+№ quest: 5
+№ task: 13 14 15
+Task type: action take_crop_in_guest / action take_crop / get_asset GR home in_guest Flower
+description: "О, мои звёздные лилии! Они целы! Это же чудо! Это редкие цветы с моей планеты, и они такие красивые... Давайте посадим их здесь, на Земле. Я уверен, они приживутся!"
+Tasks: 
+{"type" : "action",
+"action" : "take_crop_in_guest",
+"title" : "Собери Звёздные лилии в гостях",
+"hint" : "Собирай Звёздные лилии в гостях. Чтобы собрать растение, кликни на горшок с нужным растением в гостях у друга",
+"param" : "CosmoDay_2025_Flower",
+"amount" : 100,
+"price" : 25"},
+
+{"type" : "action",
+"action" : "take_crop",
+"title" : "Собери Звёздные лилии дома",
+"hint" : "Собирай Звёздные лилии дома. Чтобы собрать растение, кликни на горшок с нужным растением в гостях у друга",
+"param" : "CosmoDay_2025_Flower",
+"amount" : 50,
+"price" : 20"},
+
+{"type" : "get_asset",
+"classname" : "CosmoDay_2025_GR_1",
+"icon" : "CosmoDay_2025_GR_1",
+"title" : "Найди Звёздную пыльцу",
+"hint" : "Собирай цветы Звёздные лилии дома и в гостях, чтобы найти. Чтобы собрать, нажми на горшок с нужным растением в гостях у друга.",        
+"amount" : 100,
+"price" : 25"}
+
+congratulation: "Смотрите, как они светятся! Земля им подходит идеально. Спасибо, что помогли! Теперь у вас будет частичка моей планеты."
+Character: Кролус
+
+Classname quests: CosmoDay_2025_Story_6
+title_quest: Обшивка корабля
+№ quest: 6
+№ task: 16 17 18
+Task type: get_asset Collection Mystery / action clean_debris HOG / action clean_debris HOG
+description: "Мой корабль выглядит как консервная банка после встречи с астероидом... Обшивка разлетелась по всей округе. Нужно найти все куски и починить её, иначе я никогда не смогу улететь!"
+Tasks: 
+{"type" : "get_asset",
+"classname" : "FlowerMatrixCollection4",
+"is_hide" : 1,
+"amount" : 1,
+"price" : 10,
+"title" : "Загадка, предмет из коллекции",
+"hint" : "Он не живой, но помнит всё подряд, внутри него секретный клад. Не мозг, но память там лежит, и в цифрах жизнь его кипит."},
+
+{"type" : "action",
+"action":"clean_debris",
+"param":"CosmoDay_2025_HOG_3",
+"amount" : 20,
+"price" : 20,
+"title" : "Собери Куски обшивки",
+"hint":"Собери Куски обшивки. Место поиска: Дача."},
+
+{"type" : "action",
+"action":"clean_debris",
+"param":"CosmoDay_2025_HOG_4",
+"amount" : 1,
+"price" : 10,
+"title" : "Найди Джойстик управления",
+"hint":"Ищи в комнатках дома, на мельнице и в кузнице."}
+
+congratulation: "Теперь корабль выглядит лучше! Но двигатели всё ещё не работают... Без них я никуда не улечу."
+Character: Кролус
+
+Classname quests: CosmoDay_2025_Story_7
+title_quest: Ракетный чай
+№ quest: 7
+№ task: 19 20 21
+Task type: get_asset ASK / get_asset GR in_guest garbage / get_asset GR in_guest Flower
+description: "Вы никогда не пробовали Ракетный чай? Это мой любимый напиток! Он придаёт сил и поднимает настроение. Давайте я покажу вам рецепт, и мы устроим чаепитие!"
+Tasks: 
+{"type" : "get_asset",
+"classname" : "CosmoDay_2025_ASK_1",
+"icon" : "CosmoDay_2025_ASK_1",
+"amount" : 10,
+"price" : 10,
+"title" : "Попроси у друзей \"Чайник\"",
+"hint" : "Попроси у друзей или купи."},
+
+{"type" : "get_asset",
+"classname" : "CosmoDay_2025_GR_4",
+"icon" : "CosmoDay_2025_GR_4",
+"title" : "Найди Ракетное топливо",
+"hint" : "Убирай мусор Игрушечная ракета в гостях, чтобы найти.  Место поиска: Мансарда.",        
+"amount" :50,
+"price" : 20},
+
+{"type" : "get_asset",
+"classname" : "CosmoDay_2025_GR_3",
+"icon" : "CosmoDay_2025_GR_3",
+"title" : "Найди Лунный сахар",
+"hint" : "Собирай Цветы магии в гостях, чтобы найти. Чтобы собрать, нажми на горшок с нужным растением в гостях у друга.",        
+"amount" : 100,
+"price" : 25}
+
+congratulation: "Ммм, какой ароматный чай! Теперь мы готовы к новым подвигам! Спасибо, что разделили со мной этот момент."
+Character: Кролус
+
+Classname quests: CosmoDay_2025_Story_8
+title_quest: Двигатель мерцающей тяги
+№ quest: 8
+№ task: 22 23 24
+Task type: get_asset GR in_guest Flower / get_asset GR in_guest garbage / action Give Craft
+description: "Без двигателя я никуда не улечу... Помогите найти материалы для ремонта! Я знаю, что на Земле есть всё необходимое. Давайте скорее, время на исходе!"
+Tasks: 
+{"type" : "get_asset",
+"classname" : "CosmoDay_2025_GR_6",
+"icon" : "CosmoDay_2025_GR_6",
+"title" : "Найди Энергетическое ядро",
+"hint" : "Собирай Цветы очага в гостях, чтобы найти. Чтобы собрать, нажми на горшок с нужным растением в гостях у друга.",        
+"amount" : 80,
+"price" : 24},
+
+{"type" : "get_asset",
+"classname" : "CosmoDay_2025_GR_5",
+"icon" : "CosmoDay_2025_GR_5",
+"title" : "Найди Катализатор",
+"hint" : "Убирай мусор Магические знаки в гостях, чтобы найти.  Место поиска: Комната с привидениями.",        
+"amount" :50,
+"price" : 20},
+
+{"type" : "action",
+"action" : "action_CosmoDay_2025_Stuff_1_1_Give_1",
+"icon" : "CosmoDay_2025_R_2",
+"title" : "Почини Двигатели космического корабля",
+"hint" : "Клинкни на космический корабль. Нажми на кнопку \"Починить\", чтобы починить двигатель. Он находится на Лужайке.",
+"go_to_location":[
+{"classname":"DayOfDomovoyCaldron", "conditions":"asset!=CosmoDay_2025_R_2:1"},
+{"classname":"CosmoDay_2025_Stuff_1_1", "conditions":"asset=CosmoDay_2025_R_2:1"}
+],
+"amount" : 1}
+
+congratulation: "Двигатель работает! Теперь осталось только зарядить щит от метеоров, и я смогу отправиться домой."
+Character: Кролус
+
+Classname quests: CosmoDay_2025_Story_9
+title_quest: Двигатель мерцающей тяги
+№ quest: 9
+№ task: 25 26 27
+Task type: garbage in_guest Mystery / get_asset Collection Mystery / action take_crop_in_guest Mystery
+description: "Я слышал, что на Земле есть место под названием Страна чудес... Это звучит так загадочно! Помогите мне разгадать её тайны. Я приготовил три загадки, которые, как говорят, связаны с этим местом."
+Tasks: 
+{"type" : "garbage",
+"classname" : "FragmentaryCard",
+"in_guest" : 1,
+"is_hide" : 1,
+"amount" : 40,
+"price" : 20,
+"title" : "Загадка, мусор в гостях у друга",
+"hint" : "В колоде прячусь я средь мастей, меня в игре ты разыграешь. То принесу удачу в ней, а иногда всё проиграешь."},
+
+{"type" : "get_asset",
+"classname" : "PinionsCollection1",
+"is_hide" : 1,
+"amount" : 10,
+"price" : 20,
+"title" : "Загадка, предмет из коллекции",
+"hint" : "Над водой я плавно брожу, моё перо, как пламя, ало. На одной ноге стою, мне другой почти не надо. Найди моё перо герой, оно подсвечено зарёй."},
+
+{"type" : "action",
+"action" : "take_crop_in_guest",
+"param" : "FlowerMagazine5_RainbowCalla",
+"is_hide" : 1,
+"amount" : 40,
+"price" : 20,
+"title" : "Загадка, цветы в гостях у друга",
+"hint" : "Стройный стебель, лепесток, он все цвета в себе имеет. Любит он воды глоток, в доме душу всем согреет."}
+
+congratulation: "Молодец, друзья! Теперь я понимаю, что в Стране чудес всё не так, как кажется. Спасибо за помощь!"
+Character: Кролус
+
+Classname quests: CosmoDay_2025_Story_10
+title_quest: Щит от метеоров
+№ quest: 10
+№ task: 28 29 30
+Task type: Garbage classname is_silhouette in_guest / get_asset Collection is_silhouette / get_asset GR in_guest garbage
+description: "Щит от метеоров требует зарядки. Необходимо найти энергетические кристаллы. Бип-бип. Без щита полёт будет опасным."
+Tasks: 
+{"type":"garbage",
+"classname":"BigHome_Garbage_Server_BrokenCable",
+"is_silhouette" : 1,
+"in_guest" : 1,
+"amount":30,
+"price":15,
+"title" : "Угадай загаданный мусор",
+"hint" : "Угадай загаданный мусор и убери его в гостях у друзей"},
+
+{"type" : "get_asset",
+"classname" : "BigHome_Resource_CL_GoldenShield",
+"icon" : "BigHome_Resource_CL_GoldenShield",
+"amount" : 5,
+"price" : 15,
+"is_silhouette" : 1,
+"title" : "Угадай, награду за коллекцию",
+"hint" : "Угадай, загаданную награду за коллекцию и найди её"},
+
+{"type" : "get_asset",
+"classname" : "CosmoDay_2025_GR_7",
+"icon" : "CosmoDay_2025_GR_7",
+"title" : "Найди Стабилизатор",
+"hint" : "Убирай мусор Брошенный блин в гостях, чтобы найти.  Место поиска: Спортзал.",        
+"amount" :50,
+"price" : 20},
+
+congratulation: "Щит заряжен на 100%. Корабль готов к полёту. Бип."
+Character: Связной
+
+Classname quests: CosmoDay_2025_Story_11
+title_quest: Прощальный подарок
+№ quest: 11
+№ task: 31 32 33
+Task type: get_asset GR in_guest Flower / get_asset GR in_guest garbage / action Give Craft
+description: "Я хочу оставить вам что-то на память... Как насчёт моего робота Связного? Он будет помогать вам по хозяйству и поддерживать связь между нашими планетами. Это мой подарок вам за вашу доброту!"
+Tasks: 
+{"type" : "get_asset",
+"classname" : "CosmoDay_2025_GR_9",
+"icon" : "CosmoDay_2025_GR_9",
+"title" : "Найди Баночку Мёда",
+"hint" : "Собирай цветы Тюльпаны в гостях, чтобы найти",        
+"amount" : 40,
+"price" : 20},
+
+{"type":"get_asset",
+"classname":"CosmoDay_2025_GR_8",
+"icon":"CosmoDay_2025_GR_8",
+"amount":40,
+"price" :20,
+"title":"Найди Деликатес в тюбике",
+"hint" : "Убирай мусор Разлитый коктейль в гостях, чтобы найти. Место поиска: Барная комната."},
+
+{"type" : "action",
+"action" : "action_CosmoDay_2025_Character_1_3_Give_1",
+"icon" : "CosmoDay_2025_R_3",
+"title" : "Передай Кролусу Подарок от землян",
+"hint" : "Клинкни на Кролуса. Нажми на кнопку \"Отдать\", чтобы передать Подарок от землян. Он находится на Лужайке.",
+"go_to_location":[
+{"classname":"DayOfDomovoyCaldron", "conditions":"asset!=CosmoDay_2025_R_3:1"},
+{"classname":"CosmoDay_2025_Character_1_3", "conditions":"asset=CosmoDay_2025_R_3:1"}
+],
+"amount" : 1}
+
+congratulation: "Теперь у вас есть Связной и мы сможем общаться, чтобы лучше узнать друг друга. Спасибо за всё, друзья!"
+Character: Кролус

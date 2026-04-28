@@ -1,0 +1,40 @@
+{
+"class" : "AssetPrototype",
+"classname" : "ClockRaffles",
+"title" : "Сломанный будильник",
+"group" : "garbage",
+"subgroup" : "on_the_floor",
+"g_pest_probability_percent" : "16",
+"id" : "232965243",
+"rand_reward" : {"all":
+		[{"p":50,
+			"one_of":
+		[{"asset":"ClocksCollection1",
+					"p":100},
+				{"asset":"ClocksCollection2",
+					"p":50},
+				{"asset":"ClocksCollection3",
+					"p":100},
+				{"asset":"ClocksCollection4",
+					"p":100},
+				{"asset":"ClocksCollection5",
+					"p":100}]}],
+	"money_alt":2,
+	"xp":3},
+"rand_reward_in_guest" : {"all":
+		[{"p":50,
+			"one_of":
+		[{"asset":"ClocksCollection1",
+					"p":100},
+				{"asset":"ClocksCollection2",
+					"p":50},
+				{"asset":"ClocksCollection3",
+					"p":100},
+				{"asset":"ClocksCollection4",
+					"p":100},
+				{"asset":"ClocksCollection5",
+					"p":100}]}],
+	"money_alt":2,
+	"reputation_progress":1,
+	"xp":3}
+}

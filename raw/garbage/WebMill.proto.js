@@ -1,0 +1,40 @@
+{
+"class" : "AssetPrototype",
+"classname" : "WebMill",
+"title" : "Паутина на мельнице",
+"group" : "garbage",
+"subgroup" : "on_asset",
+"tags":["exclude_for_generation"],
+"id" : "159827344",
+"rand_reward" : {"all":
+		[{"p":50,
+			"one_of":
+		[{"asset":"EarCollection1",
+					"p":100},
+				{"asset":"EarCollection2",
+					"p":100},
+				{"asset":"EarCollection3",
+					"p":100},
+				{"asset":"EarCollection4",
+					"p":50},
+				{"asset":"EarCollection5",
+					"p":100}]}],
+	"money_alt":2,
+	"xp":1},
+"rand_reward_in_guest" : {"all":
+		[{"p":50,
+			"one_of":
+		[{"asset":"EarCollection1",
+					"p":100},
+				{"asset":"EarCollection2",
+					"p":100},
+				{"asset":"EarCollection3",
+					"p":100},
+				{"asset":"EarCollection4",
+					"p":50},
+				{"asset":"EarCollection5",
+					"p":100}]}],
+	"money_alt":2,
+	"reputation_progress":1,
+	"xp":1}
+}

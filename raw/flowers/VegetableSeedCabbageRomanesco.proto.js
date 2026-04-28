@@ -1,0 +1,20 @@
+{
+"class" : "AssetPrototype",
+"classname" : "VegetableSeedCabbageRomanesco",
+"title" : "Семена капусты Романеско",
+"description" : "Капуста Романеско",
+"tags" : ["seed_event"],
+"group" : "seeds",
+"subgroup" : "vegetables",
+"price" : 1,
+"currency" : "money",
+"sell_price" : 3,
+"meta_info" : "life=900;states=3;icon_view_seed=1;spoil_period=18000;help_view=VegetableSeedCabbageRomanescoHelpIcon;location_board_view=VegetableCabbageRomanesco;pack_asset=VegetableSeedCabbageRomanesco_Package",
+"rand_reward" : {"asset":"VegetableCabbageRomanesco", "xp":100},
+"rand_reward_in_guest" : {"reputation_progress":1, "xp":20, "vegetable":1},
+"energy_cost" : "dexterity=1",
+"accelerate_cost" : "asset=AccelerationPlantBooster:1",
+"recover_cost" : "asset=RecoverPlantBooster:1",
+"shop_conditions" : "active_quest_group=Leprechaun17_Tech",
+"id" : 38393
+}

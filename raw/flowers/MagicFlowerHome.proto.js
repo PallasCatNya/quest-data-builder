@@ -1,0 +1,23 @@
+{
+"class" : "AssetPrototype",
+"classname" : "MagicFlowerHome",
+"title" : "Цветок очага",
+"tags" : ["seed_quest","seed_simple","category_6"],
+"group" : "seeds",
+"subgroup" : "flower",
+"price" : 220,
+"currency" : "money_alt",
+"meta_info" : "life=216000;states=3",
+"energy_cost" : "energy=1",
+"accelerate_cost" : "asset=AccelerationPlantBooster:1",
+"recover_cost" : "asset=RecoverPlantBooster:1",
+"rand_reward" : {"money_alt":400,
+                 "pie":10,
+                 "xp":60},
+"rand_reward_in_guest" : {"money_alt":16,
+                          "pie":3,
+                          "reputation_progress":1,
+                          "xp":1},
+"shop_conditions" : "done_quest=FloricultureScience11",
+"id" : 2344
+}

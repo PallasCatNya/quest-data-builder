@@ -215,6 +215,13 @@ Generated-предметы `GR`, `ASK`, `PER`, `CL`, `FA`, `R` должны бы
       "classname_quests": "[classname квеста]",
       "title_quest": "[название квеста]",
       "quest_number": 1,
+      "description": "[описание квеста]",
+      "congratulation": "[поздравление квеста]",
+      "character": "[имя персонажа из этапа 3]",
+      "helper": "[опционально: classname helper-персонажа, если известен]",
+      "extra": {
+        "sequence_icon": "[опционально: extra.sequence_icon для quest-блока CSV]"
+      },
       "tasks": [
         {
           "task_number": 1,
@@ -239,6 +246,19 @@ Generated-предметы `GR`, `ASK`, `PER`, `CL`, `FA`, `R` должны бы
   ]
 }
 ```
+
+Обязательные поля quest-записи для этапа 5:
+- `classname_quests`
+- `title_quest`
+- `quest_number`
+- `description`
+- `congratulation`
+- `tasks`
+
+Поля `helper` и `extra.sequence_icon` желательны, но не всегда обязаны быть придуманы на этапе 4:
+- если helper-персонаж уже есть в `task_object.go_to_location[].classname` или `task_object.icon`, этап 5 может взять его оттуда;
+- если `extra.sequence_icon` не задан, этап 5 построит его по classname квеста в формате `MagazinePage_[base]_QuestIcon_1`;
+- если в конкретном пакете нужен нестандартный helper или sequence icon, укажи их явно на уровне quest-записи.
 
 Обязательные поля task-записи:
 - `task_number`
@@ -927,6 +947,8 @@ TT-035. Следы с ресурсами
 Чек-лист для Этапа 4:
 - [ ] Входным файлом был `output/context_pack.json`
 - [ ] Итог сохранен в формате `output/filled_tasks.json`
+- [ ] Для каждого квеста сохранены `classname_quests`, `title_quest`, `quest_number`, `description`, `congratulation`
+- [ ] Если известны `helper` и `extra.sequence_icon` для quest-блока CSV, они сохранены на уровне квеста
 - [ ] Для каждого таска сохранены `task_number`, `task_template_id`, `task_template_name`, `task_type`
 - [ ] Для каждого таска заполнен `selected_candidate_id`, если в context pack были candidates
 - [ ] Для каждого таска добавлен `choice_reason`
